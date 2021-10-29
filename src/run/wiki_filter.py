@@ -2,7 +2,7 @@ import csv
 
 import pandas
 
-from processing.wiki import WikiRedirectNormalizer, WikiReconciler
+from src.processing.wiki import WikiRedirectNormalizer, WikiReconciler
 
 
 def filter_topics():
