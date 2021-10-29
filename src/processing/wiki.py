@@ -5,7 +5,7 @@ import pandas
 from pandas import DataFrame
 from reconciler import reconcile
 
-from processing.preprocessor import AbstractPreprocessing
+from src.processing.preprocessor import AbstractPreprocessing
 
 
 def normalize(text: str) -> str:
