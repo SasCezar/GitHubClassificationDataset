@@ -6,7 +6,7 @@ from processing.wiki import WikiRedirectNormalizer, WikiReconciler
 
 
 def filter_topics():
-    topics = pandas.read_csv('/home/sasce/PycharmProjects/GitHubClassificationDataset/src/run/filtered_small.csv')
+    topics = pandas.read_csv('filtered.csv')
     topics = topics['topic'].tolist()
     # filterer = WikiRedirectNormalizer(
     #     '/home/sasce/PycharmProjects/GitHubClassificationDataset/data/wikipedia/wiki_mapping.csv')
