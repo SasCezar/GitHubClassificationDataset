@@ -1,0 +1,3000 @@
+javascript,12759,,Q2005,JavaScript,scripting language
+python,11929,,Q28865,Python,object-based language
+android,8620,,Q94,Android,mobile operating system
+react,8139,,Q106211728,Easybase,business
+php,6603,,Q59,PHP,interpreted language
+nodejs,6426,,Q756100,Node.js,событийно-ориентированный язык программирования
+java,6339,,Q251,Java,multi-paradigm programming language
+golang,5933,,Q37227,Go,programming language
+ios,5211,,Q48493,iOS,mobile operating system
+deep-learning,5143,,Q197536,deep learning
+docker,4940,,Q15206305,Docker,free and open-source software
+machine-learning,4929,,Q2539,machine learning,academic discipline
+swift,4770,,Q17118377,Swift,programming language
+go,4248,,Q37227,Go,programming language
+typescript,3787,,Q978185,TypeScript,programming language
+tensorflow,3340,,Q21447895,TensorFlow,software library
+ruby,3125,,Q161053,Ruby,object-based language
+hacktoberfest,3063,,-1,None
+linux,3043,,-1,None
+vue,3001,,Q24589705,Vue.js,free software
+api,2829,,Q165194,application programming interface
+cli,2794,,Q189053,command-line interface
+rust,2634,,Q575650,Rust,procedural programming language
+css,2511,,Q46441,Cascading Style Sheets,style sheet language
+kubernetes,2435,,Q22661306,Kubernetes,Linux Foundation Project
+react-native,2366,,Q55774523,React Native,JavaScript
+angular,2296,,Q28925578,Angular,software library
+r,2279,,Q206904,R,run-time system
+security,2193,,Q2526135,security,type of property
+kotlin,2176,,Q3816639,Kotlin,object-based language
+library,2147,,Q7075,library
+macos,2143,,Q14116,macOS,proprietary software
+laravel,2139,,Q13634357,Laravel,web framework
+python3,2136,,Q28865,Python,object-based language
+json,2061,,Q2063,JSON,file format
+redux,2043,,Q28957057,Redux,JavaScript library
+c,1916,,Q15777,C,imperative programming language
+html,1902,,Q726761,HTML editor,software category
+aws,1835,,Q456157,Amazon Web Services,internet hosting service
+webpack,1796,,Q22909730,webpack,open-source software
+csharp,1784,,Q2370,C#,multi-paradigm programming language
+cpp,1736,,Q2407,C++,object-based language
+database,1735,,Q8513,database
+windows,1735,,Q1406,Microsoft Windows,operating system
+pytorch,1717,,Q47509047,PyTorch,software library
+reactjs,1688,,Q19399674,React,JavaScript library
+graphql,1662,,Q25104949,GraphQL,graph query language
+blockchain,1655,,Q20514253,blockchain,concept
+computer-vision,1590,,Q844240,computer vision,academic discipline
+vuejs,1588,,Q24589705,Vue.js,free software
+node,1536,,Q659,north,cardinal direction
+ethereum,1532,,Q16783523,Ethereum,web service
+testing,1486,,Q188522,software testing,software quality assurance
+game,1418,,Q7889,video game
+unity,1399,,Q63966,Unity,game creation system
+framework,1368,,Q271680,software framework,software category
+flutter,1349,,Q39072787,Flutter,software development kit
+nlp,1348,,Q30642,natural language processing
+bot,1346,,Q191865,internet bot,software category
+electron,1305,,Q2225,electron,type of quantum particle
+scala,1284,,Q460584,Scala,object-based language
+mysql,1257,,Q850,MySQL,relational database management system
+wordpress,1255,,Q13166,WordPress,content management system,open-source software,blog software,software engine,free software
+dotnet,1253,,Q5289,.NET Framework,software framework
+keras,1253,,Q28470421,Keras,software
+mongodb,1252,,Q1165204,MongoDB,NoSQL database management system
+android-library,1242,,Q107386702,android_backup,Python library
+ui,1236,,Q47146,user interface
+tutorial,1232,,Q65068857,tutorial
+http,1225,,Q8777,Hypertext Transfer Protocol,computer network protocol
+c-plus-plus,1222,,Q2407,C++,object-based language
+django,1213,,Q842014,Django,web framework
+animation,1198,,Q11425,animation,cinematic technique
+shell,1196,,Q959549,shell script,interpreted language
+vim,1174,,Q131382,Vim,source code editor
+plugin,1162,,Q184148,plug-in,computer science term
+neural-network,1155,,Q192776,artificial neural network
+web,1142,,Q466,World Wide Web,information system,hypertext system
+git,1139,,Q186055,Git,distributed revision control system
+rails,1131,,Q190478,Ruby on Rails,free software
+elixir,1112,,Q3051161,Elixir,software development kit,free software
+markdown,1107,,Q1193600,Markdown,lightweight markup language
+github,1100,,Q364,GitHub,service on internet
+awesome,1094,,Q310135,awesome,tiling window manager,free software,Dynamic window manager
+boilerplate,1079,,Q1651672,boilerplate
+bitcoin,1050,,Q131723,bitcoin,cryptocurrency
+objective-c,1048,,Q188531,Objective-C,programming language
+bootstrap,1047,,Q893195,Bootstrap,CSS framework
+arduino,1044,,Q175957,Arduino,software company
+raspberry-pi,1011,,Q245,Raspberry Pi,computer model series
+postgresql,999,,Q192490,PostgreSQL,relational database management system
+cryptocurrency,991,,Q13479982,cryptocurrency,system
+redis,988,,Q2136322,Redis,NoSQL database management system
+bash,981,,Q189248,GNU Bash,operating system shell
+serverless,977,,Q106211728,Easybase,business
+data-science,976,,Q2374463,data science,academic discipline,industry,academic major
+chrome-extension,976,,Q5583816,Google Chrome extension,browser extension
+c-sharp,967,,Q2370,C#,multi-paradigm programming language
+monitoring,963,,Q17012863,application performance management
+theme,954,,Q200801,topic
+unity3d,937,,Q63966,Unity,game creation system,game engine
+material-design,932,,Q17590603,Material Design,design language
+spring-boot,932,,Q98731994,Spring Boot,free software
+firebase,931,,Q18150728,Firebase,business
+ansible,924,,Q2852503,Ansible,configuration manager
+haskell,918,,Q34010,Haskell,purely functional programming language
+sql,914,,Q47607,Structured Query Language,declarative programming language
+terminal,911,,Q176140,electrode
+rest-api,903,,Q749568,representational state transfer,service oriented architecture
+awesome-list,901,,Q735,art,academic major
+jquery,885,,Q230036,jQuery,software library
+visualization,882,,Q451553,visualization
+lua,880,,Q207316,Lua,functional programming language
+es6,854,,-1,None
+dart,850,,Q406009,Dart,object-based language
+image-processing,825,,Q1070689,digital image processing
+express,825,,Q1384784,Express,business,public company
+opencv,818,,Q165277,OpenCV,free and open-source software
+convolutional-neural-networks,814,,Q17084460,convolutional neural network
+flask,805,,Q289281,Flask,web framework
+automation,798,,Q24410992,automation
+parser,792,,Q194152,parsing
+clojure,785,,Q51798,Clojure,programming language
+js,784,,Q2005,JavaScript,scripting language
+video,784,,Q98069877,video
+sass,782,,Q1572865,Sass,style sheet language
+server,782,,Q44127,server,role
+artificial-intelligence,781,,Q11660,artificial intelligence,academic discipline
+npm,775,,Q7067518,npm,application-level package manager
+rstats,769,,-1,None
+component,766,,Q11653,electronic component
+template,766,,Q1411845,template
+open-source,765,,Q1130645,open-source software
+cross-platform,765,,Q174666,cross-platform,computing platform
+rest,758,,Q749568,representational state transfer,service oriented architecture
+docker-image,757,,Q15206305,Docker,free and open-source software,virtualization engine,digital container format
+natural-language-processing,754,,Q30642,natural language processing
+cocoapods,750,,Q16247893,CocoaPods,software
+symfony,749,,Q1322933,Symfony,web framework
+nginx,741,,Q306144,nginx,web server
+authentication,725,,Q212108,authentication
+iot,702,,Q251212,internet of things,concept
+discord,697,,Q22907849,Discord,VoIP software
+xcode,695,,Q250328,Xcode,integrated development environment
+algorithm,685,,Q8366,algorithm
+terraform,685,,Q28957072,Terraform,free software
+documentation,684,,Q788790,documentation
+sdk,683,,Q467707,software development kit,software category
+mobile,680,,Q17517,mobile phone
+command-line,672,,Q189053,command-line interface
+opengl,670,,Q178570,OpenGL.gz,application programming interface
+reinforcement-learning,667,,Q830687,reinforcement learning
+docker-compose,659,,Q66317867,Docker Compose,free software
+frontend,653,,Q70507976,front end
+gui,647,,Q333904,gui
+audio,646,,Q3302947,audio recording,recording industry term
+music,645,,-1,None
+devops,645,,Q3025536,DevOps,software development methodology
+elasticsearch,643,,Q3050461,Elasticsearch,search engine
+compiler,643,,Q47506,compiler,software category
+functional-programming,640,,Q193076,functional programming,programming paradigm
+deep-neural-networks,638,,Q51289900,deep neural network
+chrome,636,,Q777,Google Chrome,web browser
+html5,635,,Q2053,HTML5,file format
+game-development,632,,Q1061635,video game development,industry
+cnn,624,,Q5058375,cellular neural network
+svg,621,,Q2078,Scalable Vector Graphics,vector graphics file format
+azure,619,,Q725967,Microsoft Azure,cloud computing
+demo,610,,Q1395149,demonstration
+dotnet-core,606,,Q21622213,.NET,computing platform
+ai,600,,Q11660,artificial intelligence,academic discipline
+performance,595,,Q35140,performance,academic major
+julia,591,,Q2613697,Julia,programming language
+neural-networks,585,,Q192776,artificial neural network
+minecraft,582,,Q49740,Minecraft,video game
+async,581,,Q95954242,async,JavaScript library
+aws-lambda,580,,Q21462856,AWS Lambda,serverless computing
+angularjs,580,,Q2849803,AngularJS,software framework
+google,577,,Q95,Google,business
+telegram,576,,Q15616276,Telegram,instant messaging client
+babel,576,,Q55604651,Babel,compiler
+vuejs2,574,,Q24589705,Vue.js,free software
+logging,574,,Q29649691,logging
+cloud,573,,Q113100,Cloud,video game
+bioinformatics,573,,Q128570,bioinformatics,branch of biology
+r-package,569,,Q73539779,R package,software category
+data-visualization,563,,Q6504956,data visualization,academic discipline
+blog,562,,Q30849,blog
+kotlin-android,557,,Q3816639,Kotlin,object-based language
+client,555,,Q146813,client-server
+jekyll,555,,Q17067385,Jekyll,blog software
+pwa,552,,Q25237,pea,taxon
+image,551,,Q478798,image
+proxy,547,,Q11189,proxy server
+powershell,546,,Q840410,PowerShell,command line interface language
+xml,546,,Q2115,Extensible Markup Language,markup language
+twitter,545,,Q918,Twitter,social networking service
+3d,539,,Q568742,3D modeling,software feature
+browser,539,,Q6368,web browser,software category
+jwt,538,,Q1676726,J. Walter Thompson,business,advertising agency,enterprise,public company
+cms,537,,Q13167,Joomla,content management system,blog software,free software,web framework
+android-application,534,,Q52229854,Android emulator,software category
+php7,534,,Q59,PHP,interpreted language,scripting language,procedural programming language,object-based language,multi-paradigm programming language,imperative programming language,free software,programming language
+cryptography,532,,Q8789,cryptography,science
+jupyter-notebook,528,,Q70357595,Jupyter notebook,file format
+tool,526,,Q39546,tool
+middleware,522,,Q146768,middleware,software category
+qt,520,,Q201904,Qt,widget toolkit,application framework,software library,free software,computing platform
+ubuntu,519,,Q381,Ubuntu,Linux distribution
+algorithms,515,,Q8366,algorithm
+editor,511,,Q131212,text editor,software category
+generator,511,,Q131502,electric generator,invention
+networking,509,,Q1301371,computer network
+graphics,508,,Q11060274,print
+slack,507,,Q58436,Slackware,Linux distribution,operating system
+osx,504,,Q14116,macOS,proprietary software,model series,Unix,operating system,Macintosh operating systems,UNIX 03,computing platform
+network,498,,-1,None
+websocket,496,,Q859938,WebSocket,computer network protocol
+graph,493,,Q28923,chart
+wordpress-plugin,492,,Q68342360,Yoast SEO,plug-in
+gradle,490,,Q965596,Gradle,build automation
+atom,489,,Q16766305,Atom,source code editor
+emacs,488,,Q189722,Emacs,software
+angular2,487,,Q2849803,AngularJS,software framework,JavaScript library,software library
+validation,486,,Q359176,validation
+language,485,,Q315,language,aptitude
+microservices,485,,Q18344624,microservices,architectural pattern
+latex,484,,Q5310,LaTeX,word processor
+webgl,484,,Q375913,WebGL,application programming interface
+microservice,482,,Q18277858,Microservice,business
+swagger,480,,Q39069667,Swagger,application
+game-engine,479,,Q193564,game engine,software category
+chatbot,479,,Q870780,chatbot,software feature
+material,477,,Q206615,building material
+containers,477,,Q187956,intermodal container
+robotics,473,,Q170978,robotics,industry
+xamarin,473,,Q3073996,Xamarin,business
+dashboard,469,,Q4343952,business dashboard
+vscode,468,,Q19841877,Visual Studio Code,source code editor
+example,467,,Q12335479,templating
+composer,465,,Q5156722,Composer
+api-client,465,,Q107385566,yarn-api-client,Python library
+app,465,,Q166142,application,software category
+chat,461,,Q58199,instant messaging,software feature
+metrics,456,,Q192624,metre
+data,454,,Q22983,Data,fictional android
+data-structures,453,,Q175263,data structure
+jest,450,,Q65121527,Jest,JavaScript library
+statistics,447,,Q12483,statistics,academic discipline
+search,446,,Q4544684,search
+notifications,444,,Q85789901,Notification LED
+pdf,443,,Q42332,Portable Document Format,file format family
+zsh,442,,Q227308,Z shell,Unix shell
+scss,442,,Q1572865,Sass,style sheet language
+gulp,439,,Q24382606,gulp.js,JavaScript framework
+websockets,434,,Q859938,WebSocket,computer network protocol
+website,433,,Q35127,website,web server
+spring,432,,Q720314,Spring Framework,web framework
+sqlite,432,,Q319417,SQLite,serverless relational database management system
+firefox,431,,Q698,Firefox,web browser
+vuex,431,,Q61940611,Vuex,free software
+lambda,430,,Q424019,Lambda baryon,type of quantum particle
+encryption,426,,Q141090,encryption
+privacy,422,,Q188728,privacy
+elm,421,,Q5366250,Elm,functional programming language
+youtube,420,,Q866,YouTube,computing platform
+dotfiles,417,,Q721795,hidden file system object
+emulator,416,,Q202871,emulator,software category
+jquery-plugin,416,,Q230036,jQuery,software library
+ocaml,415,,Q212587,OCaml,object-based language
+kafka,414,,Q16235208,Apache Kafka,message-oriented middleware
+command-line-tool,413,,Q105273027,shell tool,software category
+eslint,413,,Q55452824,ESLint,lint
+orm,412,,Q58748,object–relational mapping
+design,410,,Q82604,design,specialty,field of work,academic discipline
+spark,408,,Q578866,Spark,free software
+android-app,408,,Q47005148,eBay Android app,mobile app
+facebook,404,,Q355,Facebook,social networking service
+expressjs,403,,Q16878131,Express.js,web framework
+carthage,401,,Q6343,Carthage,city-state
+email,400,,Q9158,email
+csv,400,,Q935809,comma-separated values,file format
+bootstrap4,398,,Q893195,Bootstrap,CSS framework
+grpc,397,,Q26356541,gRPC,software library
+package,394,,Q1995545,software package,archive file format,software
+developer-tools,393,,Q420916,Apple Developer Tools,integrated development environment
+lstm,393,,Q6673524,long short-term memory
+solidity,391,,Q24909565,solidity,programming language
+cache,391,,Q164099,hoard
+matlab,390,,Q169478,MATLAB,application
+swift4,389,,Q17118377,Swift,programming language
+ui-components,388,,Q95971359,@theme-ui/components,JavaScript library
+optimization,386,,Q141495,mathematical optimization,specialty,academic discipline
+i18n,386,,Q41271,internationalization and localization
+wrapper,384,,Q2594395,wrapper,software
+p2p,383,,Q161410,peer-to-peer,network architecture
+mvvm,382,,Q1247905,model–view–viewmodel,architectural pattern
+object-detection,382,,Q3045304,object detection
+extension,381,,Q184148,plug-in,computer science term
+crypto,381,,Q8789,cryptography,science
+heroku,381,,Q2350702,Heroku,business
+router,376,,Q5318,router
+gamedev,375,,Q4039233,GameDev.ru,website
+webapp,374,,Q189210,web application
+analytics,372,,Q220577,Google Analytics,website,software,service on internet
+canvas,372,,Q38110550,Canvas,service on internet
+classification,370,,Q13582682,classification
+prometheus,369,,Q52534999,Event monitoring and alerting,monitoring application
+styled-components,368,,Q95969528,styled-components,JavaScript library
+hacking,368,,Q2144405,hacking
+architecture,366,,Q43694649,building
+dockerfile,366,,Q15206305,Docker,free and open-source software
+security-tools,366,,Q55607802,Cloudbric Labs
+deeplearning,363,,Q197536,deep learning
+npm-package,361,,Q7067518,npm,application-level package manager
+desktop,361,,Q56155,desktop computer,class of computers
+neovim,360,,Q28975246,neovim,free software
+oauth2,359,,Q97371579,OAuth 2,open standard
+postgres,358,,Q192490,PostgreSQL,relational database management system,free software
+rxjava,357,,Q96277086,RxJava,free software
+ssh,357,,Q170460,Secure Shell,service on internet
+esp8266,357,,Q21094865,ESP8266,model
+workflow,355,,Q1054938,Workflow management
+crystal,354,,Q21921428,Crystal,programming language
+utility,353,,Q312466,utility software,software category
+reactive,353,,Q1052411,reactive armour
+material-ui,352,,Q263125,fibre-reinforced plastic
+deployment,350,,Q1229245,dispositif,concept
+javascript-library,350,,Q783866,JavaScript library,software category
+telegram-bot,348,,Q27038411,Telegram Bot API,application programming interface
+calendar,346,,Q12132,calendar
+yii2,344,,Q1466168,Yii,web framework
+gan,344,,Q25104379,generative adversarial network
+gpu,344,,Q183484,graphics processing unit
+streaming,343,,Q220499,streaming media,product distribution method
+learning,340,,-1,None
+clojurescript,339,,Q21659868,cljs
+opensource,337,,Q3644502,open source,copyright status
+angular4,337,,Q2849803,AngularJS,software framework,JavaScript library,software library
+crawler,337,,Q45842,web crawler,software category
+android-development,335,,Q512473,Android Development Tools,plug-in
+console,335,,Q5290,computer monitor
+qt5,335,,Q54948948,QT5,cell line
+instagram,334,,Q209330,Instagram,mobile app
+yaml,331,,Q281876,YAML,file format
+react-router,331,,Q95970447,@reach/router,JavaScript library
+data-analysis,331,,Q1988917,data analysis,process
+stream,331,,Q47521,stream
+react-component,330,,Q126328,multi-component reaction
+mac,330,,Q43627,Macintosh operating systems
+dependency-injection,329,,Q635336,dependency injection,software design pattern
+dataset,328,,Q1172284,data set
+tools,328,,Q39546,tool
+icons,327,,Q5986717,Icons,television program
+chart,327,,Q28923,chart
+vue2,325,,Q3553028,Visual Understanding Environment,free software,application
+vscode-extension,325,,-1,None
+ssr,324,,Q265193,microsatellite,repetitive DNA
+programming-language,324,,Q9143,programming language,computer science term
+vagrant,323,,Q7725312,Vagrant,free and open-source software
+mqtt,323,,Q10322548,MQTT,computer network protocol
+starter-kit,322,,Q5206174,DSP Starter Kit
+mongoose,322,,Q80479,Herpestidae,taxon
+numpy,321,,Q197520,NumPy,free software
+apple,321,,Q89,apple
+camera,321,,Q15328,camera
+storage,320,,Q66221,computer data storage
+smart-contracts,320,,Q7544035,smart contract,communications protocol
+ionic,317,,Q189548,Ionic order,architectural style,architectural order
+components,317,,Q7682878,tangential and normal components
+ember,316,,Q177257,ember
+postcss,316,,Q27145544,PostCSS,programming tool
+translation,315,,Q7553,translation,academic major
+continuous-integration,314,,Q965769,continuous integration,quality assurance
+reverse-engineering,314,,Q269608,Reverse engineering,knowledge extraction
+gatsby,313,,Q1408045,Gatsby,sandwich
+widget,312,,Q360625,Widget
+wpf,312,,Q239084,Windows Presentation Foundation,widget toolkit
+nextjs,311,,Q56062435,Next.js,JavaScript
+hooks,311,,Q1203383,hooking
+discord-bot,310,,Q22907849,Discord,VoIP software
+font,309,,Q124714,spring
+webassembly,308,,Q20155677,WebAssembly,web framework
+symfony-bundle,308,,-1,None
+dns,307,,Q8767,Domain Name System,Internet Standard
+jenkins,306,,Q7491312,Jenkins,continuous integration software
+test,306,,Q27318,test,type of test
+cplusplus,305,,Q2407,C++,object-based language
+generative-adversarial-network,305,,Q25104379,generative adversarial network
+responsive,305,,Q420295,Responsive web design
+threejs,304,,Q3525922,Three.js,application programming interface
+jupyter,302,,Q105099901,Jupyter Notebook,rich Internet application
+nuxt,302,,Q55641291,Nuxt.js,free software
+list,301,,Q27948,list
+erlang,301,,Q334879,Erlang,multi-paradigm programming language
+productivity,300,,Q2111958,productivity
+configuration,300,,Q1781447,computer configuration
+uikit,300,,-1,None
+grid,299,,Q249999,grid computing
+navigation,298,,Q102066,navigation
+script,297,,Q2261620,script,free software
+selenium,297,,Q752522,Selenium,test environment
+k8s,296,,Q22661306,Kubernetes,Linux Foundation Project,free and open-source software
+rxjava2,296,,-1,None
+webrtc,296,,Q1089715,WebRTC,Web API
+debian,296,,Q2086463,Debian GNU/Hurd,free operating system,operating system distribution
+testing-tools,295,,Q15618492,software testing tool,software category
+ci,294,,Q40333,.ci,country code top-level domain
+real-time,293,,Q3988,real-time computing,processing modes
+openapi,292,,Q18393146,OpenAPI,specification,interface description language
+rabbitmq,291,,Q2081413,RabbitMQ,free software
+asp-net-core,291,,Q17513350,ASP.NET Core,web framework
+create-react-app,289,,Q95970118,eslint-config-react-app,JavaScript library
+maven,287,,Q139941,Apache Maven,build automation
+node-js,287,,Q756100,Node.js,событийно-ориентированный язык программирования
+android-ui,286,,Q4040805,Huawei EMUI,proprietary software,user interface,operating system,Android distribution
+react-components,286,,Q126328,multi-component reaction
+localization,286,,Q1758815,software localization
+education,285,,Q8434,education,branch of science,academic discipline
+engine,285,,Q44167,engine
+cluster,285,,Q204107,galaxy cluster,astronomical object type
+asynchronous,285,,Q207450,induction motor
+embedded,284,,Q193040,embedded system,class of computers
+laravel-package,284,,-1,None
+cordova,284,,Q16626338,Apache Cordova,mobile development framework
+home-assistant,283,,Q28957018,Home Assistant,free software
+emoji,283,,Q1049294,emoji,notation
+dsl,283,,Q691358,domain-specific language
+pentesting,282,,Q1501923,penetration test,type of test
+scikit-learn,281,,Q1026367,scikit-learn,software library
+linter,281,,Q1644720,Linter,Ortsbezirk of Germany
+restful-api,280,,Q557770,web API
+serialization,279,,Q1127410,serialization
+cmake,279,,Q1023904,CMake,build automation
+static-site-generator,278,,Q77916592,static site generator
+rpc,277,,Q62270,RPC,technology
+xamarin-forms,276,,-1,None
+native,276,,Q169480,Indigenous species
+wasm,276,,Q20155677,WebAssembly,web framework
+distributed-systems,276,,Q3962217,distributed system
+home-automation,275,,Q848436,home automation,industry
+ide,275,,Q13741,integrated development environment,software category
+sketch,274,,Q13564,Skencil,vector graphics editor,free software
+nuget,274,,Q975870,NuGet,package management system
+javafx,274,,Q2731939,JavaFX Mobile
+trading,273,,Q179076,exchange
+cuda,272,,Q477690,CUDA,programming language
+ecommerce,272,,Q484847,e-commerce,industry
+css3,272,,Q11707176,Cascading Style Sheets Level 3,style sheet language
+ffmpeg,272,,Q847465,FFmpeg,multimedia framework
+simulation,272,,Q45045,simulation
+sublime-text,271,,Q267193,Sublime Text,text editor
+homebrew,270,,Q11223506,Homebrew,system-level package manager
+state-management,270,,Q7603711,State management
+unit-testing,270,,Q907375,unit testing,type of test
+static-analysis,269,,Q28061130,static program analysis tool
+form,269,,Q18193,form
+authorization,268,,Q231043,consent
+apollo,268,,Q41633,Parnassius apollo,taxon
+backend,268,,Q798332,back end
+addon,268,,Q184148,plug-in,computer science term
+helm,268,,Q173603,helmet
+dagger2,268,,Q2419540,Cloak and Dagger,fictional duo
+s3,267,,Q600028,Line S3,train service
+https,267,,Q44484,HTTPS,computer network protocol
+vue-router,265,,Q2433474,Tunnel View,scenic viewpoint
+benchmark,265,,Q816747,benchmark,software feature
+backup,265,,Q194274,backup
+admin,263,,Q255063,superuser
+rnn,262,,Q1457734,recurrent neural network
+deep-reinforcement-learning,262,,Q55080229,deep reinforcement learning
+pandas,261,,Q15967387,pandas,Python library
+esp32,260,,Q18055388,CLPSL1,gene
+unix,260,,Q11368,Unix,project
+filter,260,,Q327754,electronic filter,electrical network
+ssl,259,,Q206494,Transport Layer Security
+api-wrapper,259,,Q64594589,Wrapper,drawing
+parsing,257,,Q194152,parsing
+http-server,256,,Q18287040,HTTP server
+math,256,,Q395,mathematics,academic discipline
+tcp,255,,Q8803,Transmission Control Protocol,computer network protocol
+dotnetcore,254,,Q107383316,dotnetcore2,Python library
+clean-architecture,254,,Q3124765,window cleaning,craft
+vue-components,254,,Q1069,geology,branch of science
+finance,254,,Q43015,finance,academic discipline
+uwp,254,,Q552179,Phantom of Heilbronn,hypothetical entity
+color,253,,Q1075,color,physical property,material
+tree,253,,Q223655,tree data structure
+free,252,,Q1543615,gratis,concept
+interpreter,252,,Q183065,interpreter,software category
+perl,252,,Q42478,Perl,programming language
+segmentation,252,,Q363057,market segmentation
+filesystem,251,,Q174989,file system,operating system component,technical standard
+machine-learning-algorithms,251,,-1,None
+arduino-library,251,,-1,None
+keyboard,250,,Q1343007,electronic keyboard
+clustering,250,,Q622825,cluster analysis
+simple,249,,Q508291,simplicity
+microsoft,249,,Q2283,Microsoft,software company
+lightweight,248,,Q1051922,lightweight,weight class
+server-side-rendering,247,,Q95969533,babel-plugin-styled-components,JavaScript library
+spa,247,,Q1341387,spa
+promise,247,,Q230590,Promise
+php-library,246,,Q7075,library
+snippets,246,,-1,None
+messaging,245,,Q58199,instant messaging,software feature
+kernel,245,,Q9662,kernel
+text,245,,Q234460,text,document genre
+metadata,245,,Q180160,metadata
+driver,244,,Q284786,driving wheel
+visual-studio,243,,Q134067,Microsoft Visual Studio,integrated development environment
+recurrent-neural-networks,242,,Q25112138,Bidirectional recurrent neural networks
+meteor,241,,Q60186,meteorite
+rxjs,241,,Q29065123,RxJS
+ios-app,241,,Q29167422,iOS app
+face-detection,241,,Q11681085,face detection
+json-schema,240,,Q24875054,JSON Schema,software
+vim-plugin,240,,Q108759345,Vim plugin
+loader,239,,Q217416,loader
+map,239,,Q4006,map,type of map
+tvos,238,,Q20965967,tvOS,operating system
+nosql,238,,Q82231,NoSQL database management system
+golang-library,238,,Q28974885,Go,programming tool
+recyclerview,238,,-1,None
+dom,237,,Q2093,Document Object Model,application programming interface
+docker-container,236,,Q88466429,Docker container,container
+events,236,,-1,None
+fsharp,236,,Q47492247,F Sharp Programming
+github-api,236,,Q55098740,GitHub API,application programming interface
+protocol,236,,Q131569,treaty
+ios-swift,235,,Q17118377,Swift,programming language
+view,234,,Q1329910,view
+realtime,234,,Q347066,real-time,quality
+wallet,234,,Q131740,wallet
+charts,233,,Q28923,chart
+spotify,233,,Q689141,Spotify,music streaming service
+scraper,233,,Q247351,Wheel tractor-scraper
+schema,233,,Q431165,scheme
+wifi,232,,Q29643,Wi-Fi,certification mark
+forms,232,,Q12714743,form
+travis-ci,232,,Q73134,Travis CI,continuous integration software
+sentiment-analysis,232,,Q2271421,sentiment analysis,field of work
+electron-app,232,,Q21614124,Electron,software framework
+converter,231,,Q84115,torque converter
+big-data,230,,Q858810,big data,buzzword
+mvp,230,,Q944207,Model–view–presenter,architectural pattern
+restful,230,,Q749568,representational state transfer,service oriented architecture,communications protocol
+player,229,,-1,None
+concurrency,228,,Q1414548,concurrency,property
+syntax-highlighting,228,,Q747907,syntax highlighting,software feature
+bluetooth,227,,Q39531,Bluetooth,de facto standard
+oauth,227,,Q743238,OAuth,open standard
+haxe,227,,Q285886,Haxe,programming language,free and open-source software,implementation of a programming language
+maps,227,,Q4006,map,type of map
+axios,226,,Q3380577,Axia gens,gens
+grafana,226,,Q43399271,Grafana,free software
+python-3,225,,Q15728,Python,missile family
+mock,225,,Q582253,Mock object,software design pattern
+http-client,225,,Q2979024,HTTP client,software category
+sketch-plugin,224,,-1,None
+crud,224,,Q60500,"create, read, update and delete",concept
+queue,224,,Q220543,queue,data type
+yarn,224,,Q28975591,Yarn,application-level package manager
+time-series,224,,Q186588,time series
+development,224,,Q695829,real estate development,industry,construction business
+logger,223,,Q309396,keystroke logging,software category
+ros,223,,Q34687,Rosa,taxon
+java-8,222,,Q3163099,Java 2,software version
+gradle-plugin,222,,Q60062036,Gradle App Engine Plugin,software
+parse,222,,Q21070948,Parse,business
+pipeline,221,,Q1192422,pipeline,method,computer science term
+tdd,221,,Q354147,telecommunications device for the deaf
+tls,221,,Q206494,Transport Layer Security
+container,221,,Q187956,intermodal container
+fast,220,,Q44602,fasting,human behavior
+dialog,220,,Q86915,dialog box,graphical widget
+functional,220,,Q579600,functional
+routing,220,,Q22725,routing
+image-classification,220,,Q98526763,image classification
+distributed,219,,Q107380965,distributed,Python library
+ruby-gem,219,,Q105467322,Ruby mkmf,software library,free software
+book,219,,Q571,book
+examples,218,,Q1513987,sampler
+koa,218,,Q1718868,KOA Corporation,business
+compression,218,,Q2493,data compression,technical process
+mobx,217,,-1,None
+protobuf,217,,Q1645574,Protocol Buffers,data serialization format
+kotlin-library,216,,-1,None
+vr,216,,Q170519,virtual reality
+d3,216,,Q3011087,D3.js,JavaScript library
+config,216,,Q76183940,GNU Config,software
+gis,216,,Q483130,geographic information system
+analysis,216,,Q7754,mathematical analysis,academic discipline,academic major
+ocr,216,,Q167555,optical character recognition,software feature
+flutter-examples,216,,-1,None
+application,215,,Q11348,function,mathematical concept
+table,215,,Q14748,table
+shaders,214,,Q947686,lampshade
+llvm,214,,Q223490,LLVM,compiler,free software,free and open-source software
+ruby-on-rails,214,,Q190478,Ruby on Rails,free software,web framework
+rss,214,,Q45432,RSS,markup language
+visual-studio-code,214,,Q19841877,Visual Studio Code,source code editor
+detection,213,,Q5720030,detection
+gitlab,213,,Q16639197,GitLab,forge
+jsx,213,,Q105157779,jsx
+socket-io,213,,Q7552998,Socket.IO,software library
+web-components,213,,Q18217380,Web Components,technical standard
+starter,212,,Q557828,starter,internal combustion engine component
+letsencrypt,212,,Q107383907,letsencrypt,Python library
+redux-saga,212,,-1,None
+react-hooks,211,,Q95960343,eslint-plugin-react-hooks,JavaScript library
+json-api,211,,Q28758133,JSON:API,communications protocol
+mvc,210,,Q9687,traffic collision
+laravel-5-package,210,,-1,None
+layout,210,,Q356732,marking out
+autocomplete,210,,Q749875,autocomplete,software feature
+cqrs,208,,Q3954590,command–query separation
+downloader,207,,Q1278252,JDownloader,download manager
+bundle,206,,Q1020767,product bundling
+module,206,,Q18848,module
+alpine,206,,Q924117,Erebia,taxon
+android-studio,206,,Q13233410,Android Studio,integrated development environment
+firefox-addon,205,,Q15008073,Firefox add-on
+gem,205,,Q83437,gemstone
+phoenix,204,,-1,None
+nativescript,204,,Q28127049,NativeScript,open-source software
+socket,204,,Q380288,socket,fastener
+penetration-testing,204,,Q1501923,penetration test,type of test,computer security technique
+package-manager,203,,Q891055,package management system
+ml,203,,Q2539,machine learning,academic discipline
+music-player,203,,Q758895,audio player software,software feature
+aspnetcore,201,,Q17513350,ASP.NET Core,web framework
+decentralized,201,,Q30929011,decentralized web,decentralization
+genetic-algorithm,200,,Q187787,genetic algorithm
+craftcms,200,,-1,None
+offline,200,,Q2015967,offline,use status
+flutter-apps,200,,Q39072787,Flutter,software development kit
+angular5,200,,Q2849803,AngularJS,software framework,JavaScript library,software library
+elixir-lang,199,,Q5362035,Elixir,functional programming language
+progressive-web-app,199,,Q23679990,progressive web app
+angular-cli,199,,-1,None
+vpn,199,,Q170963,virtual private network,service on internet
+nuxtjs,199,,Q55641291,Nuxt.js,free software
+cran,199,,Q2086703,Comprehensive R Archive Network,website,package repository,database
+caffe,199,,Q29364604,Caffe (software),free software
+excel,198,,Q11272,Microsoft Excel,spreadsheet
+cpp17,198,,Q15952161,C++17,ISO standard edition
+augmented-reality,198,,Q254183,augmented reality,system
+menu,198,,Q658274,menu
+asyncio,197,,Q107383660,asyncio,Python library
+jvm,197,,Q193321,Java Virtual Machine,run-time system,computing platform,cross-platform software
+github-actions,197,,Q97185096,GitHub Actions,continuous integration
+data-mining,197,,Q172491,data mining
+semantic-segmentation,196,,Q56933,image segmentation,separation
+mocha,196,,Q739929,cafe mocha
+static-site,195,,Q52720701,static website
+activerecord,195,,Q344181,Active record pattern
+ajax,195,,Q134471,Asynchronous JavaScript and XML,acronym
+social-network,195,,Q2715623,social network
+animations,195,,Q11425,animation,cinematic technique
+raspberrypi,194,,Q245,Raspberry Pi,computer model series
+accessibility,194,,Q555097,accessibility
+debugger,194,,Q193231,debugger,software category
+community,193,,Q177634,community
+template-engine,192,,Q351507,template processor
+jekyll-theme,192,,-1,None
+serverless-framework,191,,Q22952981,Serverless Framework,serverless computing
+flutter-plugin,191,,-1,None
+flow,191,,Q284928,flOw,video game
+shader,190,,Q633182,shader
+images,189,,Q478798,image
+react-redux,189,,Q95958062,react-redux,JavaScript library
+django-rest-framework,189,,Q107383674,django-rest-framework,Python library
+firefox-extension,189,,Q15008061,Firefox extension
+workshop,189,,Q83405,factory
+ast,189,,Q127380,abstract syntax tree,tree data structure
+debug,188,,Q193231,debugger,software category
+shell-script,188,,Q959549,shell script,interpreted language,script,scripting language,file format
+webserver,188,,Q11288,web server,software feature,software category
+universal,188,,Q2070258,Universal,term
+glsl,187,,Q779819,OpenGL Shading Language,shading language,programming language
+python-library,187,,Q29642950,Python library,software category
+text-classification,187,,Q102190569,text classification,classification
+nim,186,,Q20080327,Nim,programming language
+research,186,,Q4544684,search
+api-gateway,186,,Q5527213,Gateway,tram stop
+password,186,,Q161157,password
+ecs,185,,Q1270401,electronic circuit simulation,software feature
+face-recognition,185,,Q1192553,facial recognition system
+debugging,185,,Q845566,debugging,computer science term
+tmux,185,,Q1935361,tmux,terminal multiplexer
+plugins,184,,Q184148,plug-in,computer science term
+iphone,184,,Q2766,iPhone,smartphone model series
+speech-recognition,184,,Q189436,speech recognition,academic discipline
+google-maps,183,,Q12013,Google Maps,website
+vulkan,183,,Q8072,volcano
+udp,183,,Q11163,User Datagram Protocol,computer network protocol
+front-end,182,,Q70507976,front end
+tutorials,182,,Q535741,tutorial,method
+operating-system,181,,Q9135,operating system,software category
+web-application,180,,Q189210,web application
+build,180,,Q183252,morphology,branch of biology
+reactive-programming,179,,Q4354073,reactive programming,programming paradigm,computer science term
+seo,179,,Q180711,search engine optimization,specialty
+expo,179,,Q57305,trade fair
+monitor,179,,Q5290,computer monitor
+assembly,179,,Q165436,assembly language,programming language
+screenshot,179,,Q208594,screenshot
+physics,178,,Q413,physics,branch of science
+preact,178,,Q21446629,Preactis,taxon
+picker,178,,Q20058020,picker
+parallel,178,,Q53875,parallelism,binary relation,geometric property
+d3js,177,,Q3011087,D3.js,JavaScript library
+regex,177,,Q185612,regular expression
+repl,177,,Q2032810,Read–eval–print loop
+login,177,,Q472302,login,engineering process
+games,176,,Q11410,game
+bash-script,176,,Q62625561,Bash script,file format
+hacktoberfest2020,176,,-1,None
+lisp,176,,Q132874,Lisp,multi-paradigm programming language
+aws-s3,175,,Q107381884,aws-cdk.aws-s3,Python library
+scanner,175,,Q32566,computed tomography,medical test type
+github-pages,175,,Q30324817,GitHub Pages,web hosting service
+css-framework,174,,Q5014368,CSS framework,software category
+swift-package-manager,174,,-1,None
+admin-dashboard,174,,-1,None
+mobile-app,174,,Q620615,mobile app,software category
+time,174,,Q11471,time,entity,quality
+storybook,173,,Q4050213,Storybook,free software
+genomics,173,,Q222046,genomics,branch of biology
+search-engine,173,,Q19541,search engine
+google-cloud,173,,Q17054505,Google Cloud Platform,Developer Portal
+hardware,172,,Q3966,computer hardware,electronics
+cpp14,172,,Q5005846,C++14,ISO standard edition
+malware,172,,Q14001,malware,software category
+reddit,172,,Q1136,Reddit,social networking service
+modular,172,,Q391640,modular synthesizer
+gnome,170,,Q44316,GNOME,desktop environment
+openshift,170,,Q2912272,OpenShift,free software
+cassandra,170,,Q616639,Apache Cassandra,NoSQL database management system,database management system,free and open-source software
+dark-theme,170,,-1,None
+color-scheme,169,,Q859170,color scheme
+java-library,169,,Q783866,JavaScript library,software category
+internationalization,168,,Q41271,internationalization and localization
+programming,168,,Q80006,computer programming,academic discipline,academic major,computer science term
+formatter,167,,Q690117,disk formatting,technical process
+arkit,166,,Q10872,Archaea,taxon
+devtools,166,,Q104201951,browser developer tools
+matrix,165,,Q44337,matrix
+isomorphic,165,,Q95958966,isomorphic-fetch,JavaScript library
+science,165,,Q336,science,academic discipline
+coroutines,165,,Q1339231,coroutine
+scraping,165,,Q665452,web scraping
+annotations,164,,-1,None
+design-patterns,164,,Q181156,software design pattern
+web3,164,,Q107383988,web3,Python library
+flux,164,,Q3241795,Flux,3D computer graphics software
+event-sourcing,163,,Q17349088,Event Sourcing
+watchos,163,,Q18012472,watchOS,mobile operating system
+swift-3,163,,Q5463276,Swift 3D,application
+fortran,163,,Q83303,Fortran,programming language
+multiplayer,163,,Q209075,multiplayer game,game mode
+file,162,,Q82753,computer file
+sqlite3,162,,Q319417,SQLite,serverless relational database management system
+log,162,,Q11197,logarithm,type of mathematical function
+sync,162,,Q1956265,sync,system call
+midi,162,,Q80535,MIDI,technical specification
+webcomponents,162,,Q18217380,Web Components,technical standard
+high-performance,162,,Q6176430,Jegs High Performance,business
+css-in-js,162,,Q65053865,Css in js
+flexbox,162,,Q17049185,CSS Flex Box Layout,software feature
+akka,162,,Q294213,Akka Technologies,business
+coffeescript,162,,Q1106819,CoffeeScript,programming language
+webpack2,161,,Q22909730,webpack,open-source software
+matplotlib,161,,Q2985668,Matplotlib,free and open-source software
+web-app,161,,Q189210,web application
+cloudformation,161,,Q107384884,mypy-boto3-cloudformation,Python library
+test-automation,161,,Q1475717,test automation,software quality assurance
+http2,161,,Q739120,HTTP/2,computer network protocol
+download,161,,Q1188265,upload and download
+browser-extension,161,,Q874411,browser extension,software category
+modal,160,,Q1982355,modal,fiber
+qrcode,160,,Q107383658,qrcode,Python library
+reasonml,160,,Q63565848,Reason,programming language
+curl,160,,Q206310,curl
+media,160,,Q11033,mass media,academic discipline,specialty
+bots,160,,Q30587716,Bots!!,video game
+swift-library,159,,Q17118377,Swift,programming language
+gcp,159,,Q1537519,Good Clinical Practice
+infrastructure,159,,Q121359,infrastructure
+dartlang,159,,Q406009,Dart,object-based language
+build-tool,159,,Q2727468,build automation,software category,software feature
+code-generation,159,,Q1061077,code generation
+influxdb,159,,Q28127110,InfluxDB,database management system
+virtual-machine,158,,Q192726,virtual machine
+ux,158,,Q1047808,user experience
+exploit,158,,Q11287,exploit
+weather,158,,Q11663,weather
+webextension,158,,Q47904718,WebExtensions,Web API
+best-practices,158,,Q830382,best practice
+tracking,158,,Q466845,tracking
+model,158,,Q193946,scientific model
+validator,157,,Q1575458,validator,software category
+rendering,157,,Q176953,rendering,software feature
+gtk,157,,Q189464,GTK,application framework,software library,GNU package,free software,widget toolkit
+ionic-framework,156,,Q17576071,Ionic,free software
+notes,156,,Q4653740,Notes,conflation
+guide,156,,Q370979,Amigaguide,file format,hypertext system,online help
+web-framework,156,,Q1330336,web framework
+notebook,156,,Q3962,laptop,computer form factor,class of computers
+payment,156,,Q1148747,payment
+input,155,,Q210947,factor of production
+mathematics,155,,Q395,mathematics,academic discipline
+drag-and-drop,155,,Q558376,drag and drop
+webpack4,155,,Q22909730,webpack,open-source software
+netcore,155,,Q33440256,Netcore Games,video game developer
+yii2-extension,155,,-1,None
+tor,155,,Q202044,Tor,daemon
+2d,155,,Q222032,two-dimensional space
+smtp,155,,Q160453,Simple Mail Transfer Protocol,computer network protocol,text-based protocol
+datepicker,154,,Q25345907,Date Picker
+service,154,,Q44127,server,role
+intellij,154,,Q1206660,IntelliJ IDEA,integrated development environment
+geojson,154,,Q5533904,GeoJSON,open format
+unicode,153,,Q8819,Unicode,character encoding
+wordpress-theme,153,,Q108437388,WP Fellows,business
+gallery,153,,Q164419,long gallery
+ember-addon,153,,-1,None
+self-hosted,153,,Q2872462,self-hosting,concept
+gif,153,,Q2192,Graphics Interchange Format,Yo Mama
+consul,153,,Q40779,Roman consul,elective office
+slider,153,,Q608445,slider
+jwt-authentication,153,,-1,None
+swift3,152,,Q17118377,Swift,programming language
+graphql-server,152,,Q107384530,graphql-server-core,Python library
+godot,152,,Q16972633,Godot,game engine
+pagination,152,,Q656083,paging
+amazon,152,,Q3884,Amazon,website
+ddd,152,,Q524367,domain-driven design,software development methodology
+management,152,,Q6746657,Management,board game,economic simulation board game
+circleci,152,,Q38922434,CircleCI,continuous integration software
+less,152,,Q345096,less,terminal pager,GNU package,free software
+web-development,152,,Q386275,web development,specialty
+infosec,152,,Q189900,information security,type of security
+eloquent,152,,Q1489271,eloquence,rhetoric
+shiny,151,,Q1079524,specular reflection,quality
+computer-science,151,,Q21198,computer science,academic discipline,academic major
+pypi,151,,Q6541095,pip,application-level package manager
+vue-component,151,,Q1069,geology,branch of science
+continuous-delivery,151,,Q2507377,continuous delivery,software development methodology
+word2vec,151,,Q22673982,Word2vec
+rxswift,151,,-1,None
+torrent,150,,Q133862,BitTorrent,computer network protocol
+wiki,150,,Q171,wiki,infrastructure
+transfer-learning,150,,Q6027324,transfer learning,paradigm
+resources,150,,Q1554231,resource
+dynamodb,150,,Q15731832,Amazon DynamoDB,NoSQL database management system,cloud database
+server-side-swift,149,,Q25345276,Perfect,software
+cheatsheet,149,,Q2309859,cheat sheet
+apache,149,,Q11354,Apache HTTP Server,web server
+vue-cli,149,,-1,None
+minimal,149,,Q173436,minimalism,art movement,architectural style
+hack,149,,Q1756631,Hack,video game
+mariadb,148,,Q787177,MariaDB,relational database management system,open-source software,enterprise
+photos,148,,Q125191,photograph
+code,148,,Q188889,code
+geospatial,148,,Q107108718,Geospatial.org,non-governmental organization
+messenger,147,,Q116947,Messenger,instant messaging
+exchange,147,,Q179076,exchange
+spigot,147,,Q298656,9K111 Fagot,anti-tank missile
+utilities,147,,Q1951366,public utility
+dotnet-standard,147,,Q595637,Language Integrated Query,syntax
+tailwindcss,147,,Q102173844,Tailwind CSS,free software
+windows-10,147,,Q18168774,Windows 10,operating system,proprietary software
+puppeteer,146,,Q3891642,Puppeteer,video game
+swiftui,146,,Q97455771,SwiftUI
+coreml,146,,Q107381672,coremltools,Python library
+encoding,146,,Q18653,encoding
+oracle,146,,Q19900,Oracle,public company,business
+easy-to-use,146,,Q216378,usability
+mail,146,,Q9158,email
+steam,146,,Q190120,water vapor,state of matter,gas,greenhouse gas
+hash,146,,Q151980,hashish,resin
+spring-security,146,,Q4049968,Spring Security,software
+sms,145,,Q43024,SMS,technical standard,communication medium
+error-handling,145,,Q471748,exception handling
+paper,145,,Q11472,paper,industry,physical object
+nestjs,145,,Q107015664,Nest.js,JavaScript
+peer-to-peer,145,,Q161410,peer-to-peer,network architecture
+geolocation,145,,Q259755,geotargeting,technique
+groovy,144,,Q504453,Groovy,object-based language
+rust-library,144,,Q63323446,Rust Library,library branch
+angular6,144,,Q2849803,AngularJS,software framework,JavaScript library,software library
+training,144,,Q918385,training
+swift5,143,,Q17118377,Swift,programming language,free software,multi-paradigm programming language,object-based language,functional programming language,imperative programming language,block-structured programming language
+twitter-api,143,,Q54935352,Twitter API,application programming interface
+pentest,143,,Q1501923,penetration test,type of test
+skeleton,143,,Q1169129,Skeleton,computer science term
+custom,143,,Q1087043,modding
+unsupervised-learning,142,,Q1152135,unsupervised learning,method
+kaggle,142,,Q10996045,Kaggle,website
+dynamic,142,,Q1268978,dynamic typing,type system
+installer,142,,Q838044,Installer,installer
+cloud-native,142,,Q85753005,Cloud native computing
+hackathon,142,,Q46855,hackathon
+state,142,,Q107390,federated state
+relay,141,,Q174053,relay
+google-analytics,141,,Q220577,Google Analytics,website
+android-architecture,141,,Q101208469,HAL interface definition language,software framework
+query,141,,Q11169,question mark,punctuation mark,terminal punctuation
+bukkit,141,,Q32149869,Bukkit,application programming interface
+emacs-lisp,141,,Q1334586,Emacs Lisp,programming language
+nlp-machine-learning,141,,Q5396532,MALLET,Java software library
+polymer,141,,Q21463129,Polymer,JavaScript library
+diff,141,,Q300901,diff,computer program,standard UNIX utility,file comparison software
+header-only,141,,Q5689555,header-only library
+robot,140,,Q11012,robot
+sample,140,,Q49906,sample,subset
+stack,140,,Q177929,stack,abstract data type
+apollo-client,140,,Q95963695,apollo-upload-client,JavaScript library
+webhook,140,,Q2553302,Webhook
+netstandard,139,,-1,None
+common-lisp,139,,Q849146,Common Lisp,programming language
+upload,139,,Q1188265,upload and download
+gatsbyjs,139,,Q105245440,gatsbyjs,software framework
+netlify,139,,Q56102498,Netlify,business
+pubsub,139,,Q818562,Observer pattern
+macosx,139,,Q14116,macOS,proprietary software,model series,Unix,operating system,Macintosh operating systems,UNIX 03,computing platform
+cybersecurity,139,,Q5276156,digital security
+date,139,,Q186408,point in time
+firestore,139,,Q59908994,Cloud Firestore,software
+playground,138,,Q11875349,playground
+news,138,,-1,None
+koa2,138,,Q9017517,khoa
+cron,138,,Q300864,cron,standard UNIX utility,job scheduler,daemon
+push-notifications,138,,Q2984643,Apple Push Notification Service,notification service
+linear-algebra,138,,Q82571,linear algebra,area of mathematics
+neo4j,138,,Q1628290,Neo4j,proprietary software
+docs,138,,Q9344,Google Docs,software suite
+scheduler,138,,Q1123036,scheduler
+ansible-role,138,,-1,None
+pug,137,,Q2756065,Pug,literary character
+seq2seq,137,,Q41589189,sequence-to-sequence learning
+mapping,137,,Q11348,function,mathematical concept
+osint,137,,Q1059178,Open-source Intelligence
+competitive-programming,137,,Q288568,International Collegiate Programming Contest,programming contest
+bdd,137,,Q8513,database
+twitch,137,,Q4555537,Twitch,video streaming service
+irc,137,,Q73,Internet Relay Chat,online chat,computer network protocol,communication medium,client-server,text-based protocol
+homebridge,137,,Q28206973,HomeBridge Financial Services,business
+anime,137,,Q105157614,animejs,JavaScript library
+centos,136,,Q207542,CentOS,free operating system
+simulator,136,,Q2057931,simulator,software category
+geometry,136,,Q8087,geometry,area of mathematics
+openstreetmap,136,,Q936,OpenStreetMap,online database
+scroll,136,,Q181319,scrolling,demo effect
+templates,136,,Q20769160,Wikimedia userbox template
+terraform-provider,135,,-1,None
+mvvm-architecture,135,,Q1247905,model–view–viewmodel,architectural pattern
+vault,135,,Q189771,vault
+mit-license,134,,Q7603,GNU General Public License,copyleft free software license,OSI-approved license,free software license
+vapor,134,,Q178193,steamboat
+themes,134,,Q97605999,Themes
+sql-server,134,,Q76320,database server
+bootstrap-4,134,,Q893195,Bootstrap,CSS framework
+sound,134,,Q11461,sound
+firebase-database,134,,Q18150728,Firebase,business
+svelte,133,,Q16863097,Svelte,JavaScript framework
+prettier,133,,Q30147525,Prettier,open-source software
+fish,133,,Q307263,friendly interactive shell,Unix shell,command line interface language,free software
+recommender-system,133,,Q554950,recommender system
+regression,133,,Q208042,regression analysis
+python2,133,,Q28865,Python,object-based language
+button,133,,Q160464,button
+notification,133,,Q7063031,Notification
+cryptocurrencies,132,,Q13479982,cryptocurrency,system
+text-editor,132,,Q131212,text editor,software category
+toolkit,132,,Q1193246,widget toolkit,software category
+kubernetes-cluster,132,,Q22661306,Kubernetes,Linux Foundation Project
+graph-algorithms,132,,Q30503704,graph algorithm
+virtual-reality,132,,Q170519,virtual reality
+trading-bot,131,,Q4292129,automated trading system
+todo,131,,Q11559755,Tōkyūjutsu
+file-upload,131,,Q3744950,FileUpload,Document Object Model
+packer,131,,Q2045669,packer
+transition,131,,Q1606712,transition
+medical-imaging,130,,Q931309,medical imaging,technique
+loading,130,,Q4350337,reloading,ammunition manufacture
+racket,130,,Q153362,tennis racquet
+coverage,130,,Q1798167,coverage
+twig,130,,Q4051886,Twig,template processor
+documentation-tool,129,,-1,None
+x86,129,,Q182933,x86,computing platform,instruction set architecture
+rubygem,129,,Q1853420,RubyGems,application-level package manager
+request,129,,Q7314788,Request
+controller,129,,Q273140,gamepad
+mocking,129,,Q25635316,mockery,behavior
+portfolio,129,,Q915026,briefcase
+webpack-plugin,129,,Q95959764,pnp-webpack-plugin,JavaScript library
+processing,128,,Q537288,Wiring,software library,object-based language,programming language,free software,software framework
+immutable,128,,Q23828,immutable object
+qml,128,,Q961543,QML,programming language,reactive programming language,declarative programming language,user interface markup language
+carousel,128,,Q208322,carousel
+mongo,128,,Q183435,tugrik,currency
+auth,128,,Q107384245,auth,Python library
+hls,128,,Q642074,Historical Dictionary of Switzerland,website,online database,organization
+art,128,,Q735,art,academic major
+magento,128,,Q1884012,Magento,free software,content management system,shopping cart software
+mnist,127,,Q17069496,MNIST database,data set
+os,127,,Q751,osmium,chemical element
+livedata,127,,Q86739021,LIVEDATA,business
+phpunit,127,,Q1663673,PHPUnit,software framework
+truffle,126,,Q2690965,truffle
+tracing,126,,Q322229,tracing
+modules,126,,Q17105199,Environment Modules,free and open-source software
+vimrc,126,,-1,None
+hadoop,126,,-1,None
+desktop-app,125,,Q106764295,Tacx Desktop app,software
+dropdown,125,,Q783066,drop-down list,computer science term
+bindings,125,,Q44424,chemical bond,intramolecular force
+macros,125,,Q629579,macro,statement,metaprogramming
+es2015,125,,Q2005,JavaScript,scripting language
+whatsapp,125,,Q1049511,WhatsApp,instant messaging client,mobile app,online service
+files,125,,Q82753,computer file
+firmware,125,,Q104851,firmware,software category
+scripting,125,,Q187432,scripting language
+customizable,125,,Q734698,collectible card game,game genre
+agent,125,,Q392648,agent,thematic relation
+phaser,125,,Q1087392,phaser
+sbt,124,,Q965371,Sistema Brasileiro de Televisão,television network,business
+interactive,124,,Q98918448,Coding for Interactive Communication and the Power of Adaptivity,research project
+payments,124,,Q1148747,payment
+opencl,124,,Q681360,OpenCL,software framework
+viewmodel,124,,Q925858,view model
+timeline,124,,Q186117,timeline
+vim-plugins,124,,Q108759345,Vim plugin
+portable,124,,Q1820120,portable computer
+state-machine,124,,Q6035379,Finite-state machine
+security-audit,124,,Q1538367,Information technology security audit
+reverse-proxy,124,,Q1192309,Reverse proxy
+oop,123,,Q79872,object-oriented programming,programming paradigm
+code-generator,123,,Q1061077,code generation
+amqp,123,,Q379626,Advanced Message Queuing Protocol,computer network protocol
+select,123,,Q307386,select,system call
+angular7,123,,Q2849803,AngularJS,software framework,JavaScript library,software library
+entity-framework,123,,Q290508,ADO.NET,software framework
+url,123,,Q42253,Uniform Resource Locator,technical standard
+kibana,123,,Q6403946,Kibana Station,railway station
+attention-mechanism,123,,-1,None
+feed,123,,Q2095,food
+project,122,,Q80336,Microsoft Project,project management software,diagramming software
+decorators,122,,Q23839,decorator pattern,software design pattern
+graphs,122,,Q28923,chart
+timer,122,,Q186612,timer
+styleguide,122,,Q198614,style guide
+machinelearning,122,,Q2539,machine learning,academic discipline
+gps,122,,Q18822,Global Positioning System,radionavigation-satellite service
+image-segmentation,121,,Q56933,image segmentation,separation
+text-mining,121,,Q676880,text mining
+mod,121,,Q865493,video game mod
+ionic3,121,,Q189548,Ionic order,architectural style,architectural order
+firebase-auth,121,,Q60167254,Firebase Authentication,software
+fonts,121,,Q83559312,Fonts,fountain
+progress-bar,121,,Q762308,progress bar
+wysiwyg,120,,Q170542,WYSIWYG,software feature
+chromium,120,,Q48524,Chromium,web browser
+sequelize,120,,Q261636,sequel
+mono,120,,Q29135,Mono Department,department of Benin
+clang,120,,Q864915,Clang,compiler,open-source software
+wechat,120,,Q283233,WeChat,social networking service
+monorepo,120,,Q25894883,monorepo,architectural pattern
+switch,120,,Q4503,network switch
+repository,120,,Q1235234,digital repository
+caching,120,,Q165596,cache
+purescript,119,,Q65082796,PureScript,programming language
+bulma,119,,Q11540953,search
+popup,119,,Q723906,pop-up ad
+sort,119,,Q4886,cultivar,taxonomic rank
+rust-lang,119,,Q575650,Rust,procedural programming language
+procedural-generation,119,,Q655427,procedural generation,process
+webapi,119,,Q557770,web API
+ngrx,119,,Q28885046,الجورف,Douar
+etl,119,,Q42339,Phaseolus vulgaris,taxon
+array,119,,Q186152,array data structure
+virtualbox,119,,Q11393,VirtualBox,hypervisor,application,free and open-source software
+stripe,119,,Q3421342,stripe
+token,119,,Q172841,Token Racing,Formula One team
+swipe,118,,Q597974,swipe,power move
+tabs,118,,Q814196,bands
+drawing,118,,Q93184,drawing
+custom-view,118,,Q7928801,viewing
+hpc,118,,Q1190465,high-performance computing
+collection,118,,Q208165,collecting
+fetch,118,,Q621694,Fetch,dog sport
+prediction,118,,Q748250,prediction
+godot-engine,118,,Q16972633,Godot,game engine
+runtime,118,,Q288510,run time,concept
+string,118,,Q33198,string theory,branch of physics
+rmarkdown,118,,Q53086556,Rmarkdown,software
+image-recognition,117,,Q28038508,image recognition,computer program
+face,117,,Q355,Facebook,social networking service,website
+certificate,117,,Q196756,certificate
+configuration-management,117,,Q1153495,configuration management,specialty,type of management
+entity-framework-core,117,,Q24834697,Entity Framework Core,software framework
+localstorage,117,,-1,None
+react-router-v4,117,,-1,None
+antd,117,,Q96255221,Ant Design,free software
+craft-plugin,116,,-1,None
+vector,116,,Q44528,Euclidean vector,geometric concept
+reproducible-research,116,,-1,None
+mp3,116,,Q42591,mp3,lossy audio coding format
+lint,116,,Q351337,Alstom Coradia LINT,rolling stock class
+css-modules,116,,Q95969546,icss-utils,JavaScript library
+transformer,116,,Q11658,transformer,electrical element
+cli-app,116,,Q62863705,kpcli,software
+emulation,116,,Q5374873,Emulation
+builder,116,,Q765164,builder pattern
+integration,116,,Q80091,integral
+azure-functions,116,,Q107384644,azure-functions,Python library
+python-script,116,,Q15955723,Python script,file format
+serializer,116,,Q1127410,serialization
+sensor,116,,Q167676,sensor,technological component
+assets,116,,Q46737,asset
+viewer,116,,Q860676,image viewer,software category
+springboot,115,,-1,None
+3d-printing,115,,Q229367,3D printing,production process
+multithreading,115,,Q213092,thread,computer science term
+docker-swarm,115,,Q64825554,Portainer
+password-manager,115,,Q1281199,password manager,software category
+continuous-deployment,115,,Q57261400,continuous deployment
+regular-expression,115,,Q185612,regular expression
+jdbc,115,,Q722772,Java Database Connectivity,application programming interface,Database abstraction layer,software
+architecture-components,115,,Q589893,Service Component Architecture
+babel-plugin,115,,Q95968906,babel-plugin-macros,JavaScript library
+leaflet,115,,Q13685322,Leaflet,JavaScript library
+rspec,115,,Q3463141,RSpec,free software
+archlinux,114,,Q185576,Arch Linux,Linux distribution
+hugo,114,,Q188914,Hugo Award,group of awards
+vanilla-javascript,114,,-1,None
+mxnet,114,,Q22348165,Apache MXNet,software library
+memory,114,,Q492,memory,mental process
+interview,114,,-1,None
+permissions,114,,Q231043,consent
+vanilla-js,114,,Q95956599,fs-extra,JavaScript library
+yeoman,114,,Q8052437,Yeoman (F),military rank
+logs,114,,Q35473,window
+slides,113,,Q355480,Slides,technique
+vuetify,113,,-1,None
+video-player,113,,Q1637192,video player
+hacking-tool,113,,Q3125508,hacking tool,software category
+udacity,113,,Q766546,Udacity,website
+junit,113,,Q847675,JUnit,test automation framework,software framework,free software
+radio,113,,Q872,radio,industry
+alert,113,,Q2802022,Alert,historical motorcycle manufacturer
+location,113,,Q1045481,filming location
+magento2,113,,Q1884012,Magento,free software,content management system,shopping cart software
+ui-design,113,,Q135707,user interface design,academic discipline
+homebridge-plugin,112,,-1,None
+progress,112,,Q247792,progress,property
+toast,112,,Q6128,toast
+yolo,112,,Q55148,YoLo Frozen Yogurt,business
+manager,112,,Q3844234,Manager,board game
+webview,112,,Q105849731,Chromium WebView cache,file format
+drupal,112,,Q170855,Drupal,content management system,web framework,blog software,free software
+stats,111,,Q7604370,Statistical Assessment Service,organization
+reflection,111,,Q165939,reflection
+faas,111,,Q1088484,fess
+event-driven,111,,Q5416682,Event-driven SOA
+yii,111,,Q1466168,Yii,web framework
+service-worker,111,,Q31836133,Service Worker,Web API,W3C Working Draft,free software
+x86-64,111,,Q272629,x86_64,instruction set architecture
+static-code-analysis,111,,Q1329550,static program analysis,software feature
+interview-questions,111,,-1,None
+datetime,111,,Q107381847,datetime,Python library
+self-driving-car,111,,Q741490,autonomous car
+deprecated,111,,Q280943,deprecation,concept
+pandoc,110,,Q2049294,Pandoc,file converter
+hibernate,110,,Q747866,Hibernate,object–relational mapping,data access layer,Database abstraction layer,persistence framework,software framework,free software,Java software library
+money,110,,Q1368,money
+datascience,110,,Q2374463,data science,academic discipline,industry,academic major
+cpu,110,,Q5300,central processing unit,computer hardware
+spring-mvc,110,,-1,None
+webpack-loader,110,,Q107384169,django-webpack-loader,Python library
+flutter-demo,110,,-1,None
+logstash,109,,Q17620247,Logstash,middleware
+json-parser,109,,Q95955661,parse-json,JavaScript library
+versioning,109,,Q3331189,"version, edition, or translation",piece,second-order class
+infrastructure-as-code,109,,Q24964334,infrastructure as code,as a service
+font-awesome,109,,Q19571791,Font Awesome,typeface
+course,109,,Q600134,course,part
+java8,109,,Q12117,cereal
+dash,108,,Q135299,Dynamic Adaptive Streaming over HTTP,XML application
+terraform-modules,108,,-1,None
+single-page-app,108,,Q1990286,Single-page application
+android-sdk,108,,Q29364625,Android SDK,software development kit
+sklearn,108,,Q1026367,scikit-learn,software library
+spider,108,,Q1357,Araneae,taxon
+spreadsheet,108,,Q183197,spreadsheet,software feature
+amazon-web-services,107,,Q28600330,Amazon Marketplace Web Service
+rubygems,107,,Q1853420,RubyGems,application-level package manager
+golang-package,107,,-1,None
+rollup,107,,Q7361370,Rollup
+internet-of-things,107,,Q251212,internet of things,concept
+network-analysis,107,,Q4417999,network analysis
+presentation,107,,Q464980,exhibition
+wordpress-development,107,,Q97822814,Simplycode -  Suryakant Prakash Ubhe
+declarative,107,,Q2684591,statement
+png,107,,Q178051,Portable Network Graphics,ISO standard
+emotion,107,,Q9415,emotion
+slack-bot,107,,Q26520201,Slack Bottom,architectural structure
+currency,107,,Q8142,currency
+openapi3,106,,Q18393146,OpenAPI,specification
+aspnet-core,106,,Q17513350,ASP.NET Core,web framework
+requests,106,,Q22661317,Requests,software library,free software
+samples,106,,Q485146,sample
+platform,106,,Q177749,sidewalk
+vision,106,,Q162668,visual perception,biological process
+reporting,106,,Q11030,journalism,industry,academic discipline
+bittorrent,106,,Q133862,BitTorrent,computer network protocol
+room,106,,Q2133296,space
+stylus,106,,Q868239,griffel
+scrolling,106,,Q181319,scrolling,demo effect
+operator,106,,Q131030,operator,mathematical term
+http-proxy,106,,Q95960780,http-proxy,JavaScript library
+eclipse,105,,Q82268,Eclipse,integrated development environment
+proxy-server,105,,Q11189,proxy server
+ldap,105,,Q188816,Lightweight Directory Access Protocol,computer network protocol,directory service
+ecmascript,105,,Q2005,JavaScript,scripting language,prototype-based programming language,imperative programming language,functional programming language,событийно-ориентированный язык программирования,computing platform,interpreted language,multi-paradigm programming language,programming language
+ec2,105,,Q407355,transferase,group or class of enzymes
+style,105,,Q848002,style
+homeassistant,105,,Q107385652,homeassistant,Python library
+element-ui,105,,Q605117,graphical widget,computer science term
+binary,105,,Q3913,binary numeral system,positional numeral system
+distributed-computing,105,,Q180634,distributed computing
+webvr,105,,Q22909733,WebVR,Web API
+headless,105,,Q1592285,Headless system
+sdl2,105,,Q727439,Simple DirectMedia Layer,software library
+social-media,105,,Q202833,social media,economic activity
+delphi,105,,Q487378,Delphi,integrated development environment,programming language,proprietary software
+colors,105,,Q1794704,colors
+keras-tensorflow,105,,-1,None
+playbook,105,,Q133916,Runbook
+bootstrap-theme,105,,Q107381076,sphinx-bootstrap-theme,Python library
+communication,105,,Q251072,Machine to machine
+component-library,105,,Q1353814,Free Component Library,free software
+codeigniter,104,,Q339829,CodeIgniter,web framework
+gtk3,104,,Q105702529,gotk3,GTK+ software binding
+ipv6,104,,Q2551624,IPv6,computer network protocol
+raspberry-pi-3,104,,Q245,Raspberry Pi,computer model series,brand,single-board computer
+autoencoder,104,,Q786435,autoencoder,lossy compression
+prompt,104,,Q1126281,prompter,theatrical occupation
+unity3d-plugin,104,,-1,None
+helper,104,,Q2827824,Helper
+mvp-architecture,104,,-1,None
+extensions,104,,Q785464,artificial hair integrations,hairstyle accessory
+ggplot2,103,,Q326489,ggplot2,free software
+embeddings,103,,Q18395344,word embedding
+swarm,103,,Q285267,Swarm,space mission
+viewpager,103,,-1,None
+smarthome,103,,Q76164715,Eclipse SmartHome,software
+decoder,103,,Q745243,decoder
+spinner,103,,Q4439,hard disk drive,recording medium
+ftp,103,,Q42283,File Transfer Protocol,Internet Standard
+artificial-neural-networks,103,,Q192776,artificial neural network
+scripts,103,,Q187432,scripting language
+remote-control,103,,Q185091,remote control
+key-value,103,,Q4818718,attribute–value pair
+collaboration,103,,Q156744,collaborationism
+debugging-tool,103,,Q193231,debugger,software category
+bootstrap3,103,,Q893195,Bootstrap,CSS framework,free and open-source software
+bluetooth-low-energy,102,,Q1638779,Bluetooth Low Energy
+polyfill,102,,Q7226317,Polyfill,snippet
+rdf,102,,Q54872,Resource Description Framework,formal language
+uitableview,102,,-1,None
+vulnerability,102,,Q631425,vulnerability
+apk,102,,Q596391,APK,package management system,package format
+design-system,102,,Q3750474,systems design
+homekit,102,,Q45319394,Apple HomeKit,software
+makefile,102,,Q20748783,Makefile,file format
+angular-material,102,,Q473412,Grus
+hot-reload,102,,Q95968504,webpack-hot-middleware,JavaScript library
+scientific-computing,102,,Q117801,computational science
+theano,102,,Q7777252,Theano,free software
+interface,102,,Q23808,interface
+desktop-application,101,,Q11320567,desktop application
+stock-market,101,,Q475000,stock market,artificial entity
+daemon,101,,Q177413,demon,biblical concept
+bot-framework,101,,-1,None
+functions,101,,Q11348,function,mathematical concept
+e-commerce,101,,Q484847,e-commerce,industry,automation
+identity,101,,Q254474,identity
+role,101,,Q214339,role
+resnet,101,,Q7314904,ResNet
+attention,101,,Q4818205,Attention
+article,101,,Q103184,article,part of speech
+openai-gym,101,,Q107381664,gym,Python library
+bridge,101,,Q23802,Bridge pattern
+unity-editor,100,,-1,None
+tui,100,,Q125142,Tui,taxon
+google-cloud-platform,100,,Q17054505,Google Cloud Platform,Developer Portal
+resume,100,,-1,None
+named-entity-recognition,100,,Q403574,named-entity recognition
+test-framework,100,,Q1475717,test automation,software quality assurance
+tensorflow-tutorials,100,,-1,None
+atom-package,100,,Q4817198,Atom,programming language
+binance,99,,Q51403327,Binance,digital currency exchanger
+leetcode,99,,Q1068276,Lagarith,codec
+a11y,99,,Q555097,accessibility
+system,99,,Q1,universe,universe
+selenium-webdriver,99,,Q18700278,Geb Script
+cocoa,99,,Q1051988,Cocoa,application programming interface
+malware-analysis,99,,Q15731404,Malware Analysis
+launcher,99,,Q15548044,application launcher,software category,software feature
+unreal-engine,99,,Q608276,Unreal Engine,game engine
+discord-js,99,,-1,None
+clean-code,99,,Q1099360,clean code
+pip,99,,Q410234,piperidine,chemical compound,piperidine
+typography,99,,Q37260,writing
+spring-cloud,99,,Q62770443,Spring,computer-animated film
+xamarin-android,99,,-1,None
+alfred,98,,Q294392,ALFRED,online database
+forum,98,,Q123550,forum
+npm-module,98,,Q95961094,global-modules,JavaScript library
+chef,98,,Q24479,Chef,configuration manager,free software
+instrumentation,98,,Q829825,instrumentation
+micropython,98,,Q25313489,MicroPython,implementation of a programming language
+control,98,,Q11175,circumflex,diacritic,IPA symbol
+export,98,,Q182722,export
+history,98,,Q309,history,academic discipline
+mobile-development,98,,Q2988038,mobile application development
+registry,98,,Q463244,Windows Registry,file format,database,Microsoft Windows component
+uicollectionview,97,,-1,None
+openvpn,97,,Q509075,OpenVPN,free software
+ctf,97,,Q1035213,capture the flag,children's game,play
+nix,97,,Q14656,Unix-like operating system
+synchronization,97,,Q650462,synchronization,concurrency
+alexa,97,,Q28022144,Amazon Alexa,virtual assistant
+observable,97,,Q845789,observable
+github-app,97,,Q82066181,GitHub,mobile app
+julia-language,97,,Q2613697,Julia,programming language
+rpg,97,,Q160738,role-playing game,game genre
+user-interface,97,,Q47146,user interface
+digitalocean,97,,Q17052116,DigitalOcean,website
+verification,96,,Q212424,verification in metrology,measurement method
+erc20,96,,Q39049892,ERC20
+migration,96,,Q177626,human migration
+freebsd,96,,Q34236,FreeBSD,BSD
+benchmarking,96,,Q816754,benchmarking,engineering process
+sqlalchemy,96,,Q1092514,SQLAlchemy,database interface
+usb,96,,Q42378,Universal Serial Bus,protocol suite
+beginner-friendly,96,,-1,None
+custom-elements,96,,Q18217380,Web Components,technical standard
+bigdata,96,,Q20127748,Blazegraph,graph database
+cloudflare,96,,Q4778915,Cloudflare,enterprise
+card,96,,Q142714,card game,game mechanics
+openssl,96,,Q1052790,OpenSSL,software library,free software,encryption software,utility software
+assembler,96,,Q165436,assembly language,programming language
+phoenix-framework,95,,Q55629889,Phoenix,web framework,free software
+scrapy,95,,Q368367,Scrapy,web crawler
+live,95,,Q209939,live album,recording industry term
+colorscheme,95,,Q859170,color scheme
+cookie,95,,Q178995,HTTP cookie
+binding,95,,Q510878,language binding
+hapi,95,,Q32143,Hapi,water deity
+progressbar,95,,Q12774669,Progressbar,civic association
+ibmcode,95,,-1,None
+orchestration,95,,Q2670993,Orchestration
+fun,95,,Q1255864,fun,feeling
+drag,95,,Q46241,drag racing
+transaction,95,,Q327197,legal transaction,method
+rest-client,95,,Q107386159,simple-rest-client,Python library
+dqn,95,,Q5371103,chūnibyō,stock character
+glide,95,,Q757410,semivowel
+import,94,,Q62955,import
+commandline,94,,Q189053,command-line interface
+ant-design,94,,Q96255221,Ant Design,free software
+microcontroller,94,,Q165678,microcontroller
+solr,94,,Q2858103,Apache Solr,search engine,free software
+sinatra,94,,Q657028,Sinatra,web framework
+google-api,94,,Q5583797,Google APIs,application programming interface
+slide,94,,Q334747,playground slide
+tags,94,,Q658349,tag
+markdown-editor,94,,Q20762487,Remarkable,text editor
+3d-graphics,94,,Q189177,3D computer graphics
+apache-spark,94,,Q7573619,Apache Spark,software framework
+otp,94,,Q150474,one-time pad,cipher
+latex-template,94,,Q20154825,A Brief Introduction to the LaTeX Typesetting Environment/Writing a Document from a Template,Wikibooks page
+annotation,94,,Q857525,annotation
+audio-player,93,,Q758895,audio player software,software feature
+form-validation,93,,-1,None
+enterprise,93,,Q20074,Enterprise,fictional spacecraft,Starfleet ship
+metal,93,,Q11426,metal
+epub,93,,Q475488,EPUB,e-book file format
+timeseries,93,,Q797100,BV4.1,software
+social,93,,Q345367,social,quality
+yeoman-generator,93,,Q8052438,yeoman,software framework
+ascii,93,,Q8815,ASCII,character encoding,coded character set
+serial,93,,Q41298,magazine
+dependencies,93,,Q185086,Crown dependency
+hex,93,,Q16953,hex key
+passport,93,,Q43812,passport
+speech,93,,Q315,language,aptitude
+headless-chrome,93,,-1,None
+kubectl,93,,Q84081166,kubectl,command-line interface
+lumen,93,,Q1141325,lumen
+plot,92,,Q148571,fence
+raspberry,92,,Q13179,raspberry,fruit,wild food
+command,92,,Q386776,command pattern
+scaffold,92,,Q233320,scaffold
+intellij-plugin,92,,Q21198566,IntelliJ Scala plugin,plug-in
+titanium,92,,Q716,titanium,chemical element,simple substance
+tests,92,,Q27318,test,type of test
+dictionary,92,,Q80585,associative array,abstract data type
+movie,92,,Q11424,film
+code-quality,92,,Q1412670,software quality
+question-answering,92,,Q1074173,question answering,software feature
+calculator,92,,Q68,computer,concept,tool
+scheme,92,,Q187560,Scheme,programming language
+api-server,92,,Q375673,Jakarta Servlet,application programming interface,technical specification
+nativescript-plugin,92,,-1,None
+image-manipulation,92,,Q8038,GIMP,GNU package,raster graphics editor,free and open-source software
+plex,92,,Q7204887,Plex,streaming server
+jpa,92,,Q908660,Jakarta Persistence,application programming interface,technical specification
+linear-regression,91,,Q10861030,linear regression,regression
+drone,91,,Q484000,unmanned aerial vehicle,aircraft functional class
+fedora,91,,Q48267,Fedora Linux,free operating system
+offline-first,91,,Q97375149,Offline first
+build-automation,91,,Q2727468,build automation,software category
+async-await,91,,Q16245951,Await,control flow
+remote,91,,Q185091,remote control
+bert,91,,Q61726893,Bidirectional Encoder Representations from Transformers,language model
+plotting,91,,Q2557573,Plotting,video game
+ci-cd,91,,Q130778,Cicadidae,taxon
+gitbook,91,,Q95960865,ignore,JavaScript library
+litecoin,91,,Q4043030,Litecoin,cryptocurrency,free and open-source software,blockchain
+injection,91,,Q182003,injection
+audit,91,,Q181487,audit,accounting term
+effects,91,,Q926230,effect
+point-cloud,91,,Q1899648,Point cloud
+gateway,90,,Q53060,gate
+lstm-neural-networks,90,,Q6673524,long short-term memory
+style-transfer,90,,Q64711817,neural style transfer
+integration-testing,90,,Q782466,Integration testing
+hook,90,,Q127124,hook,musical form,song component
+node-module,90,,Q104636068,network module
+grammar,90,,Q8091,grammar
+ble,90,,Q902025,Braunschweigische Landes-Eisenbahn-Gesellschaft,transport company
+nvidia,90,,Q182477,Nvidia,business,enterprise,public company
+spacy,90,,Q28406945,SpaCy,software
+maven-plugin,90,,Q60062042,Maven App Engine Plugin,software
+books,90,,Q571,book
+shopping-cart,90,,Q796894,shopping cart
+istio,90,,Q41216599,Istio,taxon
+auth0,90,,Q56072164,Auth0,business
+bayesian-inference,90,,Q812535,Bayesian inference,statistical inference
+mining,90,,Q44497,mining,economic activity
+retrofit,90,,Q24662,retrofitting
+types,90,,Q11250440,TYPES,theatrical troupe
+pokemon,90,,-1,None
+karma,89,,-1,None
+acl,89,,Q338966,access-control list,method
+signal-processing,89,,Q208163,signal processing
+web-scraping,89,,Q665452,web scraping
+starter-template,89,,-1,None
+logistic-regression,89,,Q1132755,logistic regression model,regression analysis
+opencv-python,89,,Q107382097,opencv-python,Python library
+transpiler,89,,Q2990416,source-to-source compiler
+react-navigation,89,,-1,None
+fuzzing,89,,Q1189053,fuzzing,software testing tool
+unreal-engine-4,89,,Q13156652,Unreal Engine 4,game engine version
+conversion,89,,Q904756,religious conversion
+ionic2,89,,Q189548,Ionic order,architectural style,architectural order
+grunt,89,,Q5612138,Grunt,board wargame
+mesos,89,,Q102742,meson,type of quantum particle
+xamarin-ios,89,,-1,None
+event,88,,Q1656682,event
+language-server-protocol,88,,Q30251139,Language Server Protocol,communications protocol
+stm32,88,,Q7394773,STM32
+bitbucket,88,,Q2493781,Bitbucket,virtual hosting
+video-processing,88,,Q3536669,video processing
+share,88,,Q11692,share
+syntax,88,,Q37437,syntax,language subsystem
+ascii-art,88,,-1,None
+color-picker,88,,Q375580,color picker
+ip,88,,Q8795,Internet Protocol,Internet Standard
+webdriver,88,,Q107384295,webdriver-manager,Python library
+linkedin,88,,Q213660,LinkedIn,business
+prometheus-exporter,88,,Q107381700,prometheus-flask-exporter,Python library
+tensorflow-models,88,,Q107383126,tensorflow-model-analysis,Python library
+game-server,88,,Q1315933,game server
+bootstrap-template,88,,-1,None
+encoder,88,,Q53699,rotary encoder,device
+generative-model,87,,Q5532625,generative model
+enzyme,87,,Q8047,enzyme,group or class of proteins
+lightning-network,87,,Q30325114,Lightning Network,payment system,communications protocol
+datastructures,87,,Q55739507,Genbox Family History file format,file format
+development-environment,87,,Q13741,integrated development environment,software category
+linq,87,,Q595637,Language Integrated Query,syntax
+listview,87,,Q617162,Apache Wicket,web framework
+emscripten,87,,Q2814113,Emscripten,source-to-source compiler
+logging-library,87,,Q22003134,library for logging
+mybatis,87,,Q285129,IBATIS,persistence framework
+3d-reconstruction,87,,Q4464732,3D reconstruction
+voice,87,,Q7390,voice
+browserify,87,,Q22906933,Browserify,software
+profiling,87,,Q1138496,profiling
+openstack,87,,Q1470293,OpenStack,software system,cloud computing
+netty,87,,Q6107820,Netty,free software
+hyperledger,87,,Q23680002,Hyperledger,consortium
+algorithmic-trading,87,,Q139445,algorithmic trading
+chat-application,87,,Q586474,engineering geology
+persistence,87,,Q368671,persistence
+vm,87,,Q189401,virtual memory
+scaffolding,87,,Q233320,scaffold
+salesforce,86,,Q941127,Salesforce.com,business
+btc,86,,Q131723,bitcoin,cryptocurrency,free software,communications protocol,project,blockchain,payment system,currency,reserve currency
+api-rest,86,,Q749568,representational state transfer,service oriented architecture
+environment-variables,86,,Q400857,environment variable
+instagram-api,86,,Q107386656,instagramapi,Python library
+demo-app,86,,Q105103015,demo program
+twilio,86,,Q7858039,Twilio,website
+flowtype,86,,Q95960771,eslint-plugin-flowtype,JavaScript library
+emberjs,86,,Q13592527,Ember.js,web framework
+helm-charts,86,,-1,None
+realm,86,,Q417175,kingdom
+sandbox,86,,Q213454,sandpit
+firewall,86,,Q80998,firewall,software category
+flutter-widget,86,,-1,None
+store,86,,Q213441,shop
+devops-tools,86,,Q25345942,Harrow,software as a service
+xlsx,86,,Q3570403,"Office Open XML Spreadsheet Document, ECMA-376 1st Edition",file format
+design-systems,86,,Q682496,systems engineering,academic discipline
+laravel5,86,,Q13634357,Laravel,web framework
+ios-ui,86,,-1,None
+mesh,86,,Q199897,Medical Subject Headings,thesaurus,medical database
+deploy,85,,Q1229245,dispositif,concept
+apollographql,85,,Q95963366,apollo-link,JavaScript library
+seed,85,,Q40763,seed
+line,85,,Q37105,line,geometric concept
+scenekit,85,,Q25101008,SceneKit,application programming interface
+astronomy,85,,Q333,astronomy,branch of science
+arch-linux,85,,Q185576,Arch Linux,Linux distribution
+golang-application,85,,Q96419253,RoadRunner,application server
+torch,85,,Q17087180,Torch,free and open-source software
+eos,85,,Q62944,Canon EOS,camera product line
+sentry,85,,Q3478803,Sentry,system
+couchdb,85,,Q1136882,Apache CouchDB,database management system
+trading-strategies,85,,Q1574928,trading strategy
+parallel-computing,85,,Q232661,parallel computing,programming paradigm
+virtualization,85,,Q270471,virtualization,technology
+redux-thunk,85,,Q95959422,redux-thunk,JavaScript library
+stylelint,85,,Q95943488,jest-runner-stylelint,JavaScript library
+reader,85,,-1,None
+pose-estimation,85,,Q4636322,3D pose estimation
+lazy-loading,85,,Q6506159,lazy loading,software design pattern
+static,85,,Q1940914,static typing
+css-grid,85,,Q42320210,CSS grid layout
+discord-api,85,,Q22907849,Discord,VoIP software
+phone,85,,Q11035,telephone
+random-forest,85,,Q245748,random forest,algorithm
+menubar,85,,Q25051686,Tanjung Menubar,point
+blender,85,,Q173136,Blender,3D computer graphics software
+actions,85,,Q234657,ActionScript,functional programming language,multi-paradigm programming language,programming language
+clipboard,84,,Q204461,clipboard
+cdn,84,,Q72588,content delivery network,software feature
+html5-canvas,84,,Q105124253,Guile-Gnome,programming tool
+tooltip,84,,Q1071454,tooltip,graphical widget
+asp-net,84,,Q178817,ASP.NET,free software,web framework,programming language,Server-side scripting
+metaprogramming,84,,Q661075,metaprogramming,programming paradigm
+overlay,84,,Q910289,overlay
+bugbounty,84,,Q16848759,bug bounty program
+blog-engine,84,,Q15206305,Docker,free and open-source software
+environment,84,,Q43619,natural environment
+ui-kit,84,,-1,None
+swift-4,84,,Q17118377,Swift,programming language
+thread,84,,Q213092,thread,computer science term
+youtube-dl,84,,Q28401317,youtube-dl,download manager,console application,public-domain software,Python library
+nova,84,,Q6458,nova,astronomical object type,astronomical phenomenon
+jira,84,,Q1359246,Jira,bug tracking system
+url-shortener,83,,Q637342,URL shortening,service on internet
+craftcms-plugin,83,,-1,None
+blockchain-technology,83,,Q20514253,blockchain,concept
+libraries,83,,Q7075,library
+meetup,83,,Q1625371,Meetup,social networking service
+twitter-bot,83,,Q3687628,Twitter bot
+light,83,,Q9128,light
+cats,83,,Q1122211,CATS,computer system
+reactnative,83,,Q55774523,React Native,JavaScript
+pygame,83,,Q1140252,Pygame,Python library
+meteorjs,83,,Q14246221,Meteor,web framework
+task,83,,Q759676,task
+datasets,83,,Q1172284,data set
+swift-framework,83,,Q25345276,Perfect,software
+cv,83,,-1,None
+sublime-text-3,83,,Q267193,Sublime Text,text editor
+file-manager,83,,Q732970,file manager
+adapter,82,,Q23836,adapter pattern
+xss,82,,Q371199,cross-site scripting
+chess,82,,Q718,chess,board game
+vertx,82,,Q7922736,Vert.x,software framework,free software
+jpeg,82,,Q17092932,JPEG-XT,file format
+gaming,82,,Q11410,game
+bytecode,82,,Q837330,bytecode
+zookeeper,82,,Q4778968,Apache ZooKeeper,free software
+posix,82,,Q14658,Portable Operating System Interface
+youtube-api,82,,Q8056784,YouTube Application Programming Interface,application programming interface
+reactive-streams,82,,Q22342969,Reactive Streams,software
+pyqt5,82,,Q2382780,PyQt,Python library
+challenge,82,,Q1059943,Challenge,trademark
+webpack3,82,,Q22909730,webpack,open-source software
+analyzer,82,,Q4771248,Antenna analyzer
+domain-driven-design,82,,Q524367,domain-driven design,software development methodology
+bazel,82,,Q25345982,Bazel,free software
+payment-gateway,82,,Q2639241,payment gateway
+tex,82,,Q5301,TeX,typesetting software‎
+random,82,,Q3418835,Random
+assertions,82,,Q17139352,Management assertions
+ioc,82,,Q666438,inversion of control
+promises,82,,-1,None
+databinding,82,,-1,None
+security-scanner,82,,Q154055,Full body scanner
+ipad,82,,Q2796,iPad,model series
+open-data,82,,Q309901,open data,notion,concept,field of work
+slam,82,,Q20852,poetry slam
+entity-component-system,81,,Q17089065,entity component system,architectural pattern
+google-chrome,81,,Q777,Google Chrome,web browser,mobile browser
+batch,81,,Q479833,batch file,file format,script,programming language,command line interface language
+headless-cms,81,,Q48995961,headless content management system,software category
+nuxt-module,81,,-1,None
+online,81,,Q73368,online,property
+movies,81,,Q18155354,TSG Entertainment,film production company
+mvp-android,81,,-1,None
+dropbox,81,,Q142539,Dropbox,cloud computing
+translate,81,,Q7553,translation,academic major
+highlight,81,,Q5759470,Highlight,software
+fpga,81,,Q190411,field-programmable gate array
+object,81,,Q175026,object,sentence constituent
+secure,81,,Q26980826,.secure,generic top-level domain
+rbac,81,,Q1702839,role-based access control
+streams,81,,Q4048907,STREAMS
+opentracing,80,,Q95971091,opentracing,JavaScript library
+forensics,80,,Q43504,criminalistics,academic discipline,field of study
+rich-text-editor,80,,Q8046051,YUI Rich Text Editor,text editor
+xmpp,80,,Q188951,XMPP,computer network protocol
+jamstack,80,,Q57204236,Jamstack,solution stack
+speech-to-text,80,,Q189436,speech recognition,academic discipline
+api-documentation,80,,Q19599380,AVFoundation,application programming interface,multimedia framework,software development kit
+no-dependencies,80,,Q64830310,Universal Dependencies
+update,80,,Q1076005,UPDATE,SQL keyword
+express-js,80,,Q16878131,Express.js,web framework
+project-management,80,,Q179012,project management,type of management
+love2d,80,,Q3269846,LÖVE,free software
+imagenet,80,,Q24901201,ImageNet,data set
+google-drive,80,,Q9340,Google Drive,cloud storage
+telegram-bot-api,80,,Q27038411,Telegram Bot API,application programming interface
+game-2d,80,,Q457500,The Game,game
+angular8,80,,Q2849803,AngularJS,software framework,JavaScript library,software library
+esp8266-arduino,80,,-1,None
+utils,80,,Q107384660,utils,Python library
+openid-connect,79,,Q18385539,OpenID Connect
+performance-analysis,79,,Q1138496,profiling
+multi-platform,79,,Q174666,cross-platform,computing platform
+cucumber,79,,Q23425,Cucumis sativus,taxon
+rtmp,79,,Q787012,Real Time Messaging Protocol,computer network protocol
+memcached,79,,Q306661,Memcached,cache
+mpi,79,,Q127879,Message Passing Interface,software library,communications protocol,technical standard
+l10n,79,,Q41271,internationalization and localization
+watch,79,,Q178794,watch
+manga,79,,Q8274,manga,comic format
+ipc,79,,Q374830,insulation-displacement connector,joining technology
+tracker,79,,Q383826,music tracker
+pdf-generation,79,,Q104971035,ngPDF,application
+crm,79,,Q485643,customer relationship management,type of management
+akka-http,79,,Q2985605,Acre Port,port,marina
+generative-art,79,,-1,None
+nintendo,79,,Q8093,Nintendo,software company
+svm,79,,Q282453,support vector machine
+termux,79,,Q60572759,Termux,free software
+load-balancer,79,,Q575614,load balancing
+crop,79,,Q214934,crop
+modern,79,,Q38166,modern art,art movement
+visualisation,79,,Q451553,visualization
+alfred-workflow,79,,-1,None
+dnn,78,,Q1251148,DNN,content management system
+machine,78,,Q11019,machine
+dlang,78,,Q319268,D,object-based language
+information-retrieval,78,,-1,None
+soap,78,,Q34396,soap
+nest,78,,Q4785,nest
+scalajs,78,,-1,None
+game-dev,78,,Q1061635,video game development,industry
+sdl,78,,Q144175,SDL PLC,business,enterprise,public company
+php-fpm,78,,Q3359692,PHP-FPM,application server
+utility-library,78,,Q2025441,OpenGL Utility Library,graphics library
+widgets,78,,Q1068192,software widget
+rxandroid,78,,-1,None
+wikipedia,78,,-1,None
+administration,78,,Q4683408,Administration
+monero,78,,Q19893485,Monero,digital currency
+net,78,,Q75,Internet,IP network,computer network,invention
+raspbian,78,,Q890474,Raspberry Pi OS,Linux distribution
+blazor,78,,Q60749742,Blazor,web framework
+particles,77,,Q59725855,Particles,district electoral division
+graphql-client,77,,Q95963695,apollo-upload-client,JavaScript library
+consensus,77,,Q188577,consensus decision-making,principle,method,group decision-making
+viml,77,,Q29763134,viml,gene
+winforms,77,,Q613361,Windows Forms,widget toolkit
+example-project,77,,Q14204246,Wikimedia project page
+touch,77,,Q284243,touch,standard UNIX utility
+apis,77,,Q102857,Apis,taxon
+soundcloud,77,,Q568769,SoundCloud,social networking service
+render,77,,Q176953,rendering,software feature
+replication,77,,Q7314070,Replication
+openresty,77,,Q86762127,OpenResty,web server
+dataviz,77,,Q3427422,statistical graphics
+scale,77,,Q188488,scale
+access-control,77,,Q228502,access control,method,concept,computer security model,type of regulation and control
+simd,77,,Q339387,SIMD
+standard,77,,Q317623,technical standard
+clock,77,,Q376,clock
+vue-plugin,76,,-1,None
+linux-kernel,76,,Q14579,Linux kernel,free and open-source software,kernel,collaborative work,project
+xgboost,76,,Q23793561,XGBoost,software library
+stock,76,,Q909380,stock
+elm-lang,76,,Q5366250,Elm,functional programming language
+handlebars,76,,Q5647472,Handlebars,JavaScript library,template processor
+clone,76,,Q120877,cloning
+icon,76,,Q132137,icon
+sonarqube,76,,Q541691,SonarQube,free software
+microservices-architecture,76,,Q18344624,microservices,architectural pattern
+captcha,76,,Q484598,CAPTCHA,access control
+animated,76,,Q11425,animation,cinematic technique
+full-stack,76,,Q7558983,solution stack
+ipv4,76,,Q28823657,"Internet Protocol version 4, IEN 44",Internet Protocol
+text-to-speech,76,,Q16346,speech synthesis
+sorting-algorithms,76,,Q181593,sorting algorithm
+rpi,76,,Q245,Raspberry Pi,computer model series
+inference,76,,Q408386,inference,reasoning,sourcing circumstance
+dlib,76,,Q3435281,Digital Library of Slovenia,digital library
+templating,76,,Q12335479,templating
+owasp,76,,Q18385319,OWASP ZAP,software testing tool,free software,Web application security scanner
+graphviz,76,,Q260889,Graphviz,free software
+install,76,,Q6038648,install,standard UNIX utility
+webservice,75,,Q193424,web service,software category
+spring-data-jpa,75,,-1,None
+tweets,75,,Q5329511,East Tennessee and Western North Carolina Railroad,transport company
+jekyll-themes,75,,-1,None
+query-builder,75,,Q105550739,Wikidata Query Builder,web application,Wikidata tool
+pascal,75,,Q81571,Pascal,programming language
+lightning,75,,Q33741,lightning
+oidc,75,,Q18385539,OpenID Connect
+protocol-buffers,75,,Q1645574,Protocol Buffers,data serialization format
+neuroscience,75,,Q207011,neuroscience,academic discipline
+form-builder,75,,Q10283453,Form Builder
+natural-language-understanding,75,,Q1078276,natural language understanding
+setup,75,,Q836862,installation
+doctrine,75,,Q117850,doctrine
+unity-3d,75,,Q63966,Unity,game creation system,game engine
+reproducibility,75,,Q1425625,reproducibility
+semantic-ui,75,,Q96276859,Semantic UI,free software
+probot-app,75,,-1,None
+distributed-tracing,75,,Q951513,Distributed ray tracing
+luajit,75,,Q41584446,LuaJIT,just-in-time compiler
+nextcloud,75,,Q25874683,Nextcloud,file synchronization
+wysiwyg-editor,75,,Q157758,Nvu,HTML editor,free software
+micro-framework,74,,Q158833,.NET Micro Framework,computing platform
+audio-processing,74,,Q2719318,audio signal processing
+tutorial-code,74,,Q100324157,source map,Web standards
+quality,74,,Q185957,quality
+mysql-database,74,,Q1172362,database dump
+ffi,74,,Q8441,man
+infinite-scroll,74,,Q6506159,lazy loading,software design pattern
+swagger-ui,74,,Q39069667,Swagger,application
+ebook,74,,-1,None
+renderer,74,,Q100744571,rendering software,software category
+quantitative-finance,74,,Q335632,mathematical finance,area of mathematics
+super-resolution,74,,Q440296,image scaling
+css-animations,74,,Q382741,CSS animations
+toolbox,74,,Q1501161,toolbox
+diagram,74,,Q843237,diagram,mathematical structure
+shop,74,,Q213441,shop
+sse,74,,Q493854,SSE plc,business,enterprise,public company
+strings,74,,Q709099,strings,standard UNIX utility
+ping,74,,Q188876,ping,command,network utility
+plotly,74,,Q17146476,Plotly,software company
+zip,74,,Q101761,zipper,peralatan menjahit
+uploader,74,,Q556823,Image Uploader,free software
+data-structure,74,,Q175263,data structure
+3d-models,74,,Q16911860,3D rendering,engineering process
+aes,74,,Q190746,Advanced Encryption Standard,technical standard
+vulnerabilities,74,,Q40887670,VoIP vulnerabilities
+profile,74,,Q1421951,Profile
+hacktoberfest2019,74,,-1,None
+bower,74,,Q1149165,Samyang Optics,business
+snapshot,73,,Q208594,screenshot
+documentation-generator,73,,Q2164323,documentation generator,software category
+optimization-algorithms,73,,Q30589286,Quantum optimization algorithms
+textview,73,,-1,None
+toml,73,,Q28449455,"Tom's Obvious, Minimal Language",file format
+hmr,73,,Q3145180,Hôpital Maisonneuve-Rosemont,hospital
+ansible-playbook,73,,-1,None
+fintech,73,,Q16319025,financial technology
+sqlserver,73,,Q215819,Microsoft SQL Server,relational database management system,proprietary software,communications protocol,organization
+monad,73,,Q36468,unicellular organism
+remote-sensing,73,,Q199687,remote sensing
+aframe,73,,Q28135597,A-Frame,JavaScript framework
+schedule,73,,Q221725,public transport timetable
+imagemagick,73,,Q1047199,ImageMagick,raster graphics editor
+hubot,73,,Q584529,humanoid robot
+sample-app,73,,Q55175903,app_skel,Asterisk application
+coredata,73,,Q2146830,Core Data,software
+chainer,73,,Q34978225,Chainer,software library,software framework,free software
+teaching,73,,Q1782301,study
+context,73,,Q196626,context
+ethereum-dapp,73,,-1,None
+traefik,73,,Q96332968,Traefik,free and open-source software
+autolayout,73,,-1,None
+recaptcha,73,,Q188054,reCAPTCHA,software
+conference,73,,Q625994,convention
+react-native-component,73,,Q95957737,css-to-react-native,JavaScript library
+laravel-framework,73,,Q13634357,Laravel,web framework
+systemd,73,,Q286124,systemd,daemon-managing daemon,system software,free software
+code-splitting,73,,Q95964807,use-sidecar,JavaScript library
+apps,72,,Q620615,mobile app,software category
+sorting,72,,Q4429373,sorting
+scripting-language,72,,Q187432,scripting language
+enumeration,72,,Q760170,enumerated type,data type
+classifier,72,,Q63153,classifier
+google-maps-api,72,,Q105856853,Google Maps API data,file format
+file-sharing,72,,Q22666,file sharing
+rstudio,72,,Q4798119,RStudio,integrated development environment
+language-model,72,,Q3621696,language model
+es6-javascript,72,,Q2005,JavaScript,scripting language,prototype-based programming language,imperative programming language,functional programming language,событийно-ориентированный язык программирования,computing platform,interpreted language,multi-paradigm programming language,programming language
+apollo-server,72,,Q105192287,verified Discord server
+p5js,72,,Q59555213,P5.js,JavaScript library
+scipy,72,,Q197492,SciPy,Python library
+codegen,72,,Q1061077,code generation
+rss-reader,72,,Q498267,news aggregator,software category
+cryptocurrency-exchanges,72,,Q25401607,cryptocurrency exchange,exchange
+ecto,72,,Q5333988,Ecto,blog software
+mssql,72,,Q215819,Microsoft SQL Server,relational database management system
+trading-algorithms,72,,Q139445,algorithmic trading
+json-ld,72,,Q6108942,JSON-LD,open standard
+message-queue,72,,Q1065525,Message queue
+gltf,72,,Q23086174,periplasmic protein GltF b3214,gene
+supervised-learning,72,,Q334384,supervised learning,algorithm
+mobilenet,72,,-1,None
+angular-2,72,,Q28925578,Angular,software library,free software
+etcd,72,,Q1142912,Data circuit-terminating equipment
+libgdx,72,,Q16321264,libGDX,software framework
+socks5,72,,Q1061918,SOCKS,computer network protocol
+pentest-tool,72,,-1,None
+shadowsocks,72,,Q18382753,Shadowsocks,communications protocol
+stream-processing,72,,Q2006448,stream processing,processing modes
+style-guide,72,,Q198614,style guide
+mastodon,72,,Q27986619,Mastodon,web service
+boost,72,,Q893105,Boost,software library,free software
+testing-framework,72,,Q7705752,test automation framework
+pytest,71,,Q28975377,pytest,software testing
+gzip,71,,Q10287816,GZIP,file format
+fullstack,71,,-1,None
+geocoding,71,,Q852595,geotagging
+redis-client,71,,-1,None
+collectionview,71,,-1,None
+sbt-plugin,71,,-1,None
+gatsby-starter,71,,-1,None
+responsive-design,71,,Q420295,Responsive web design
+gdpr,71,,Q1172506,European General Data Protection Regulation,regulation of the European Parliament and of the Council
+secrets,71,,-1,None
+graph-database,71,,Q595971,graph database
+dns-server,71,,Q41494,name server
+learn-to-code,71,,Q93480303,CodeQL,query language
+craft3,71,,Q207948,Warcraft III: Reign of Chaos,video game
+androidx,71,,Q877084,Android-x86,operating system
+changelog,71,,Q255135,changelog
+browsersync,71,,Q1189015,Google Browser Sync,Firefox extension
+tslint,71,,Q95940404,jest-runner-tslint,JavaScript library
+probot,71,,Q3310906,Probe droid
+webhooks,71,,Q2553302,Webhook
+sharedpreferences,71,,-1,None
+opendata,71,,Q309901,open data,notion
+cython,71,,Q975594,Cython,open-source software
+collections,71,,Q2660043,Khandhaka
+sip,71,,Q10513,Sagitta,constellation
+ethereum-contract,71,,Q39049892,ERC20
+alpine-linux,71,,Q4033826,Alpine Linux,lightweight Linux distribution
+recognition,71,,Q3422036,recognition
+feature-extraction,71,,Q1026626,feature extraction
+health,71,,Q12147,health,need
+gitlab-ci,71,,Q16639197,GitLab,forge
+packages,71,,Q1141665,dual in-line package
+entity,71,,Q35120,entity,variable-order class,concept,counting unit
+gcc,71,,Q178940,GNU Compiler Collection,compiler
+vmware,71,,Q11407,VMware Inc.,business
+high-availability,71,,Q1622420,high availability
+help-wanted,70,,Q651276,Help Wanted,television pilot
+kotlin-coroutines,70,,-1,None
+path,70,,Q817765,path
+i3,70,,Q1152382,Intel Core i3,brand
+frp,70,,Q263125,fibre-reinforced plastic
+spritekit,70,,Q107381282,pyobjc-framework-SpriteKit,Python library
+reagent,70,,Q2356542,reagent
+comments,70,,-1,None
+engineering,70,,Q11023,engineering,field of work
+directive,70,,Q326124,directive of the European Union
+publishing,70,,Q3972943,publishing,industry
+core,70,,Q23595,centre
+prototype,70,,Q207977,prototype
+zabbix,70,,Q136722,Zabbix,free software
+easy,70,,Q217699,Hurricane Easy,category 3 hurricane
+tableview,70,,-1,None
+dsp,70,,Q106370,digital signal processor
+performance-testing,70,,Q104537917,computer benchmarking
+material-components,70,,Q56147397,<hair components as material>
+firebase-cloud-messaging,70,,Q28455293,Firebase Cloud Messaging
+angular-components,70,,-1,None
+actor-model,70,,Q344524,actor model
+puppet,70,,Q168658,doll
+embedded-systems,70,,Q193040,embedded system,class of computers
+sharing,70,,Q459221,sharing
+2fa,70,,Q4029768,2-fluoroamphetamine,chemical compound
+signature,70,,Q188675,signature
+c-plus-plus-11,70,,Q2407,C++,object-based language,multi-paradigm programming language,procedural programming language,functional programming language,generic programming language,programming language,free-form language,compiled language
+ngx,70,,Q11290413,エヌジーエックス,business
+parcel,69,,Q683595,land lot
+barcode,69,,Q856,barcode
+decryption,69,,Q59164233,decryption
+tesseract,69,,Q945242,Tesseract,software library
+language-server,69,,Q342845,Across Language Server,software
+travis,69,,Q73134,Travis CI,continuous integration software
+standalone,69,,Q386197,portable application
+php-framework,69,,Q48835863,Pop PHP Framework,free software
+meteor-package,69,,Q16920659,Distributed Data Protocol,computer network protocol
+draw,69,,Q41243,OpenOffice.org Draw,free software
+nvim,69,,Q28975246,neovim,free software
+parallax,69,,Q165074,parallax,optical phenomenon,difference
+rack,69,,Q144004,rack and pinion
+enum,69,,Q760170,enumerated type,data type
+chatbots,69,,Q870780,chatbot,software feature
+uber,69,,Q780442,Uber Technology,business
+dll,69,,Q188860,software library,software category
+iterm2,69,,Q19880909,iTerm2,free software
+cakephp,69,,Q647055,CakePHP,web framework
+video-streaming,69,,Q220499,streaming media,product distribution method
+spotify-api,68,,-1,None
+aspnet,68,,Q178817,ASP.NET,free software
+geo,68,,Q1071,geography,academic discipline,academic major
+apm,68,,Q375944,Apple Partition Map,disk partitioning scheme
+services,68,,-1,None
+active-directory,68,,Q55692,Active Directory,directory service
+autonomous-vehicles,68,,-1,None
+eventbus,68,,-1,None
+swoole,68,,-1,None
+kubernetes-operator,68,,Q72711423,Strimzi,free software
+functional-reactive-programming,68,,Q5508843,functional reactive programming,programming paradigm,computer science term
+jasmine,68,,Q82014,Jasminum,taxon
+coursera,68,,Q499962,Coursera,Massive online open course provider
+unittest,68,,Q907375,unit testing,type of test
+mixins,68,,Q75713,hagfish,taxon
+nmap,68,,Q623332,Nmap,application
+gke,68,,Q79913,non-governmental organization,legal form
+opengl-es,68,,Q178570,OpenGL.gz,application programming interface
+internet,68,,Q75,Internet,IP network,computer network,invention
+text-processing,68,,Q14802672,text processing
+todolist,68,,Q105851254,ToDoList Tasklist,file format
+models,68,,Q87524777,⊧,Unicode character
+json-rpc,68,,Q1164443,JSON-RPC,computer network protocol
+lexer,68,,Q835922,lexical analysis
+zero-configuration,68,,Q8026879,Wireless Zero Configuration
+psr-7,68,,-1,None
+podcast,68,,Q20899,podcasting
+flask-application,68,,Q289281,Flask,web framework
+decoding,68,,Q3704546,decoding
+image-analysis,68,,Q860755,Image analysis
+bucklescript,68,,-1,None
+unconf,67,,Q28831311,unconfirmed,degree of truth,Wikibase reason for deprecation
+svg-icons,67,,Q95953490,react-icons,JavaScript library
+learning-by-doing,67,,Q1602872,Learning by doing
+cms-framework,67,,Q2059231,Rubedo,free software
+color-palette,67,,Q1651940,palette,art term
+creative-coding,67,,Q17087654,Creative coding
+evolutionary-algorithms,67,,Q14489129,evolutionary algorithm
+jekyll-plugin,67,,-1,None
+woocommerce,67,,Q15855099,WooCommerce,free software
+medium,67,,Q334265,transmission medium
+word-embeddings,67,,Q18395344,word embedding
+gist,67,,Q83567,GiST
+bayesian,67,,Q812535,Bayesian inference,statistical inference
+packagist,67,,Q108311377,Packagist,software repository
+admin-template,67,,-1,None
+webscraping,67,,Q665452,web scraping
+ipython,67,,Q2659957,IPython,free software
+beginner,67,,Q23759131,beginner
+eslint-plugin,67,,Q95971854,eslint-plugin-react,JavaScript library
+firebase-authentication,67,,Q60167254,Firebase Authentication,software
+gameboy,67,,Q186437,Game Boy,model
+slideshow,66,,Q604733,presentation
+graphics-programming,66,,Q28757927,Graphics Programming Language
+uuid,66,,Q195284,Universally Unique Identifier,unique identifier
+multiplatform,66,,Q174666,cross-platform,computing platform
+appcelerator,66,,Q2309714,Appcelerator Titanium,application framework
+annotation-processor,66,,Q28455942,Drama annotation
+refactoring,66,,Q116877,software refactoring
+symfony-component,66,,-1,None
+preview,66,,Q622550,trailer
+arcgis,66,,Q513297,ArcGIS,spatial analysis software
+firebase-realtime-database,66,,Q59909615,Firebase Realtime Database,software
+security-automation,66,,Q105722811,Shuffle Automation,company
+sftp,66,,Q1126823,SSH File Transfer Protocol,computer network protocol
+graphite,66,,Q5309,graphite,mineral species
+collaborative-filtering,66,,Q94702,collaborative filtering,algorithm
+datatables,66,,Q97062158,DataTables,plug-in
+rx,66,,Q3355478,medical prescription
+play-framework,66,,Q3392101,Play Framework,web framework
+anomaly-detection,66,,Q3560506,anomaly detection
+algolia,66,,Q17150241,Algolia,privately held company
+starter-project,66,,Q98960836,Uncovering the machinery for the sorting of  newly synthesized proteins into the axon,research project
+spatial,66,,Q107,space,concept in physics,geometric concept
+shopify,66,,Q7501150,Shopify,shopping cart software
+exploitation,66,,Q600571,abuse
+class,66,,Q18193,form
+websocket-server,66,,Q95961852,faye-websocket,JavaScript library
+test-driven-development,66,,Q950250,test-driven development
+inventory,66,,Q815410,inventory
+nltk,66,,Q1635410,Natural Language Toolkit,natural language processing toolkit,free software
+kali-linux,66,,Q8364850,Kali Linux,Linux distribution
+unity2d,65,,Q63966,Unity,game creation system,game engine
+mit,65,,Q423870,methylisothiazolinone,chemical compound
+okhttp,65,,Q96279558,OkHttp,free software
+typeorm,65,,-1,None
+task-runner,65,,-1,None
+now,65,,Q193168,present
+boot,65,,Q180256,booting
+fp,65,,Q193076,functional programming,programming paradigm,computer science term
+autonomous-driving,65,,Q19835007,autonomous driving,research object
+atom-editor,65,,Q16766305,Atom,source code editor
+bookmark,65,,Q875110,bookmark
+vgg16,65,,Q414945,"beta-fructose 1,6-bisphosphate",chemical compound
+interpolation,65,,Q187631,mathematical interpolation,mathematical model
+unet,65,,Q36348,dream
+trello,65,,Q7838011,Trello,productivity software
+mockito,65,,Q1941695,Mockito,software framework
+cookiecutter,65,,Q107382245,cookiecutter,Python library
+badge,65,,Q336533,badge
+unity-asset,65,,Q105854731,Unity YAML Scene,file format
+printer,65,,Q82,printer
+keylogger,65,,Q309396,keystroke logging,software category
+cloud-computing,65,,Q483639,cloud computing
+hackerrank,65,,Q20926425,HackerRank,business
+cargo,65,,Q319224,cargo
+migrations,65,,Q177626,human migration
+format,65,,Q235557,file format
+fuse,65,,Q49909,Far Ultraviolet Spectroscopic Explorer,space observatory
+subscription,65,,Q322948,subscription
+motion,65,,Q79782,motion
+bigquery,65,,Q4904867,BigQuery,software
+csgo,65,,Q842146,Counter-Strike: Global Offensive,video game
+rsa,65,,Q181551,RSA,cryptosystem
+unit-test,65,,Q907375,unit testing,type of test
+process,65,,Q205663,process
+xpath,65,,Q16340,XPath,query language
+customization,64,,Q1000371,personalization
+uiview,64,,-1,None
+slim,64,,Q2206577,SLiM,X display manager,free software
+review,64,,Q265158,review,document genre
+gans,64,,Q23518627,Polygalactose / cyclodextrin-binding lipoprotein BSU_34160,protein
+pusher,64,,Q4127666,Assisting engine
+blogging,64,,-1,None
+wallpaper,64,,Q191529,wallpaper,product,decorative arts
+constraints,64,,Q85753930,Constraints
+helpers,64,,Q95961297,dom-helpers,JavaScript library
+vuepress,64,,-1,None
+profiler,64,,Q1138496,profiling
+qemu,64,,Q624699,QEMU,virtual machine
+capture,64,,Q20482,stream capture
+playlist,64,,Q60503119,Playlist:,compilation album series
+pyspark,64,,Q107381655,pyspark,Python library
+client-side,64,,Q528166,client,software category
+educational,64,,Q1140363,educational game,game genre
+websocket-client,64,,Q107380735,websocket-client,Python library
+sequence-to-sequence,64,,Q41589189,sequence-to-sequence learning
+web-server,64,,Q11288,web server,software feature,software category
+composition,64,,Q207628,musical composition
+test-runner,64,,Q2975892,HP LoadRunner,software testing tool
+google-apps-script,64,,Q5583799,Google Apps Script,programming language
+tokenizer,64,,Q835922,lexical analysis
+actionscript,63,,Q234657,ActionScript,functional programming language
+feature-flags,63,,Q107641317,gay goth pride flag,flag design
+tts,63,,Q6232,T Tauri type star,astronomical object type
+itunes,63,,Q1946001,iTunes LP,software
+experimental,63,,Q1384417,experimental aircraft,aircraft functional class
+zoom,63,,Q220285,zooming,photographic technique,cinematic technique
+aws-ec2,63,,Q107381895,aws-cdk.aws-ec2,Python library
+checkbox,63,,Q23544,checkbox,graphical widget
+espresso,63,,Q180289,espresso
+yolov3,63,,-1,None
+sso,63,,Q568494,single sign-on,access control
+intel,63,,Q248,Intel,business,enterprise,integrated device manufacturer,public company
+passwords,63,,Q4046521,PasswordsPro,computer program
+hardening,63,,Q779974,precipitation hardening
+gnome-shell,63,,Q1343860,GNOME Shell,user interface
+dicom,63,,Q81095,DICOM,open standard
+sketch-app,63,,-1,None
+adminlte,63,,Q893195,Bootstrap,CSS framework
+temperature,63,,Q11466,temperature,state function
+service-discovery,63,,Q4329404,service discovery
+db,63,,Q1232,dubnium,chemical element,synthetic element
+eth,63,,Q11942,ETH Zürich,institute of technology
+ansi,63,,Q180003,American National Standards Institute,standards organization
+wireless,63,,Q249,wireless communication,field of study
+visual,63,,Q162668,visual perception,biological process
+release,63,,Q2031291,release
+gplv3,63,,Q7603,GNU General Public License,copyleft free software license
+shell-scripts,63,,Q959549,shell script,interpreted language,script,scripting language,file format
+vae,63,,Q303610,Felou gundi,taxon
+photo,63,,Q11633,photography,artistic technique,academic discipline
+densenet,63,,-1,None
+credit-card,63,,Q161380,credit card
+google-sheets,63,,Q46261310,Google Sheets,service on internet,spreadsheet,web application
+placeholder,62,,Q4595685,placeholder
+experiment,62,,Q101965,experiment
+dot-net,62,,Q31835,.net,generic top-level domain
+osdev,62,,Q11307187,System Commander,software
+postcss-plugin,62,,Q95969723,postcss-calc,JavaScript library
+mock-server,62,,Q18612496,MockServer
+disassembler,62,,Q279650,disassembler,software category
+terminal-based,62,,Q2065466,Terminal Reality,video game developer
+draggable,62,,Q46241,drag racing
+network-monitoring,62,,Q1965787,network monitoring,industry
+faster-rcnn,62,,-1,None
+customview,62,,-1,None
+jni,62,,Q168492,Java Native Interface,application programming interface,foreign function interface
+httpclient,62,,Q28916266,Apache Commons HttpClient,free software
+minimalist,62,,Q808116,minimalist shoe
+ibm-cloud,62,,Q17092228,IBM cloud computing,computing platform,cloud computing
+cypress,62,,Q138044,Cupressus chengiana,taxon
+voip,62,,Q81945,Voice over IP,communication medium,technology
+xcode9,62,,Q250328,Xcode,integrated development environment
+variational-autoencoder,62,,Q107300377,Variational autoencoder
+bundler,62,,Q5477902,frame bundle
+elk,62,,Q35517,Alces alces,taxon
+flutter-ui,62,,-1,None
+hashing,62,,Q183427,hash function
+error-monitoring,62,,Q471748,exception handling
+document,62,,Q49848,document,information
+webaudio,62,,-1,None
+ner,62,,Q403574,named-entity recognition
+jinja2,62,,Q4041851,Jinja,software library,template processor,free software,Python library
+journalism,62,,Q11030,journalism,industry
+object-oriented,62,,Q79872,object-oriented programming,programming paradigm,computer science term
+pull-requests,62,,Q68712963,pull request
+micro,62,,Q154121,micro,SI prefix,UCUM prefix
+content,62,,Q1260632,content
+lodash,62,,Q24033787,Lodash,JavaScript library
+tkinter,62,,Q173871,Tkinter,software library
+image-viewer,62,,Q860676,image viewer,software category
+fake,62,,Q1393653,fake
+transform,61,,Q7834066,Transform,business
+pipe,61,,Q41453,Diatreme
+knowledge-graph,61,,Q33002955,knowledge graph
+tiny,61,,Q138621,Tiny,car brand
+hyperledger-fabric,61,,-1,None
+databases,61,,Q107383511,databases,Python library
+boilerplate-template,61,,Q1651672,boilerplate
+hyper,61,,Q11326095,Hyper,business
+google-calendar,61,,Q223563,Google Calendar,software
+avr,61,,Q118,April,calendar month
+pixel-art,61,,Q96139286,PIXEL ART LAB,business,enterprise
+version-control,61,,Q925385,version control branch
+specification,61,,Q2101564,specification
+autocompletion,61,,Q749875,autocomplete,software feature
+qa,61,,Q43117,.qa,country code top-level domain
+openframeworks,61,,Q7095789,openFrameworks,free software
+phonegap,61,,Q1704018,PhoneGap,free software
+transport,61,,Q7590,transport
+python27,61,,Q599384,CPython,implementation of a programming language
+pathfinding,61,,Q1969601,pathfinding,graph algorithm,video game feature
+tomcat,61,,Q507430,Apache Tomcat,application server,free software
+terraform-module,61,,-1,None
+content-management,61,,Q131093,content management system,software category
+security-hardening,61,,Q978423,hardening
+imap,61,,Q166936,Internet Message Access Protocol,computer network protocol,text-based protocol
+mapbox,61,,Q17068357,Mapbox,software company
+serverless-plugin,61,,-1,None
+modeling,61,,Q3317838,modeling,artistic technique
+action-recognition,61,,-1,None
+repository-pattern,61,,Q1197736,Wiki Wiki Web,wiki
+lock,61,,Q105731,lock
+semi-supervised-learning,61,,Q1041418,semi-supervised learning
+recon,61,,Q7276292,RECON,organization
+hashicorp,60,,Q21463167,HashiCorp,business
+fish-shell,60,,Q307263,friendly interactive shell,Unix shell
+playframework,60,,Q3392101,Play Framework,web framework
+bem,60,,Q390610,"Baptism, Eucharist and Ministry",document
+workers,60,,-1,None
+tensorflow-examples,60,,-1,None
+trade,60,,Q601401,trade,industry
+biology,60,,Q420,biology,branch of science
+wp-cli,60,,-1,None
+d,60,,Q40603,debye,unit of measurement
+university,60,,Q3918,university
+settings,60,,Q18357227,settings
+buffer,60,,Q208465,buffer solution
+cpp-library,60,,Q741235,Standard Template Library,software library
+load-testing,60,,Q4311799,load testing,non-functional testing
+linting,60,,Q45108,Linum usitatissimum,taxon
+telegram-api,60,,Q15616276,Telegram,instant messaging client
+cad,60,,Q83570,AutoCAD,computer-aided design software,proprietary software
+onnx,60,,Q55080116,Onnx,free and open-source software
+alamofire,60,,-1,None
+client-library,60,,Q917445,libwww,free software
+jonschlinkert,60,,Q95955230,longest,JavaScript library
+virtual-dom,60,,Q104880132,Virtual DOM
+bsd,60,,Q34264,Berkeley Software Distribution,Unix
+session,60,,Q932410,session
+reference,60,,Q1713,citation
+x11,60,,Q178481,X Window System,free and open-source software,display server,computing platform,windowing system
+phpstorm,60,,Q1786113,PhpStorm,integrated development environment
+asp-net-mvc,60,,Q581643,ASP.NET MVC Framework,web framework
+zeit,60,,Q11471,time,entity,quality
+machine-translation,60,,Q79798,machine translation
+recyclerview-adapter,60,,-1,None
+ios-animation,60,,Q96417649,Among Us,video game
+evaluation,60,,Q27318,test,type of test
+cncf,60,,Q24635933,OnePlus 3,model
+adb,60,,Q188822,Asian Development Bank,international financial institution
+io,60,,Q3123,Io,moon of Jupiter
+dcgan,60,,Q97159636,Dcgan
+hexo,60,,Q18048281,ERI1,gene
+facebook-api,60,,Q25104949,GraphQL,graph query language
+semantic,60,,Q39645,semantics,academic discipline,academic major,language subsystem
+docker-registry,60,,Q60023707,Google Container Registry,software
+trace,60,,Q39001,trace
+note-taking,60,,Q5155929,note-taking software,software category
+chemistry,60,,Q2329,chemistry,branch of science
+quantum-computing,60,,Q176555,quantum computer
+retro,60,,Q17717064,Retro,television program
+errors,60,,Q3732599,Errors,musical ensemble
+convolutional-networks,59,,Q17084460,convolutional neural network
+gutenberg,59,,Q22673,Project Gutenberg,digital library
+error,59,,Q29485,error
+market-data,59,,Q3036837,Market data
+ember-cli,59,,-1,None
+incident-response,59,,Q349987,Incident response team
+hacker-news,59,,Q66303056,Hacker News user identifier,unique identifier
+procedural,59,,Q936044,procedural law,jurisdiction,area of law
+chinese,59,,Q7850,Chinese,language family
+poc,59,,Q1201019,proof of concept,prototype
+crawling,59,,Q1411725,crawling
+cd,59,,Q7982,CD-ROM
+image-generation,59,,-1,None
+crash-reporting,59,,Q3650251,crash reporter
+dht,59,,Q411054,dihydrotestosterone,chemical compound,steroid,androstane steroid
+pool,59,,Q1501,swimming pool
+react-native-web,59,,-1,None
+videos,59,,Q34508,video recording,electronic media,technique
+totp,59,,Q166066,Time-based One-time Password Algorithm,algorithm
+graphql-api,59,,Q25104949,GraphQL,graph query language
+counter,59,,Q247299,counter
+automl,59,,Q43967068,automated machine learning
+healthcare,59,,Q31207,health care,industry
+nes,59,,Q172742,Nintendo Entertainment System,model
+packaging,59,,Q207822,packaging and labeling
+iam,59,,Q977772,identity management
+actors,59,,Q18148255,Actors' Laboratory Theatre
+interview-preparation,59,,-1,None
+chatops,59,,-1,None
+flex,59,,Q212794,inflection point
+android-architecture-components,59,,-1,None
+filters,59,,Q876650,photographic filter,photographic technique
+gin,59,,Q80680,Jenever
+visualizer,59,,Q675893,document camera
+awesome-lists,59,,-1,None
+obfuscation,59,,Q2616305,obfuscation
+peer-reviewed,59,,Q737498,academic journal,magazine genre,type of publication,organization
+statsd,59,,Q107383204,statsd,Python library
+imgui,59,,Q39049594,Immediate Mode GUI,software design pattern
+avatar,59,,Q24871,Avatar,3D film,live-action/animated film
+tooling,59,,Q97467327,tooling
+nlu,59,,Q33742,natural language,type of language
+xiaomi,59,,Q1636958,Xiaomi,public company
+ncurses,59,,Q310974,ncurses,software library
+cicd,59,,Q62659316,cicD,gene
+room-persistence-library,59,,-1,None
+resize,59,,Q306401,e2fsprogs,free software
+comparison,59,,Q577714,comparison
+bookmarks,58,,Q875110,bookmark
+fabric,58,,Q28823,textile
+animation-library,58,,Q100770934,Animate.css,software library
+swing,58,,Q123704,swing,type of dance
+activity,58,,Q317949,activity
+arm64,58,,Q18384745,ARMv8-A,ARM architecture
+butterknife,58,,Q2561443,butter knife
+extract,58,,Q844704,extraction
+minecraft-server,58,,Q85851440,Minecraft server
+typescript-library,58,,Q56185919,"Notes by David Williams, physician (typescript copy)",manuscript
+dotnet-framework,58,,Q5289,.NET Framework,software framework,computing platform
+project-template,58,,Q8080139,Template:WikiProject Africa,WKIP
+stylesheets,58,,Q46441,Cascading Style Sheets,style sheet language
+keras-neural-networks,58,,Q28470421,Keras,software
+diy,58,,Q26384,Do it yourself,Redewendung
+kubernetes-deployment,58,,-1,None
+slackbot,58,,-1,None
+admin-panel,58,,-1,None
+unity-scripts,58,,Q56355606,UnityScript
+multilingual,58,,Q30081,multilingualism
+lists,58,,Q13406463,Wikimedia list article
+fcm,58,,Q11198969,FCM,business
+acme,58,,Q341970,acme,text editor
+picture,58,,Q125191,photograph
+hosting,58,,Q35805,cough
+python-2,58,,Q28865,Python,object-based language
+signalr,58,,Q7512622,SignalR,web framework
+i2c,58,,Q750469,I²C bus,serial bus,peripheral bus
+saas,58,,Q671488,Société Anonyme des Ateliers de Sécheron,business
+kotlin-multiplatform,58,,-1,None
+mp4,58,,Q336316,MPEG-4 Part 14,digital container format
+discordapp,58,,Q22907849,Discord,VoIP software
+solver,58,,Q1966904,solver
+formatting,58,,Q2407816,text formatting
+applescript,58,,Q129137,AppleScript,scripting language
+feature-engineering,58,,Q22245680,feature engineering
+chartjs,58,,Q83624620,Chart.js,JavaScript library
+tv,58,,Q8075,television set
+edge,58,,Q26382,side
+gesture,58,,Q371174,gesture
+phantomjs,58,,Q20712371,PhantomJS,software testing tool
+gatsby-plugin,58,,Q95972691,gatsby-plugin-emotion,JavaScript library
+minify,58,,Q107384361,css-html-js-minify,Python library
+base64,58,,Q726780,Base64,binary-to-text encoding,positional numeral system
+apache2,58,,Q11354,Apache HTTP Server,web server,server software,daemon,free software
+nfc,58,,Q273353,near field communication,technical standard
+aarch64,57,,Q18384745,ARMv8-A,ARM architecture
+aws-sdk,57,,Q107380742,aws-xray-sdk,Python library
+handler,57,,Q1205349,callback,method
+xposed,57,,Q8044988,Xposé,television program
+text-generation,57,,Q1513879,natural language generation
+mouse,57,,Q7987,mouse
+hive,57,,Q1399188,Hive,board game,abstract strategy game,game on cell board
+graphql-schema,57,,Q95963328,@graphql-tools/schema,JavaScript library
+cookies,57,,Q178995,HTTP cookie
+range,57,,Q46831,mountain range
+gradient-descent,57,,Q1199743,gradient descent,optimization algorithm
+oh-my-zsh,57,,-1,None
+assistant,57,,Q4808945,Assistant,virtual assistant
+dependency-manager,57,,Q1652973,i3,tiling window manager,free software
+aiohttp,57,,Q28941607,aiohttp,software
+emotion-recognition,57,,Q1339090,emotion recognition
+gnome-shell-extension,57,,Q89104087,GNOME Shell Extensions,software extension
+mirror,57,,Q35197,mirror
+quickstart,57,,Q7271678,QuickStart
+vulnerability-scanners,57,,Q283770,vulnerability scanner,software category
+reinforcement-learning-algorithms,57,,Q65079156,Deep reinforcement learning
+report,57,,Q2145107,Report,television program
+mmorpg,57,,Q175173,massively multiplayer online role-playing game,video game genre
+home-assistant-config,57,,-1,None
+security-vulnerability,57,,Q631425,vulnerability
+postman,57,,Q2697054,Heliconius melpomene,taxon
+japanese,57,,-1,None
+stocks,57,,Q1484064,stocks
+voxel,56,,Q663554,voxel
+ndk,56,,Q1088164,NDK,programming tool
+cocoapod,56,,Q16247893,CocoaPods,software
+onboarding,56,,Q7091744,onboarding
+rating,56,,Q105955,Elo rating system,rating system
+sockets,56,,Q1061918,SOCKS,computer network protocol
+sensors,56,,Q167676,sensor,technological component
+reconnaissance,56,,Q251741,reconnaissance
+trie,56,,Q387015,trie
+matrix-factorization,56,,Q1361088,matrix decomposition
+graph-neural-networks,56,,-1,None
+reason,56,,Q178354,reason
+spm,56,,Q220193,premenstrual syndrome
+regexp,56,,Q185612,regular expression
+gym,56,,Q14092,gymnasium
+countries,56,,Q96195990,countries
+craft,56,,Q1294755,craft
+learn,56,,Q1026367,scikit-learn,software library,Python library,free software
+rat,56,,Q612694,remote access trojan
+dagger,56,,Q182780,dagger
+wireguard,56,,Q66301878,WireGuard,tunneling protocol
+mobile-web,56,,Q1043805,mobile web
+pytorch-tutorial,56,,Q47509047,PyTorch,software library
+php-extension,56,,Q1536136,MySQLi,software library
+feedback,56,,Q183635,feedback
+bootstrap5,56,,Q893195,Bootstrap,CSS framework
+androidstudio,56,,Q13233410,Android Studio,integrated development environment
+semver,56,,Q48029236,semantic versioning
+mozilla,56,,Q698,Firefox,web browser,news aggregator,VoIP software,FTP client,mobile browser,free software
+adobe,56,,Q11463,Adobe,type foundry,business,enterprise,data controller,public company
+ios-lib,56,,-1,None
+fastlane,56,,Q28598822,Fastlane (2017),wrestling event,recurrent event edition,sports season
+cloud-foundry,56,,Q5135664,Cloud Foundry,free software
+es7,55,,Q18031293,RPS7,gene
+packets,55,,Q214111,packet,unit of information
+netflix,55,,Q907311,Netflix,film distributor
+php71,55,,Q59,PHP,interpreted language
+erp,55,,Q618678,evoked potential
+tty,55,,Q66196,teleprinter
+graalvm,55,,Q16928072,Graal,free software
+push,55,,Q1150477,push–pull strategy
+bruteforce,55,,Q850362,brute-force search,method
+service-mesh,55,,Q88265704,Service mesh
+tap,55,,Q244475,tap dance,type of dance
+distributed-ledger,55,,Q25110971,distributed ledger
+modding,55,,Q444882,modification
+two-factor-authentication,55,,Q17086335,two-factor authentication
+vanilla,55,,Q13241,vanilla
+typeface,55,,Q17451,typeface
+q-learning,55,,Q2664563,Q-learning,algorithm
+charting-library,55,,Q42346825,École Nationale des Chartes' library,library
+texture,55,,Q114817,surface roughness,quality
+version,55,,Q3331189,"version, edition, or translation",piece,second-order class
+loading-animations,55,,-1,None
+stl,55,,Q741235,Standard Template Library,software library
+avro,55,,Q300179,AVRO 1938 chess tournament,chess tournament
+exceptions,55,,Q95954132,spdx-exceptions,JavaScript library
+webcam,55,,Q29576,webcam
+performance-monitoring,55,,Q7098880,Optical performance monitoring
+color-theme,55,,Q105856201,Xcode Color Theme,file format
+hacktoberfest2018,55,,-1,None
+ecommerce-platform,55,,Q61087512,eCommfy,software
+sparql,55,,Q54871,SPARQL,RDF query language
+addons,55,,Q184148,plug-in,computer science term
+zipkin,55,,Q107385676,py-zipkin,Python library
+raft,55,,Q200433,raft,watercraft type
+symfony-application,55,,Q1322933,Symfony,web framework
+tree-structure,55,,Q223655,tree data structure
+finite-state-machine,55,,Q176452,finite-state machine
+melpa,55,,Q6813577,Melpar,business
+gmail,55,,Q9334,Gmail,mailbox provider
+background,55,,Q549497,background process
+jit,55,,Q110546,just-in-time compilation
+information-gathering,55,,Q1038838,Information Gathering Satellite,space instrument
+information-extraction,55,,Q1662562,information extraction
+grid-layout,55,,Q42320210,CSS grid layout
+sublime,55,,Q267193,Sublime Text,text editor,application,integrated development environment,software
+vulnerability-detection,55,,Q6880649,misuse detection
+dotenv,55,,Q95959435,dotenv,JavaScript library
+text-analysis,55,,Q67224805,text analysis
+archive,55,,Q166118,archive
+invoice,54,,Q190581,invoice
+optical-flow,54,,Q736111,optical flow
+speed,54,,Q420643,methcathinone,family of isomeric compounds
+pod,54,,Q288666,print on demand
+brasil,54,,Q899371,Brasil,phantom island
+semantic-web,54,,Q54837,Semantic Web,information system
+panel,54,,Q55439,panel painting
+minecraft-mod,54,,Q22906953,Minecraft modding
+food,54,,Q2095,food
+aws-cloudformation,54,,Q107381911,aws-cdk.aws-cloudformation,Python library
+patterns,54,,Q7148404,Patterns,video game
+discovery,54,,Q508593,Discovery,apple cultivar
+webp,54,,Q683670,WebP Lossless,WebP,lossless compression
+tetris,54,,Q71910,Tetris,arcade game machine,NP-complete game,puzzle video game
+express-middleware,54,,Q95960911,graphql-playground-middleware-express,JavaScript library
+ar,54,,Q696,argon,chemical element,gas
+generic,54,,Q12728894,GENERIC
+webframework,54,,Q1330336,web framework
+redteam,54,,-1,None
+registration,54,,Q1931960,registration
+compliance,54,,Q626741,Regulatory compliance
+accounting,54,,-1,None
+filemanager,54,,Q732970,file manager
+shortcuts,54,,Q30602204,Shortcuts,software,mobile app
+mdx,54,,Q1771973,MultiDimensional eXpressions,query language
+deserialization,54,,Q1127410,serialization
+pcap,54,,Q285459,pcap,application programming interface,software library,game engine
+mattermost,54,,Q55478510,Mattermost,instant messaging client
+flash,54,,Q120371,Rapala,public company
+wsl,54,,Q137853,World Surf League,business
+cisco,54,,Q173395,Cisco Systems,business
+html-parser,54,,Q107383928,html5-parser,Python library
+storyboard,54,,Q334667,storyboard
+docx,54,,Q3033641,"Office Open XML Wordprocessing Document, ECMA-376 1st Edition",document file format
+openmp,54,,Q496579,OpenMP,technical standard
+rtl,54,,Q173464,resistor–transistor logic
+forge,54,,Q40558,smithy
+sqs,54,,Q26240,centimetre–gram–second system of units,coherent system of units
+paas,54,,Q1153767,platform as a service,industry
+directory,54,,Q201456,directory,computer science term
+oss,54,,Q307989,Student Selection and Placement System
+callback,54,,Q1027184,Callback
+fuzzy-search,53,,Q60461143,fuzzy searching
+shellcode,53,,Q1152477,shellcode
+circuit-breaker,53,,Q211058,circuit breaker
+reducer,53,,Q216830,reducing agent,class of chemical substances by use,role
+circle,53,,Q2013644,dōjin circle
+gpg,53,,Q223204,GNU Privacy Guard,encryption software,privacy software,console application,software library,GNU package,free software
+neovim-plugin,53,,-1,None
+protractor,53,,Q204984,protractor
+tasks,53,,Q86919425,Taskset,business
+neural-machine-translation,53,,Q25053937,neural machine translation
+deep,53,,Q950734,Deep,business
+type-safety,53,,Q736866,safe typing
+car,53,,Q1420,motor car
+updater,53,,Q208218,patch,software category
+paypal,53,,Q483959,PayPal,e-commerce payment system
+ghost,53,,Q45529,ghost
+domain,53,,Q32635,domain name
+heatmap,53,,Q1140423,heat map,statistical graphics
+message,53,,Q133492,letter
+protection,53,,Q4189076,protection mechanism
+bare-metal,53,,Q808049,bare-metal restore
+data-processing,53,,Q750843,information processing,technical process
+dfir,53,,Q29727567,hfp,gene
+cas,53,,Q10464,Cassiopeia,constellation
+prototyping,53,,Q207977,prototype
+joomla,53,,Q13167,Joomla,content management system,blog software,free software,web framework
+free-software,53,,Q3945717,Free software
+elixir-phoenix,53,,-1,None
+linked-data,53,,Q515701,linked data
+tagging,53,,Q1271424,part-of-speech tagging
+password-generator,53,,Q7291984,random password generator
+sketchapp,53,,-1,None
+quiz,53,,-1,None
+series,53,,Q170198,series,mathematical concept
+segment,53,,Q166154,line segment
+photography,53,,Q11633,photography,artistic technique
+natural-language,53,,Q33742,natural language,type of language
+web-api,53,,Q557770,web API
+kalman-filter,53,,Q846780,Kalman filter,algorithm
+rsync,53,,Q283774,rsync,utility software
+cnn-keras,53,,-1,None
+highlighting,52,,Q65044042,emphasis
+lerna,52,,Q3808877,Lernaea,taxon
+javascript-framework,52,,Q783866,JavaScript library,software category
+fingerprint,52,,Q178022,fingerprint,biometric identifer
+telemetry,52,,Q209867,telemetry
+angular9,52,,Q2849803,AngularJS,software framework,JavaScript library,software library
+git-hooks,52,,Q107386695,git-pylint-commit-hook,Python library
+bittrex,52,,Q414815,denatonium benzoate,chemical compound
+iot-platform,52,,Q65647244,distributed multimedia communications platform,software framework
+edittext,52,,-1,None
+winapi,52,,Q828191,Windows API,application programming interface
+prisma,52,,Q180544,prism
+rpc-framework,52,,Q62270,RPC,technology
+recommendation-system,52,,Q554950,recommender system
+verilog,52,,Q827773,Verilog,hardware description language,programming language
+status,52,,Q189970,social status
+payload,52,,Q228751,payload
+sql-query,52,,Q47607,Structured Query Language,declarative programming language,query language,programming language,domain-specific language
+aop,52,,Q30267,aspect-oriented programming,programming paradigm,computer science term
+user-management,52,,Q12770957,Manažment používateľov
+stackoverflow,52,,Q549037,Stack Overflow,knowledge market,Internet forum
+clickhouse,52,,Q27825826,ClickHouse,database management system
+backdoor,52,,Q254569,backdoor
+sidebar,52,,Q828312,Windows Desktop Gadgets,software
+personal-website,52,,Q2737701,personal web page,internet genre
+merge,52,,Q1921621,merge
+timezone,52,,Q12143,time zone
+appium,52,,Q27208114,Appium,software
+vk,52,,Q116933,VK,social networking service
+kubernetes-setup,52,,-1,None
+cart,52,,Q234668,cart
+subtitles,52,,Q204028,subtitle
+rails5,52,,Q190478,Ruby on Rails,free software,web framework
+content-management-system,52,,Q45211,Web content management system,website maintenance
+package-management,52,,Q891055,package management system
+sitemap,52,,Q1343954,Sitemaps,XML application,communications protocol
+portal,52,,Q101659,dolmen
+action,52,,Q270948,action game,video game genre
+indexing,52,,Q1661153,Indexing
+star,52,,Q523,star,astronomical object type
+arxiv,52,,Q118398,arXiv,disciplinary repository
+evm,52,,Q733221,European Exchange Rate Mechanism
+nodemcu,52,,Q19729219,NodeMCU,microcontroller
+mvc-framework,52,,Q44860,MVC,software design pattern
+dynamic-programming,52,,Q380679,dynamic programming,algorithmic paradigm
+fontawesome,52,,Q19571791,Font Awesome,typeface
+retrogaming,52,,-1,None
+tornado,52,,Q8081,tornado
+world-of-warcraft,52,,Q131007,World of Warcraft,video game
+ids,51,,Q745881,intrusion detection system,software category
+brazil,51,,-1,None
+cloudwatch,51,,Q456090,Amazon CloudWatch
+reactivex,51,,Q30671710,ReactiveX,software library
+tcp-server,51,,Q42283,File Transfer Protocol,Internet Standard,computer network protocol,text-based protocol
+mapper,51,,Q849609,Memory Management Controller
+agile,51,,Q30232,agile software development,computer science term
+meta,51,,Q180160,metadata
+representation-learning,51,,Q17013334,feature learning
+songs,51,,Q7366,song,type of musical work/composition
+ripple,51,,Q586117,Ripple marks,sedimentary structure
+waf,51,,Q1330336,web framework
+i3wm,51,,Q1652973,i3,tiling window manager
+minikube,51,,Q100151433,Minikube,free software
+preferences,51,,Q18357227,settings
+rcpp,51,,Q66367582,Association internationale de recherche sur les charpentes et plafonds peints médiévaux,learned society
+webextensions,51,,Q47904718,WebExtensions,Web API
+knn,51,,Q1071612,k-nearest neighbors algorithm,algorithm
+appstore,51,,Q368215,App Store,app store,point of sale,digital distribution
+honeypot,51,,Q911932,honeypot,tactic
+sql-injection,51,,Q506059,SQL injection
+rate-limiting,51,,Q3420050,throughput rate limiting,protection
+cloud-storage,51,,Q914359,cloud storage
+scheduling,51,,Q374638,broadcasting programming
+dark,51,,Q204170,darkness,measurand
+gitops,51,,-1,None
+build-system,51,,Q1362142,software build
+hoc,51,,Q133500,learning,biological process
+solutions,51,,Q5447188,solution
+sqlite-database,51,,Q105852081,SQLite 3.x database,file format
+dialogflow,51,,Q7574357,Dialogflow,business
+apns,51,,Q2984643,Apple Push Notification Service,notification service
+jwt-token,51,,Q22284678,JSON Web Token,communications protocol
+identityserver4,51,,-1,None
+hybrid,51,,Q42621,hybrid
+window-manager,51,,Q216653,window manager
+kotlin-dsl,51,,-1,None
+github-page,51,,Q30324817,GitHub Pages,web hosting service
+pattern,51,,Q181156,software design pattern
+coroutine,51,,Q1339231,coroutine
+jenkins-plugin,51,,-1,None
+technical-analysis,51,,Q235038,technical analysis
+data-binding,51,,Q3293547,data binding,data management
+stub,51,,Q510150,method stub
+adblock,51,,Q867758,AdBlock,browser extension
+thrift,51,,Q21036,Armeria maritima,taxon
+thumbnails,51,,Q873806,thumbnail
+toolbar,51,,Q371434,toolbar,software
+mpv,51,,Q223189,minivan,coachwork type
+imageview,50,,Q108113365,旧品川県知事・古賀一平の孫古賀寛定(山村聰)氏を訪ねて,magazine article
+eosio,50,,Q47494147,EOS,digital currency
+nomad,50,,Q540868,Sega Nomad,model
+front-end-development,50,,Q4130556,front-end development
+keycloak,50,,Q42916195,Keycloak,software
+chromecast,50,,Q14253532,Chromecast,media player software
+adobe-air,50,,Q360310,Adobe AIR,software
+props,50,,Q10614559,PROPS,model
+nette,50,,Q12040790,Nette Framework,web framework
+curated-list,50,,Q16246210,"St Barnabas' Church, Chester",church building
+google-cloud-storage,50,,Q4605228,Google Cloud Storage,software
+jenkins-pipeline,50,,-1,None
+firebase-storage,50,,Q60021770,Cloud Storage for Firebase,software
+pastebin,50,,Q938892,pastebin
+auto,50,,Q1420,motor car
+developer,50,,Q949232,2-naphthol,chemical compound
+jekyll-site,50,,Q17067385,Jekyll,blog software
+computational-biology,50,,Q177005,computational biology,academic discipline,branch of biology
+magic,50,,Q45732,Major Atmospheric Gamma Imaging Cherenkov Telescopes,Imaging Atmospheric Cherenkov Telescope,reflecting telescope
+aot,50,,Q409075,Airports of Thailand,fixed-base operator
+kafka-streams,50,,Q16235208,Apache Kafka,message-oriented middleware
+html-css,50,,Q46441,Cascading Style Sheets,style sheet language
+jsdoc,50,,Q2089685,JSDoc,documentation generator
+practice,50,,Q334600,practice
+rna-seq,50,,Q2542347,RNA sequencing
+completion,50,,Q749875,autocomplete,software feature
+dex,50,,Q3817722,Sparksee,graph database,software
+discordjs,50,,-1,None
+gh-pages,50,,Q1076355,Portable Executable,exe extension associated executable fileformat
+ava,50,,Q166247,American Viticultural Area
+signal,50,,Q174984,signal
+scanning,50,,-1,None
+terminal-emulators,50,,Q1071233,terminal emulator,software category
+make,50,,Q7886333,GNU Make,GNU package,free software,build automation
+tensor,50,,Q188524,tensor
+software,50,,Q7397,software
+address,50,,Q319608,address
+generate,50,,Q5532547,Generate LA-NY,film studio
+media-player,50,,Q192527,Windows Media Player,proprietary software,media player software,tag editor
+foss,50,,Q506883,free and open-source software
+coin,50,,Q41207,coin
+indicator,50,,Q127105,indicator
+lifecycle,50,,Q513359,biological life cycle
+oauth2-server,50,,-1,None
+convert,50,,Q2603777,conversion
+instant-messaging,50,,Q58199,instant messaging,software feature
+jsonapi,50,,Q28758133,JSON:API,communications protocol
+rendering-engine,50,,Q373442,web browser engine,software category
+interoperability,50,,Q749647,interoperability,type of property,relative quality
+faker,50,,Q774583,solar panel,energy conservation measure
+hackintosh,49,,Q1054357,Hackintosh,community project
+fluentd,49,,Q22096657,Fluentd,free software
+interview-practice,49,,-1,None
+lsp,49,,Q464590,lightest supersymmetric particle,type of quantum particle
+unmaintained,49,,Q85376295,KUser,free software
+server-sent-events,49,,Q7455583,Server-sent events,Web API
+shortcut,49,,Q118470,keyboard shortcut
+cvpr2019,49,,Q100875205,CVPR 2019,academic conference
+ingress,49,,Q63352,Ingress,mobile game
+aws-cli,49,,Q50560420,AWS Command Line Interface,open-source software
+spring-data,49,,Q7392646,SPRING,software
+todomvc,49,,Q105103619,TodoMVC,software project
+hcl2,49,,Q18026842,HCL2,gene
+combine,49,,Q26886,combine harvester,agricultural motor vehicle
+mqtt-client,49,,-1,None
+django-application,49,,-1,None
+image-retrieval,49,,Q10927554,image retrieval
+perfect,49,,Q625420,perfect,grammeme
+glfw,49,,Q11860238,GLFW,software library,free software
+jekyll-blog,49,,-1,None
+higher-order-component,49,,Q27126332,supramolecular complex,cellular component
+jobs,49,,Q6958747,work,sociological concept
+study,49,,Q1298668,research project
+provisioning,49,,Q363947,provisioning
+attack,49,,Q178049,National Union Attack,political party in Bulgaria
+javafx-application,49,,-1,None
+crates,49,,Q19948507,Crates
+ssd,49,,Q113,Schulze method,Condorcet method
+touchbar,49,,-1,None
+network-security,49,,Q989632,network security
+futures,49,,Q183984,futures contract
+ico,49,,Q729366,ICO,raster-graphics file format
+userscript,49,,Q901312,Greasemonkey,free software,Firefox extension,browser extension
+kinect,49,,Q474334,Kinect,software
+workflow-engine,49,,Q2808660,workflow management system,software feature
+ibm,49,,Q37156,IBM,software company,business,enterprise,technology company,public company
+jupyterlab,49,,Q99439725,JupyterLab,application,free software
+timber,49,,Q1370714,lumber
+nodejs-modules,49,,Q95956643,string_decoder,JavaScript library
+pwa-apps,49,,Q23679990,progressive web app
+proof-of-concept,49,,Q1201019,proof of concept,prototype
+leveldb,49,,Q630473,LevelDB,free and open-source software
+feature-toggles,49,,Q5439690,Feature toggle
+showcase,49,,Q7503163,Showcase,business
+golang-tools,49,,Q28974885,Go,programming tool
+synthesizer,49,,Q163829,synthesizer
+vimeo,49,,-1,None
+e2e-tests,49,,Q4165246,Bechdel test,representation test
+government,49,,Q7188,government
+fragments,49,,Q2064585,Fragments,weekly magazine
+smart,49,,Q156490,Smart,car brand
+retry,49,,Q9307616,rhetra,contract
+bukkit-plugin,49,,-1,None
+topic-modeling,49,,Q96468792,topic modeling
+trading-platform,49,,Q778043,electronic trading platform,economic concept
+android-things,49,,Q20058659,Android Things,operating system
+kodi,49,,Q919760,Kodi,media player software
+asm,49,,Q165436,assembly language,programming language
+blog-theme,49,,Q733234,Efteling,amusement park
+win32,49,,Q828191,Windows API,application programming interface
+parser-combinators,49,,Q7139956,Parser combinator,higher-order function
+pixijs,49,,Q25345934,PixiJS,JavaScript library
+postgis,49,,Q1569955,PostGIS,geographic information system
+elastic,49,,Q256817,rubber band,office supply
+office,49,,Q11255,Microsoft Office,office suite,proprietary software,productivity software
+yandex,49,,Q5281,Yandex,multinational corporation
+mobx-react,49,,-1,None
+composer-package,49,,Q108311377,Packagist,software repository
+nats,49,,Q3307163,NATS Holdings,air navigation service provider
+codable,49,,Q188889,code
+sharepoint,49,,Q18833,Microsoft SharePoint,content management system,server software,Enterprise Content Management system,document management system,social software
+wav,49,,Q217570,Waveform Audio File Format,audio file format,digital container format
+naive-bayes-classifier,49,,Q812530,Naive Bayes classifier,algorithm
+plug,49,,Q11464,plough
+word,48,,Q8171,word
+distance,48,,Q126017,distance
+openwrt,48,,Q1140401,OpenWrt,Linux distribution
+blur,48,,Q886391,Blur,video game
+automatic,48,,Q184199,automation,academic discipline
+exercises,48,,Q357104,military exercise
+observability,48,,Q1369844,observability,physical property
+openbsd,48,,Q34215,OpenBSD,security-focused operating system,free operating system
+post-exploitation,48,,-1,None
+spring-boot-starter,48,,-1,None
+csharp-library,48,,Q20707736,Asprise OCR,software
+alerting,48,,Q5243816,De-alerting
+ipython-notebook,48,,Q70357595,Jupyter notebook,file format
+crf,48,,Q386664,corticotropin releasing hormone,protein,hormone
+flutter-material,48,,Q17590603,Material Design,design language
+contentful,48,,Q18348837,Contentful,content management system
+bitcoin-wallet,48,,Q37307899,bitcoin wallet
+gpgpu,48,,Q971505,general-purpose computing on graphics processing units
+fps,48,,Q119565,frame rate
+drawer,48,,Q201456,directory,computer science term
+algorithm-challenges,48,,Q16529433,OATH Challenge-Response Algorithm
+puzzle,48,,Q13698,puzzle
+gson,48,,Q5514607,GSON,Java software library
+background-jobs,48,,Q1641413,job scheduler,software category
+zeromq,48,,Q8079189,ØMQ,software library
+passportjs,48,,-1,None
+vkontakte,48,,Q116933,VK,social networking service,website,music streaming service
+oci,48,,Q42685,Ocicat,cat breed
+typo3,48,,Q618512,TYPO3,content management system
+threading,48,,Q856915,threading
+cognitive-services,48,,-1,None
+nim-lang,48,,Q20080327,Nim,programming language
+image-captioning,48,,Q39161486,image captioning
+alignment,48,,Q543533,coplanarity,geometric property
+tunnel,48,,Q44377,tunnel
+spigot-plugin,48,,-1,None
+transitions,48,,Q1577031,Transitions
+policy-gradient,48,,-1,None
+redis-cluster,48,,Q107383292,redis-py-cluster,Python library
+fft,48,,Q623950,Fast Fourier transform
+haskell-library,48,,Q69491560,Haskell County Library,library network
+xml-parser,48,,Q2597528,XML processor
+wayland,48,,Q14561,Wayland,display server
+keras-models,48,,-1,None
+hyperparameter-optimization,48,,Q28374376,hyperparameter optimization
+filtering,48,,Q11332511,Filtering
+explorer,48,,Q196305,File Explorer
+supervisor,48,,Q255063,superuser
+beautifulsoup,48,,Q2893296,Beautiful Soup,software library
+osc,48,,Q410833,Lanosterol synthase,protein
+safari,48,,Q70060049,Safari,web browser
+s3-bucket,48,,Q29566011,Bucket Sweet Bucket,segment of a television episode
+ads,48,,Q344046,Active Denial System
+iota,47,,Q775892,Islands on the Air,Amateur radio operating award
+startup,47,,Q129238,startup company
+javaee,47,,Q193247,Jakarta EE,web framework
+steem,47,,Q55343615,Steem,cryptocurrency,free and open-source software,social networking service,blockchain
+adonisjs,47,,-1,None
+c99,47,,Q1151257,C99,ISO standard edition
+firebase-functions,47,,-1,None
+osm,47,,Q936,OpenStreetMap,online database
+kotlin-extensions,47,,-1,None
+codemirror,47,,Q11691284,CodeMirror,source code editor
+high-performance-computing,47,,Q121117,supercomputer,class of computers
+pattern-matching,47,,Q1503724,pattern matching
+gdb,47,,Q464113,GNU Debugger,debugger,GNU package,free software
+palette,47,,Q425548,palette
+local,47,,Q6663937,Local,limited series
+banking,47,,Q806718,banking industry,industry,academic discipline
+flags,47,,Q5426508,FLAGS,gas pipeline
+multiplayer-game,47,,Q209075,multiplayer game,game mode
+dimensionality-reduction,47,,Q16000077,dimensionality reduction
+immutablejs,47,,-1,None
+echarts,47,,Q96278896,ECharts,free software
+phishing,47,,Q135005,phishing,computer security technique
+checker,47,,Q14290457,check
+api-management,47,,Q28231474,API management
+sequencing,47,,Q1764062,sequencing
+kafka-connect,47,,-1,None
+tensorflow-serving,47,,Q101067180,TensorFlow Serving,software library
+image-compression,47,,Q412438,image compression
+commonmark,47,,Q18019138,CommonMark,lightweight markup language
+arduino-ide,47,,Q55080330,Arduino IDE,free software
+design-pattern,47,,Q181156,software design pattern
+resume-template,47,,Q25952822,টেমপ্লেট:Resume,Wikimedia template
+rhel,47,,Q215273,Red Hat Enterprise Linux,Linux distribution,operating system
+mask,47,,Q116441,diving mask
+darknet,47,,Q1166273,darknet,Internet
+dependency,47,,Q178585,care dependency
+okhttp3,47,,Q96279558,OkHttp,free software
+react-boilerplate,47,,-1,None
+ts,47,,Q1306,tennessine,chemical element,synthetic element
+esp32-arduino,47,,Q105076435,MaixDuino,single-board computer
+readme,47,,Q539662,README,convention
+database-management,47,,Q107643461,database management,academic discipline
+pull-to-refresh,47,,Q25313523,Pull-to-refresh
+render-props,47,,-1,None
+gaussian-processes,47,,Q1496376,Gaussian process
+2d-game-engine,47,,Q4945576,Bork3D Game Engine,video game
+cifar10,47,,Q45037095,CIFAR-10,data set
+iso,47,,Q15028,International Organization for Standardization,standards organization,international non-governmental organization
+translator,47,,Q4462013,translator,software category
+papers,47,,Q7132759,Papers,reference management software
+worker,47,,Q2560533,worker,concept
+traffic,47,,Q3512342,TRAFFIC,international organization,non-governmental organization
+brute-force,47,,Q850362,brute-force search,method,algorithmic paradigm
+transit,47,,Q6888,astronomical transit
+eventstore,47,,-1,None
+in-memory,47,,Q5830907,computer memory
+octobercms,47,,Q22661280,October,content management system
+jackson,46,,Q486137,Jackson County,county of Georgia
+music-library,46,,Q2061246,music library
+vaadin,46,,Q1400683,Vaadin,Java software library,web framework,web development,free and open-source software
+pytorch-implementation,46,,-1,None
+interval,46,,Q185148,real interval
+software-engineering,46,,Q80993,software engineering,branch of engineering,academic major,academic discipline
+mips,46,,Q468066,Material input per service unit,economic concept
+graphics-engine,46,,Q355134,graphics engine,software category
+beta,46,,Q165191,Beta vulgaris,taxon
+web-security,46,,Q1509541,web application security
+xterm,46,,Q284297,xterm,free and open-source software,terminal emulator,X11 application
+no-std,46,,Q7394711,STD 8,series,work
+probabilistic-programming,46,,Q7246865,probabilistic programming language,programming paradigm
+rtsp,46,,Q682598,Real Time Streaming Protocol,computer network protocol
+exoplayer,46,,-1,None
+python-3-6,46,,Q28865,Python,object-based language
+kotlin-native,46,,-1,None
+magento2-extension,46,,Q71256096,MageAnts - Magento 2 Marketplace
+web-audio,46,,Q184973,internet radio
+jetpack,46,,Q370949,jet pack
+msgpack,46,,Q6821738,MessagePack,data serialization format
+skin,46,,Q171187,peel
+htmlwidgets,46,,-1,None
+graphics-library,46,,Q337820,graphics library,software category
+payment-integration,46,,-1,None
+dump,46,,Q152810,landfill
+drop,46,,Q768908,drop,unit of measurement
+error-reporting,46,,Q59943994,Stackdriver Error Reporting,software
+socketio,46,,Q107384137,flask-socketio,Python library
+sidekiq,46,,Q51002502,Sidekiq,free software
+web3js,46,,Q20155677,WebAssembly,web framework,bytecode,Web API,file format,programming language,computing platform
+database-migrations,46,,Q7431119,schema migration
+bibtex,46,,Q8029,BibTeX,software
+thymeleaf,46,,Q3526177,Thymeleaf,Java software library
+azure-devops,46,,Q107383122,azure-devops,Python library
+foundation,46,,Q157031,foundation,legal form
+spec,46,,Q654853,Standard Performance Evaluation Corporation,business
+vlc,46,,Q171477,VLC media player,free and open-source software
+apex,46,,Q353282,Additive System of Photographic Exposure
+human-pose-estimation,46,,-1,None
+keyboard-shortcuts,46,,Q118470,keyboard shortcut
+lyrics,46,,Q602446,lyrics
+snackbar,46,,Q1318768,snack bar
+metasploit,46,,Q1147445,Metasploit Project,free software
+deepmind,46,,Q22329209,AlphaGo,Go software
+photoshop,46,,Q129793,Adobe Photoshop,raster graphics editor,vector graphics editor,3D computer graphics software,2D animation software,graphics software
+deep-learning-tutorial,46,,Q197536,deep learning
+tensorflow-experiments,46,,-1,None
+facebook-messenger,46,,Q116947,Messenger,instant messaging
+haproxy,46,,Q5628948,HAProxy,free software
+sponge,46,,Q18960,Porifera,taxon
+blueprint,46,,Q422321,blueprint
+languages,46,,Q34770,language,languoid class
+flutter-app,45,,Q39072787,Flutter,software development kit
+mitm,45,,Q554830,man-in-the-middle attack,cryptographic attack type
+google-assistant,45,,Q25025241,Google Assistant,virtual assistant
+space,45,,Q1,universe,universe
+quotes,45,,Q8043,quotation marks,punctuation mark,glyph
+lottie,45,,Q91611458,Lottie,Animal Crossing character
+message-bus,45,,Q1092177,message-oriented middleware,classification system
+caddy,45,,Q411840,cadmium chloride,chemical compound
+csp,45,,Q285927,concentrated solar power station
+convolutional-neural-network,45,,Q17084460,convolutional neural network
+tesseract-ocr,45,,Q945242,Tesseract,software library
+geoip,45,,Q16638847,GeoIP
+restore,45,,Q194274,backup
+md5,45,,Q185235,MD5,cryptographic hash function
+banner,45,,Q484509,Banner County,county of Nebraska
+flexible,45,,Q259590,flexible algebra
+information-security,45,,Q189900,information security,type of security
+arabic,45,,Q1401708,ISO/IEC 8859-6,IEC standard,Extended ASCII,ISO standard
+inspector,45,,Q511138,inspector
+material-theme,45,,Q7200372,Plachutta,theme
+smart-home,45,,Q848436,home automation,industry
+design-tools,45,,Q7824096,Tools Design
+graphql-subscriptions,45,,Q95961833,graphql-subscriptions,JavaScript library
+issues,45,,-1,None
+decentralization,45,,Q188961,decentralization
+openfaas,45,,Q107383577,apache-airflow-providers-openfaas,Python library
+facebook-login,45,,-1,None
+bypass,45,,Q186020,coronary artery bypass surgery,surgical procedure
+jailbreak,45,,Q305918,jailbreaking
+2d-game,45,,Q457500,The Game,game
+icon-pack,45,,Q95953490,react-icons,JavaScript library
+livestream,45,,Q2378942,Livestream,online video platform
+concurrent,45,,Q128392,concurrent computing,programming paradigm,computer science term
+pgp,45,,Q1227452,Pretty Good Privacy,encryption software
+spark-streaming,45,,Q11247660,Sweet Spark Stream,video album
+distributed-database,45,,Q989016,distributed database
+datadog,45,,Q16248637,Datadog,business
+unidirectional-data-flow,45,,Q65042742,Unidirectional Data Flow
+popover,45,,Q1640426,popover
+build-tools,45,,Q2727468,build automation,software category,software feature
+league-of-legends,45,,Q105221896,League of Legends,video game series
+codec,45,,Q184748,codec,software category,software feature
+tokio,45,,Q1490,Tokyo,prefecture of Japan
+vsts,45,,Q2742842,VSTS,sports club
+tokens,45,,Q85847828,Tokens,web series
+python36,45,,Q599384,CPython,implementation of a programming language
+persian,45,,Q42610,Persian cat,cat breed
+dapper,45,,Q18040228,DACT1,gene
+sfml,45,,Q919155,SFML,application programming interface,software library,free software
+edge-computing,45,,Q5337692,edge computing
+kanban,45,,Q18979,Kanban,concept
+viper,44,,Q20064,Viper,fictional spacecraft class
+opencv3,44,,Q165277,OpenCV,free and open-source software
+cards,44,,Q142714,card game,game mechanics
+symbols,44,,Q80071,symbol
+irc-bot,44,,Q507703,IRC bot
+marketplace,44,,Q132510,market
+pharo,44,,Q39715,lighthouse
+keychain,44,,Q51338,keychain
+coinbase,44,,Q16972754,Coinbase,business,digital currency exchanger,payment system
+networks,44,,Q85717481,Networks
+spam,44,,Q83058,electronic spam
+relation-extraction,44,,Q7310755,relationship extraction
+broadcast,44,,Q922122,broadcasting,packet forwarding
+corpus,44,,Q461183,text corpus
+network-visualization,44,,-1,None
+symfony4,44,,Q9734,symphony,type of musical work/composition
+ring,44,,Q45926,annulus
+modern-cpp,44,,Q104075508,JSON for Modern C++,software library
+mailer,44,,Q33311,Dravidian,language family
+battery,44,,Q13689,The Battery,urban park
+scalability,44,,Q727490,scalability,quality
+users,44,,Q4052462,Users,utility software
+print,44,,Q173350,printed circuit board
+powershell-module,44,,-1,None
+arch,44,,Q12277,arch
+fzf,44,,Q99539404,fzf,free software
+vector-graphics,44,,Q170130,vector graphic
+zsh-plugin,44,,-1,None
+reason-react,44,,-1,None
+lock-free,44,,Q1985141,non-blocking algorithm
+rethinkdb,44,,Q20890659,RethinkDB,Distributed database management system
+webtorrent,44,,Q52233158,WebTorrent,computer network protocol
+aac,44,,Q337594,Advanced Audio Coding,audio codec,audio compression,lossy audio coding format
+tensorboard,44,,Q107381457,tensorboard,Python library
+measure,44,,Q192276,measure
+source-code,44,,Q128751,source code
+pdo,44,,Q41226,DMOZ,web directory
+sprites,44,,Q904961,sprite
+gpx,44,,Q576465,GPS eXchange Format,file format family
+powershell-modules,44,,-1,None
