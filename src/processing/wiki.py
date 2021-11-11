@@ -1,4 +1,5 @@
 import csv
+import os.path
 from typing import Iterable, List, Dict, Set
 
 import pandas
@@ -41,10 +42,16 @@ class WikiRedirectNormalizer(AbstractPreprocessing):
 
 
 class WikiReconciler(AbstractPreprocessing):
-    def __init__(self):
+    def __init__(self, out_path):
         super().__init__()
+        self.out = out_path
 
     def filter(self, elements: Iterable, top: int = 5) -> DataFrame:
-        series = pandas.Series(elements)
-        reconciled = reconcile(series, top_res=top)
-        return reconciled
+        for x in elements:
+            try:
+                reconciled = reconcile(pandas.Series([x]), top_res=top, property_mapping={"P9100": pandas.Series([x])})
+                reconciled.to_csv(os.path.join(self.out, f'reconciled_{top}_{hash(x)}.txt'), index=False)
+            except Exception as e:
+                print(e)
+                print(f'Skipped: {x}')
+                continue

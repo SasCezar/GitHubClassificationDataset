@@ -1,0 +1,4 @@
+defaults:
+  - override hydra/launcher: joblib
+file_number: aa
+file_path: /home/sasce/PycharmProjects/GitHubClassificationDataset/src/run/filtered_${file_number}
