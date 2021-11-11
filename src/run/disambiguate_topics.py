@@ -5,7 +5,7 @@ import pandas as pd
 from hydra.utils import instantiate
 from omegaconf import DictConfig
 
-from src.fileio.topics import reconciled2json, export2csv, types2csv
+from src.ghcdio.topics import reconciled2json, export2csv, types2csv
 
 
 def get_types(reconciled, top=10):
@@ -17,8 +17,8 @@ def get_types(reconciled, top=10):
     return types
 
 
-@hydra.main(config_path="../conf", config_name="disambiguation")
-def topic_disambiguation(cfg: DictConfig):
+@hydra.main(config_path="../conf", config_name="disambiguate")
+def disambiguate_topics(cfg: DictConfig):
     freq = pd.read_csv(cfg.freq_path).set_index('topic')['freq'].to_dict()
 
     reconciled = reconciled2json(freq, cfg.reconciled_folder_path, cfg.reconciled_type, cfg.out_path)
@@ -31,4 +31,4 @@ def topic_disambiguation(cfg: DictConfig):
 
 
 if __name__ == '__main__':
-    topic_disambiguation()
+    disambiguate_topics()

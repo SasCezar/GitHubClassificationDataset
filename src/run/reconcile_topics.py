@@ -5,8 +5,8 @@ from omegaconf import DictConfig
 from src.processing.wiki import WikiReconciler
 
 
-@hydra.main(config_path="../conf", config_name="config")
-def ground_topics(cfg: DictConfig):
+@hydra.main(config_path="../conf", config_name="reconcile")
+def reconcile_topics(cfg: DictConfig):
     file_path = cfg.file_path
     topics = pandas.read_csv(file_path)
     topics = topics['topic'].tolist()
@@ -15,4 +15,4 @@ def ground_topics(cfg: DictConfig):
 
 
 if __name__ == '__main__':
-    ground_topics()
+    reconcile_topics()

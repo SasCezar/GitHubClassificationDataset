@@ -20,6 +20,8 @@ import optparse
 import dedupe
 from unidecode import unidecode
 
+from src.ghcdio.deduplicate import duplicate2json
+
 
 def preProcess(column):
     """
@@ -171,3 +173,5 @@ if __name__ == '__main__':
             row_id = i
             row.update(cluster_membership[row_id])
             writer.writerow(row)
+
+    duplicate2json(output_file)
