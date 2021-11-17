@@ -67,8 +67,7 @@ if __name__ == '__main__':
     # logging, run `python examples/csv_example/csv_example.py -v`
     optp = optparse.OptionParser()
     optp.add_option('-v', '--verbose', dest='verbose', action='count',
-                    help='Increase verbosity (specify multiple times for more)'
-                    )
+                    help='Increase verbosity (specify multiple times for more)')
     (opts, args) = optp.parse_args()
     log_level = logging.WARNING
     if opts.verbose:

@@ -1,0 +1,3 @@
+base_path: /home/sasce/PycharmProjects/GitHubClassificationDataset
+annotated_file: ${base_path}/data/annotated_github_topics.csv
+out_file: ${base_path}/data/annotated_github_topics_wikidata.csv

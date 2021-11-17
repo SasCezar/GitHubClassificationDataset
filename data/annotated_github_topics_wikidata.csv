@@ -1,0 +1,304 @@
+Wikidata ID,Frequency,GitHub Topic,Wikidata Title,Wikidata Description,Wikidata Aliases
+Q102190569,187,['text-classification'],text classification,classification of texts,['text classification']
+Q1041418,61,['semi-supervised-learning'],semi-supervised learning,class of machine learning techniques,"['semisupervised learning', 'semi-supervised learning']"
+Q104537917,70,['performance-testing'],computer benchmarking,process of testing the performance of a computer system,"['benchmarking', 'performance testing', 'software benchmarking', 'hardware benchmarking', 'performance benchmarking', 'computer benchmarking']"
+Q105273027,413,['command-line-tool'],shell tool,software category,"['command-line application', 'CLI program', 'command line tool', 'command line utility', 'command-line app', 'command line application', 'shell tool']"
+Q1061077,282,"['code-generation', 'code-generator']",code generation,process by which a compiler's code generator converts some intermediate representation of source code into a form that can be readily executed by a machine,"['code generators', 'code generation']"
+Q1061635,1085,"['game-development', 'gamedev', 'game-dev']",video game development,process of creating a computer game or video game,"['game development', 'game dev', 'video game development']"
+Q1068715,1007,"['networking', 'network']",telecommunications network,network to enable telecommunicationinternet between different terminals,['telecommunications network']
+Q1070689,825,['image-processing'],digital image processing,processing of digitally-represented images with algorithms,"['computer-assisted image processing', 'image processing, computer-assisted', 'digital image processing']"
+Q107300377,62,['variational-autoencoder'],Variational autoencoder,deep learning generative model to encode data representation,"['VAE', 'Variational autoencoder']"
+Q107383511,61,['databases'],databases,Python library,['databases']
+Q1074173,92,['question-answering'],question answering,research area in computer science,"['QA', 'question-answering', 'question answering']"
+Q107630377,477,['containers'],Containerization,cloud computing concept,['Containerization']
+Q107643461,47,['database-management'],database management,academic discipline,['database management']
+Q107750691,56,['graph-neural-networks'],graph neural network,,"['GNN', 'graph neural network']"
+Q1078276,75,['natural-language-understanding'],natural language understanding,subtopic of natural language processing in artificial intelligence,"['NLU', 'Natural language understanding, NLU', 'natural language understanding']"
+Q10861030,91,['linear-regression'],linear regression,statistical approach for modeling the relationship between a scalar dependent variable and one or more explanatory variables,"['linear regression method', 'linear regression analysis', 'linear regression']"
+Q10927554,49,['image-retrieval'],image retrieval,"computer system for browsing, searching and retrieving images from a large database of digital images",['image retrieval']
+Q11023,70,['engineering'],engineering,applied science,"['general engineering', 'basic engineering', 'engineering']"
+Q1123036,138,['scheduler'],scheduler,"in computing, what carries out the scheduling activity","['sched', 'schedule', 'scheduler']"
+Q1127410,279,['serialization'],serialization,process of translating data structures or object state into a format that can be stored and reconstructed later in the same or another computer environment,"['materialization', 'serialisation', 'materialisation', 'serializing', 'serialize', 'data serialization', 'object serialization', 'serialization']"
+Q11288,252,"['webserver', 'web-server']",web server,web server is a computer that runs websites. It's a computer program that distributes web pages as they are requisitioned,"['WWW server', 'W3 server', 'HTTP server', 'serv', 'web server']"
+Q1132755,89,['logistic-regression'],logistic regression model,statistical model,"['logit regression', 'logistic model', 'logit model', 'logistic regression', 'logistic models', 'logistic regression model']"
+Q11410,176,['games'],game,"a structured form of play, usually for entertainment","['play', 'games', 'gaming', 'recreational game', 'recreational games', 'plays and games', 'game']"
+Q11425,1393,"['animation', 'animations']",animation,process of creating animated films and series,"['cartoon', 'animated feature', 'animation']"
+Q1152135,142,['unsupervised-learning'],unsupervised learning,machine learning technique,"['unsupervised machine learning', 'unsupervised learning']"
+Q11660,1381,"['artificial-intelligence', 'ai']",artificial intelligence,field of computer science and engineering practices for intelligence demonstrated by machines and intelligent agents,"['AI', 'MI', 'cognitive computing', 'A. I.', 'A.I.', 'artificial intelligence']"
+Q11681085,241,['face-detection'],face detection,computer technology to detect presence and location of faces,['face detection']
+Q117801,102,['scientific-computing'],computational science,field concerned with constructing mathematical models and quantitative analysis techniques and using computers to analyze and solve scientific problems,"['scientific computing', 'scientific computation', 'computational sciences', 'computational science']"
+Q1192553,185,['face-recognition'],facial recognition system,computer application capable of identifying or verifying an individual person from a digital image,"['face recognition', 'facial recognition', 'facial recognition system']"
+Q12483,447,['statistics'],statistics,"study of the collection, organization, analysis, interpretation, and presentation of data","['Statistics', 'statistics']"
+Q1276130,119,['etl'],"extract, transform, load",general procedure for copying data from one or more sources into a destination system which represents the data differently from the source(s),"['ETL', 'extract, transform, load']"
+Q1281199,115,['password-manager'],password manager,subclass of utility software,['password manager']
+Q128570,573,['bioinformatics'],bioinformatics,study of biological data and sequences,['bioinformatics']
+Q131093,537,['cms'],content management system,software type,"['CMS', 'content management system']"
+Q131212,643,"['editor', 'text-editor']",text editor,computer software used to edit plain text documents,"['text editors', 'editor', 'text editor']"
+Q1315933,88,['game-server'],game server,,['game server']
+Q131723,1050,['bitcoin'],bitcoin,digital cash system and associated currency,"['BTC', 'XBT', 'Bitcoins', 'Bitcoin', 'bitcoin']"
+Q1329550,111,['static-code-analysis'],static program analysis,program analysis performed without actually executing programs,"['static code analysis', 'static analysis', 'static software analysis', 'static program analysis']"
+Q1339090,57,['emotion-recognition'],emotion recognition,process of identifying human emotion,['emotion recognition']
+Q13479982,1123,"['cryptocurrency', 'cryptocurrencies']",cryptocurrency,digital medium of exchange using cryptography on a ledger to secure transactions and to verify transfer of ownership,"['crypto currency', 'crypto', 'cryptocurrency']"
+Q135005,47,['phishing'],phishing,act of attempting to acquire (sensitive) information by posing as a trustworthy entity,['phishing']
+Q13582682,370,['classification'],classification,grouping of objects into classes,"['classifying', 'classification']"
+Q1361088,56,['matrix-factorization'],matrix decomposition,representation of a matrix as a product,"['matrix factorization', 'Decomposition', 'factorization', 'matrix decomposition']"
+Q13741,275,['ide'],integrated development environment,software application used to develop software,"['IDE', 'integrated development environment']"
+Q139445,159,"['algorithmic-trading', 'trading-algorithms']",algorithmic trading,method of executing orders using automated pre-programmed trading instructions,"['algotrading', 'Algorithmic trading', 'algorithmic trading']"
+Q14001,172,['malware'],malware,"software that is intentionally hostile, intrusive, or damaging to a computer or network","['badware', 'malicious software', 'malware']"
+Q141090,426,['encryption'],encryption,"process of encoding information, which is conversion of the original representation of the information, known as plaintext, into an alternative form known as ciphertext","['encipherment', 'encryption']"
+Q141488,493,['graph'],graph,mathematical structure; representation of a set of objects where some pairs of the objects are connected by links,"['network', 'graphs', 'graph']"
+Q141495,459,"['optimization', 'optimization-algorithms']",mathematical optimization,study of mathematical algorithms for optimization problems,"['mathematical optimisation', 'mathematical programming', 'optimization', 'optimisation', 'mathematical optimization']"
+Q14489129,67,['evolutionary-algorithms'],evolutionary algorithm,subset of evolutionary computation,"['EA', 'evolutionary algorithm']"
+Q1457734,262,['rnn'],recurrent neural network,class of artificial neural network where connections between units form a directed graph along a temporal sequence,"['RNN', 'recurrent neural network']"
+Q146768,522,['middleware'],middleware,computer software that provides services to software applications,['middleware']
+Q1474611,92,['plot'],plot,graphical technique for data sets,"['plots', 'plot']"
+Q1475717,161,['test-automation'],test automation,use of special software (separate from what is being tested) to control the execution of tests and compare actual outcomes with predicted outcomes,"['test framework', 'test automation']"
+Q14802672,68,['text-processing'],text processing,creating or manipulating electronic text,"['word processing', 'text processing']"
+Q1501923,629,"['pentesting', 'penetration-testing', 'pentest']",penetration test,method of evaluating computer and network security by simulating a cyber attack,"['pen test', 'pentest', 'ethical hack', 'penetration test']"
+Q1503724,47,['pattern-matching'],pattern matching,act of checking a given sequence of tokens for the presence of the constituents of some pattern,['pattern matching']
+Q1509541,46,['web-security'],web application security,"branch of information security that deals specifically with security of websites, web applications and web services","['web security', 'web application security']"
+Q1513879,57,['text-generation'],natural language generation,software process,"['text generation', 'NLG', 'natural language generation']"
+Q15328,321,['camera'],camera,optical device for recording or transmitting photographic images or videos,"['photographic camera', 'camera']"
+Q15731404,99,['malware-analysis'],Malware Analysis,"the study of the functionality, origin and potential impact of malware samples",['Malware Analysis']
+Q1575458,157,['validator'],validator,computer program used to check the validity or syntactical correctness of a fragment of code or document,['validator']
+Q16000077,47,['dimensionality-reduction'],dimensionality reduction,process of reducing the number of random variables under consideration,"['dimension reduction', 'dimensional reduction', 'Dimensionality reduction', 'dimensionality reduction']"
+Q16346,76,['text-to-speech'],speech synthesis,artificial production of human speech,"['text-to-speech', 'computer generated speech', 'speech synthesis']"
+Q1662562,55,['information-extraction'],information extraction,"automatically extracting structured information from un- or semi-structured machine-readable documents, such as human language texts","['IE', 'information extraction']"
+Q167555,216,['ocr'],optical character recognition,computer recognition of visual text,"['OCR', 'optical character reader', 'optical character recognition']"
+Q17012863,963,['monitoring'],application performance management,monitoring and management of performance and availability of software applications,"['APM', 'application performance management']"
+Q17013334,51,['representation-learning'],feature learning,a set of techniques that learn a feature: a transformation of raw data input to a representation that can be effectively exploited in machine learning tasks,"['representation learning', 'feature learning']"
+Q170519,348,"['vr', 'virtual-reality']",virtual reality,computer-simulated environment simulating physical presence in real or imagined worlds,"['VR', 'V.R.', 'virtual reality']"
+Q17084460,1542,"['convolutional-neural-networks', 'cnn', 'convolutional-networks', 'convolutional-neural-network']",convolutional neural network,"A class of deep neural networks, most commonly applied to analyzing visual imagery.","['CNN', 'ConvNet', 'Convolutional Network', 'Convolution Neural Network', 'Convolutional Net', 'convolutional neural-network', 'convolutional neural network']"
+Q170978,473,['robotics'],robotics,"design, construction, operation, and application of robots",['robotics']
+Q17118711,59,['image-generation'],human image synthesis,digital reproduction of a human likeness,['human image synthesis']
+Q172491,287,"['data-mining', 'mining']",data mining,"process of discovering patterns in large data sets using computational methods at the intersection of statistics, database systems, or machine learning","['data discovery', 'knowledge discovery', 'datamining', 'data mining']"
+Q173114,646,['audio'],digital audio,"technology that records, stores, and reproduces sound",['digital audio']
+Q174989,251,['filesystem'],file system,concrete format or program for storing files and directories on a data storage device,"['filesystem', 'FS', 'concrete filesystem', 'file system']"
+Q175263,527,"['data-structures', 'data-structure']",data structure,particular way of storing and organizing data in a computer,"['information structure', 'data structure']"
+Q1764062,47,['sequencing'],sequencing,"in genetics and biochemistry, determining the structure of an unbranched biopolymer","['polymer sequencing', 'macromolecular sequencing', 'sequencing']"
+Q176555,60,['quantum-computing'],quantum computer,theoretical computation device relying on quantum mechanics,"['quantum computing', 'quantum computer']"
+Q176953,157,['rendering'],rendering,process of generating an image from a model,"['image synthesis', 'rendering']"
+Q177005,50,['computational-biology'],computational biology,"data-analytical and theoretical methods, mathematical modeling and computational simulation techniques to the study of biological, behavioral, and social systems",['computational biology']
+Q1781447,300,['configuration'],computer configuration,"arrangement of each of the system's functional units, according to their nature, number and chief characteristics","['configuration', 'computer configuration']"
+Q180634,105,['distributed-computing'],distributed computing,system whose components are located on different networked computers,"['distributed processing', 'distributed computing']"
+Q181156,164,['design-patterns'],software design pattern,general reusable solution to a commonly occurring problem within a given context in software design,"['design pattern', 'software design pattern']"
+Q181593,76,['sorting-algorithms'],sorting algorithm,algorithm that puts elements of a list in a certain order,"['asc', 'desc', 'sort', 'sorting algorithm']"
+Q18217380,213,['web-components'],Web Components,"set of features (Custom Elements, Shadow DOM, HTML Templates) that provide a standard component model for the Web for encapsulation and interoperability of individual HTML elements",['Web Components']
+Q18287040,256,['http-server'],HTTP server,,['HTTP server']
+Q183065,252,['interpreter'],interpreter,program that executes source code without a separate compilation step,"['Interpreter', 'interpretive routine', 'interpreter']"
+Q18344624,967,"['microservices', 'microservice']",microservices,A collection of loosely coupled services used to build computer applications,"['microservice architecture', 'Microservices', 'microservices']"
+Q18395344,67,['word-embeddings'],word embedding,method in natural language processing,"['word embeddings', 'word embedding']"
+Q185612,177,['regex'],regular expression,sequence of characters that forms a search pattern,"['regex', 'regexp', 'regxp', 'RegExp', 'rational expression', 'Complement operator (regular expressions)', 'regular expressions', 'rational expressions', 'regular expression']"
+Q186588,317,"['time-series', 'timeseries']",time series,set of data indexed in time order,['time series']
+Q187787,200,['genetic-algorithm'],genetic algorithm,competitive algorithm for searching a problem space,"['optimize problem', 'GA', 'genetic algorithm']"
+Q188522,1486,['testing'],software testing,investigation conducted to provide stakeholders with information about the quality of the software product or service under test and enable the business to understand the risks of software implementation,"['software test', 'software testing']"
+Q189053,3560,"['cli', 'command-line', 'commandline']",command-line interface,type of computer interface based on entering text commands and viewing text output,"['command line interface', 'CLI', 'Character user interface', 'command-line interface']"
+Q189177,94,['3d-graphics'],3D computer graphics,graphics that use a three-dimensional representation of geometric data,"['3D graphics', '3-D', '3D', 'three-dimensional computer graphics', '3D computer graphics']"
+Q189210,341,"['web-application', 'web-app']",web application,application that uses a web browser as a client,"['web app', 'web-based application', 'webapp', 'web-based interface', 'web interface', 'web tool', 'web application']"
+Q189436,264,"['speech-recognition', 'speech-to-text']",speech recognition,automatic conversion of spoken language into text,"['automatic speech recognition', 'ASR', 'computer speech recognition', 'STT', 'speech to text', 'speech recognition']"
+Q189900,45,['information-security'],information security,the practice of protecting information,"['InfoSec', 'information security']"
+Q191865,160,['bots'],internet bot,kind of software application that runs automated tasks over the internet,"['web robot', 'WWW robot', 'bot', 'Bot', 'internet bot']"
+Q192726,158,['virtual-machine'],virtual machine,"software that emulates an entire computer, often used to provide a different operating system or hardware architecture than the host system","['VM', 'virtual machine']"
+Q192776,1843,"['neural-network', 'neural-networks', 'artificial-neural-networks']",artificial neural network,"computational model used in machine learning, based on connected, hierarchical functions","['Artificial neural networks', 'ANN', 'neural network', 'connectionist system', 'connectionist systems', 'deep nets', 'Simulated Neural Network', 'Static Neural Network', 'SNN', 'Synergetic Neural Network', 'Neural Networks, Computer', 'artificial neural network']"
+Q193040,70,['embedded-systems'],embedded system,computer system with a dedicated function within a larger mechanical or electrical system.,"['embedded technology', 'embedded computing', 'embedded device', 'embedded system']"
+Q193076,640,['functional-programming'],functional programming,programming paradigm,"['FP', 'functional programming']"
+Q1931635,158,['tracking'],video tracking,finding the location in each frame of a video sequence,['video tracking']
+Q193231,194,['debugger'],debugger,computer program used to test and debug other programs,['debugger']
+Q193424,75,['webservice'],web service,"service offered by an electronic device to another electronic device, communicating with each other via the World Wide Web","['web services', 'Web Service', 'Web Services', 'XML Web Services', 'web service']"
+Q193564,526,"['game-engine', '2d-game-engine']",game engine,system designed for the creation and development of video games,"['video game engine', 'game engine']"
+Q194152,1271,"['parser', 'parsing', 'parse']",parsing,"process of analyzing a string of symbols, either in natural language, computer languages or data structures, conforming to the rules of a formal grammar","['syntax analysis', 'syntactic analysis', 'syntactical analysis', 'parsing']"
+Q194274,265,['backup'],backup,copy of computer data taken and stored so that it may be used to restore the original,"['back up', 'backup copy', 'data backup', 'backup']"
+Q19541,173,['search-engine'],search engine,application that collects and allows the searching of information on a computer system,['search engine']
+Q1965787,62,['network-monitoring'],network monitoring,the use of a system that constantly monitors a computer network for slow or failing components,['network monitoring']
+Q197536,5506,"['deep-learning', 'deeplearning']",deep learning,branch of machine learning,"['deep machine learning', 'deep structured learning', 'hierarchical learning', 'DL', 'Deep Learning', 'deep learning']"
+Q19835007,65,['autonomous-driving'],autonomous driving,self-directed navigation of a car or other vehicle,"['self driving car', 'autonomous driving']"
+Q1988917,331,['data-analysis'],data analysis,activity for gaining insight from data,"['multidimensional descriptive analysis', 'data analysis']"
+Q2006448,72,['stream-processing'],stream processing,programming paradigm which gives some degree of parallel processing,['stream processing']
+Q20514253,1738,"['blockchain', 'blockchain-technology']",blockchain,distributed data store for digital transactions,"['block chain', 'block chain technology', 'blockchain technology', 'blockchain']"
+Q2057931,136,['simulator'],simulator,technical device to model a real-world system,"['Simulator', 'simulator']"
+Q207011,75,['neuroscience'],neuroscience,scientific study of the central nervous system,"['neurobiology', 'neurosciences', 'neuroscience']"
+Q208042,133,['regression'],regression analysis,set of statistical processes for estimating the relationships among variables,"['regression method', 'regression', 'regression analysis']"
+Q208163,89,['signal-processing'],signal processing,models and analyzes data representations of physical events,['signal processing']
+Q209075,47,['multiplayer-game'],multiplayer game,game with multiple players,['multiplayer game']
+Q2111958,300,['productivity'],productivity,average measure of the efficiency of production,['productivity']
+Q21198,151,['computer-science'],computer science,"theoretical study of the formal foundation enabling the automated processing or computation of information, for example on a computer or over a data transmission network","['computing science', 'CS', 'Computer Science', 'Informatics', 'science of computing', 'information processing science', 'computer sciences', 'computing sciences', 'sciences of computing', 'computation science', 'computing', 'computer science']"
+Q212108,725,['authentication'],authentication,"act of confirming the truth of an attribute of a datum or entity, often used as part of access control",['authentication']
+Q220499,412,"['streaming', 'video-streaming']",streaming media,continuous multimedia operated and presented to users by a provider,['streaming media']
+Q222046,173,['genomics'],genomics,"Genomics is an interdisciplinary field of biology which explores the structure, function, evolution, mapping and editing of genomes.","['genomic science', 'genome science', 'genome sciences', 'genomics']"
+Q22245680,58,['feature-engineering'],feature engineering,process that creates features for machine learning by transforming or combining existing features,"['feature creation', 'feature engineering']"
+Q2271421,232,['sentiment-analysis'],sentiment analysis,"use of natural language processing, text analysis and computational linguistics to identify and extract subjective information in source materials","['opinion mining', 'sentiment analysis']"
+Q22725,220,['routing'],routing,process of selecting paths in a data communitcations network,"['network routing', 'routing']"
+Q2374463,1086,"['data-science', 'datascience']",data science,interdisciplinary field of study focused on deriving knowledge and insights from data,"['data-driven science', 'data science']"
+Q24410992,798,['automation'],automation,conversion to automatic operation,['automation']
+Q245748,85,['random-forest'],random forest,statistical algorithm that is used to cluster points of data in functional groups,"['random forests', 'randomized trees', 'random forest']"
+Q2493,218,['compression'],data compression,process of encoding information using fewer bits than the original representation,"['source coding', 'bit-rate reduction', 'compression', 'data compression']"
+Q25053937,53,['neural-machine-translation'],neural machine translation,approach to machine translation in which a large neural network is trained to maximize translation performance,"['NMT', 'neural machine translation']"
+Q2507377,151,['continuous-delivery'],continuous delivery,"software engineering approach in which teams produce software in short cycles, aiming at building, testing, and releasing software with greater speed and frequency","['CD', 'continuous delivery']"
+Q25104379,649,"['gan', 'generative-adversarial-network']",generative adversarial network,deep learning method,"['GAB', 'GAN', 'generative adversarial network']"
+Q25112138,242,['recurrent-neural-networks'],Bidirectional recurrent neural networks,type of artificial neural network,['Bidirectional recurrent neural networks']
+Q251212,809,"['iot', 'internet-of-things']",internet of things,proposed Internet-like structure connecting everyday physical objects,"['Internet of Things', 'IoT', 'internet of things']"
+Q2526135,2193,['security'],security,"freedom from, or resilience against, potential harm caused by hostile forces or circumstances",['security']
+Q2539,5505,"['machine-learning', 'machine-learning-algorithms', 'ml', 'machinelearning']",machine learning,scientific study of algorithms and statistical models that computer systems use to perform tasks without explicit instructions,"['ML', 'statistical learning', 'machine learning']"
+Q254183,198,['augmented-reality'],augmented reality,interactive experience of a real-world environment enhanced by computer-generated perceptual information,"['AR', 'augmented reality']"
+Q2542347,50,['rna-seq'],RNA sequencing,"process of cloning, physical mapping, subcloning, sequencing, and information analysis of an RNA sequence","['RNAseq', 'RNA Sequence Analysis', 'Sequence Analysis, RNA', 'RNA sequencing']"
+Q2664563,55,['q-learning'],Q-learning,Model free Reinforcement Learning algorithm. (Machine Learning algorithm),['Q-learning']
+Q269608,314,['reverse-engineering'],Reverse engineering,"process by which a man-made object is deconstructed to reveal its designs, architecture, code or to extract knowledge from the object; similar to scientific research, the only difference being that scientific research is about a natural phenomenon",['Reverse engineering']
+Q270471,85,['virtualization'],virtualization,computing technique for setting up virtual versions of operating systems or computer resources,"['virtualisation', 'virtualization']"
+Q2715623,195,['social-network'],social network,theoretical concept in sociology,"['social networking', 'social network']"
+Q2719318,74,['audio-processing'],audio signal processing,electronic manipulation of audio signals,"['audio processing', 'Acoustic signal processing', 'audio signal processing']"
+Q2738570,680,['mobile'],mobile computing,use of portable computers,['mobile computing']
+Q28038508,117,['image-recognition'],image recognition,image identification made by artificial intelligence,['image recognition']
+Q28061130,269,['static-analysis'],static program analysis tool,programming tool for static analysis,"['source code analyzer', 'static program analyzer', 'source code analyzer tool', 'source code analysis tool', 'static analyzer', 'static program analysis tool']"
+Q282453,79,['svm'],support vector machine,set of methods for supervised statistical learning,"['SVM', 'support vector machines', 'support vector machine']"
+Q28374376,48,['hyperparameter-optimization'],hyperparameter optimization,choosing a set of optimal hyperparameters,"['hyperparameter tuning', 'hyperparameter optimization']"
+Q28957018,283,['home-assistant'],Home Assistant,home automation software,"['Hass.io', 'Home Assistant']"
+Q29649691,574,['logging'],logging,automatic creation of a log of a software process,['logging']
+Q2979024,225,['http-client'],HTTP client,software category,"['Hypertext Transfer Protocol clients', 'HTTP client']"
+Q2988038,98,['mobile-development'],mobile application development,process to build apps for various mobile operating systems,"['mobile app development', 'smartphone application development', 'smartphone app development', 'app development software', 'mobile application development']"
+Q3025536,645,['devops'],DevOps,software development method,['DevOps']
+Q3045304,382,['object-detection'],object detection,computer technology related to computer vision and image processing,['object detection']
+Q30503704,132,['graph-algorithms'],graph algorithm,type of algorithm,"['algorithm in graph theory', 'graph algorithm']"
+Q30642,2243,"['nlp', 'natural-language-processing', 'nlp-machine-learning']",natural language processing,field of computer science and linguistics,"['NLP', 'natural language processing']"
+Q3125508,113,['hacking-tool'],hacking tool,software or program used for computer hacking,"['hacktool', 'hacking tool']"
+Q3293547,51,['data-binding'],data binding,data management technique,['data binding']
+Q33002955,61,['knowledge-graph'],knowledge graph,information repository structured as a graph,['knowledge graph']
+Q333,85,['astronomy'],astronomy,natural science that deals with the study of celestial objects,['astronomy']
+Q334384,72,['supervised-learning'],supervised learning,machine learning task of learning a function that maps an input to an output based on example input-output pairs,"['supervised machine learning', 'supervised learning']"
+Q335632,74,['quantitative-finance'],mathematical finance,"field of applied mathematics, concerned with mathematical modeling of financial markets","['financial mathematics', 'quantitative finance', 'Quantitative trading', 'quantitative trading', 'mathematical finance']"
+Q336,165,['science'],science,systematic enterprise that builds and organizes knowledge,['science']
+Q33742,59,['nlu'],natural language,"language naturally spoken by humans, as opposed to ""constructed"" and ""formal"" languages","['ordinary language', 'natural language']"
+Q35127,433,['website'],website,set of related web pages served from a single web domain,"['World Wide Web site', 'web site', 'site', 'WWW site', 'Internet site', 'website']"
+Q3536669,88,['video-processing'],video processing,,['video processing']
+Q355134,46,['graphics-engine'],graphics engine,,"['3D engine', 'graphics engine']"
+Q3560506,66,['anomaly-detection'],anomaly detection,"the identification of rare items, events or observations which raise suspicions by differing significantly from the expected or majority of the data","['outlier detection', 'novelty detection', 'anomaly detection']"
+Q3621696,72,['language-model'],language model,statistical model of structure of language,['language model']
+Q373442,50,['rendering-engine'],web browser engine,software used to process and render a web page,"['layout engine', 'web layout engine', 'web rendering engine', 'rendering engine', 'web content renderer', 'browser engine', 'web browser engine']"
+Q386275,152,['web-development'],web development,built highly interactive and responsive website using cutting edge web technologies,"['webdev', 'web development']"
+Q39161486,48,['image-captioning'],image captioning,,['image captioning']
+Q395,411,"['math', 'mathematics']",mathematics,science of abstract objects and structures,"['math', 'maths', 'mathematics']"
+Q3958022,977,['serverless'],serverless computing,cloud computing model,"['serverless', 'function as a service', 'FaaS', 'serverless computing']"
+Q3962217,276,['distributed-systems'],distributed system,,"['distributed systems', 'distributed system']"
+Q3988,527,"['real-time', 'realtime']",real-time computing,"study of hardware and software systems that have a ""real-time constraint""","['reactive computing', 'real-time system', 'realtime computing', 'realtime system', 'real-time computing']"
+Q403574,100,['named-entity-recognition'],named-entity recognition,extraction of named entity mentions in unstructured text into pre-defined categories,"['named entity extraction', 'entity extraction', 'entity identification', 'entity recognition', 'NER', 'entity chunking', 'named entity recognition and classification', 'NERC', 'named-entity recognition']"
+Q412438,47,['image-compression'],image compression,reduction of image size to save storage and transmission costs,['image compression']
+Q413,178,['physics'],physics,"study of matter and its motion, along with related concepts such as energy and force","['physical', 'physic', 'Physics', 'physics']"
+Q42283,51,['tcp-server'],File Transfer Protocol,standard protocol for transferring files over TCP/IP networks,"['FTP', 'File Transfer Protocol']"
+Q43015,254,['finance'],finance,"academic discipline studying businesses, financing, investments and protection of economic value","['Finance', 'finance']"
+Q4343952,469,['dashboard'],business dashboard,aggregate business progress report,"['dashboard', 'business dashboard']"
+Q4354073,179,['reactive-programming'],reactive programming,programming paradigm focused on data flow and change propragation,['reactive programming']
+Q43967068,59,['automl'],automated machine learning,process of automating the end-to-end process of machine learning,"['AutoML', 'automatic machine learning', 'automated machine learning']"
+Q440296,74,['super-resolution'],image scaling,changing the resolution of a digital image,"['upscaling', 'downscaling', 'resolution enhancement', 'superresolution', 'super-resolution', 'image super-resolution', 'image interpolation', 'image resizing', 'image scaling']"
+Q44127,782,['server'],server,computer program or device that provides access to a central resource or other functionality for clients,"['service', 'server process', 'server job', 'application server', 'server-side', 'server']"
+Q4417999,107,['network-analysis'],network analysis,use of graph theory to solve network problems,"['analysis of networks', 'graph analysis', 'network analysis']"
+Q45045,272,['simulation'],simulation,"imitation of the operation of a real-world process or system over time, for studying either real events in many contexts or effects of alternative conditions and courses of actions",['simulation']
+Q451553,961,"['visualization', 'visualisation']",visualization,"set of techniques for creating images, diagrams, or animations to communicate a message","['visualisation', 'Imaging', 'visualization']"
+Q45211,52,['content-management-system'],Web content management system,a software content management system (CMS) specifically for web content.,"['Web CMS, WCMS, WCM', 'Web content management system']"
+Q4544684,446,['search'],search,"set of methods, means, initiatives, organizational tools, aimed at finding people or things","['research', 'search']"
+Q45842,337,['crawler'],web crawler,"internet bot that systematically browses the World Wide Web, typically for the purpose of Web indexing (web spidering)","['ant', 'automatic indexer', 'spider (web)', 'web spider', 'web scutter', 'web crawler']"
+Q4636322,85,['pose-estimation'],3D pose estimation,process of determining spatial characteristics of objects,['3D pose estimation']
+Q466,1142,['web'],World Wide Web,system of interlinked hypertext documents accessed via the Internet,"['WWW', 'W3', 'the Web', 'Web', 'web', 'the World Wide Web', 'The Web', 'World Wide Web']"
+Q4677630,61,['action-recognition'],activity recognition,filed of research related to recognizing the actions and goals of computer agents,['activity recognition']
+Q47146,1333,"['ui', 'user-interface']",user interface,means by which a user interacts with and controls a machine,"['UI', 'input method', 'user interface']"
+Q475000,101,['stock-market'],stock market,public entity for the trading of company stocks and shares,"['equity market', 'share market', 'Stock Market', 'Mutual funds', 'stock markets', 'stock market']"
+Q47506,643,['compiler'],compiler,computer program that transforms source code into object code,"['code compiler', 'Compiler', 'compiler']"
+Q478798,740,"['image', 'images']",image,artifact that depicts or records visual perception,"['picture', 'graphic', 'images', 'Imake', 'image']"
+Q4800952,46,['human-pose-estimation'],Articulated body pose estimation,,['Articulated body pose estimation']
+Q483130,216,['gis'],geographic information system,spatial data information systems,"['GIS', 'geographic information systems', 'geographical information system', 'geographic information system']"
+Q483639,65,['cloud-computing'],cloud computing,"form of Internet-based computing, whereby shared resources, software and information are provided to computers and other devices","['cloud platform', 'cloud', 'cloud computing']"
+Q484847,373,"['ecommerce', 'e-commerce']",e-commerce,type of business industry usually conducted over the internet,"['eCommerce', 'electronic commerce', 'E-Commerce', 'online commerce', 'Internet commerce', 'e-business', 'e-commerce']"
+Q485396,372,['analytics'],analytics,"discovery, interpretation, and communication of meaningful patterns in data","['data analytics', 'analytics']"
+Q4868296,309,['font'],font,"particular size, weight and style of a typeface",['font']
+Q494756,454,['data'],data,"quantities, characters, or symbols on which operations are performed by a computer","['computer data', 'digital data', 'data']"
+Q507703,44,['irc-bot'],IRC bot,set of scripts or an independent program that connects to Internet Relay Chat as a client,"['Internet Relay Chat bot', 'IRC bot']"
+Q51289900,638,['deep-neural-networks'],deep neural network,artificial neural network,"['deep artificial neural network', 'DNN', 'deep network', 'deep neural network']"
+Q52720701,195,['static-site'],static website,,['static website']
+Q5276156,139,['cybersecurity'],digital security,various ways of protecting computer's internet account and files from intrusion by an outside user,"['cybersecurity', 'digital security']"
+Q528166,555,['client'],client,piece of computer hardware or software accessings a server service,"['client-side', 'client software', 'client']"
+Q5318,376,['router'],router,"device that forwards data packets between computer networks, creating an overlay internetwork","['routers', 'router']"
+Q5337692,45,['edge-computing'],edge computing,distributed computing,['edge computing']
+Q545981,92,['image-manipulation'],image editing,"processes of altering images, digital or traditional photos and add/paste/and cut words","['photo editing', 'image editing']"
+Q54837,54,['semantic-web'],Semantic Web,extension of the Web to facilitate data exchange,"['Sem Web', 'SemWeb', 'Semantic Web']"
+Q55080229,262,['deep-reinforcement-learning'],deep reinforcement learning,,['deep reinforcement learning']
+Q5532625,87,['generative-model'],generative model,,['generative model']
+Q554950,185,"['recommender-system', 'recommendation-system']",recommender system,information filtering system to predict users' preferences,"['recommendation system', 'recommendation engine', 'recsys', 'recommender system']"
+Q55624999,78,['dnn'],neural network,structure in biology and artificial intelligence,['neural network']
+Q568742,539,['3d'],3D modeling,process of developing a mathematical representation of any three-dimensional surface of object via specialized software,['3D modeling']
+Q56933,569,"['segmentation', 'semantic-segmentation', 'image-segmentation']",image segmentation,Division of an image into sets of pixels for further processing,"['sementation', 'image segmentation']"
+Q57261400,115,['continuous-deployment'],continuous deployment,software engineering approach in which software functionalities are delivered frequently,"['CD', 'continuous deployment']"
+Q58199,382,"['messaging', 'chat-application', 'instant-messaging']",instant messaging,form of communication over the Internet,"['IM', 'chat', 'text chat', 'messaging', 'instant messaging']"
+Q58748,412,['orm'],object–relational mapping,programming technique,"['ORM', 'object-relational mapping', 'Object Relational Mapper', 'O/RM', 'O/R mapping tool', 'object–relational mapping']"
+Q5915793,148,['geospatial'],geographic information,data and information having an implicit or explicit association with a location,['geographic information']
+Q595971,71,['graph-database'],graph database,database which utilizes structure of discrete mathematical graphs to store and search data,['graph database']
+Q6027324,150,['transfer-learning'],transfer learning,research problem in machine learning (ML) that focuses on storing knowledge gained while solving one problem and applying it to a different but related problem,"['inductive transfer', 'transfer learning']"
+Q61087512,55,['ecommerce-platform'],eCommfy,SaaS based enterprise eCommerce platform,['eCommfy']
+Q622825,250,['clustering'],cluster analysis,task of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense or another) to each other than to those in other groups (clusters),"['clustering', 'cluster analysis in marketing', 'cluster analysis']"
+Q635336,329,['dependency-injection'],dependency injection,technique in software engineering,"['DI', 'dependency injection']"
+Q6368,539,['browser'],web browser,"software application for retrieving, presenting, and traversing information resources on the World Wide Web","['WWW browser', 'Web client', 'WWW client', 'W3 browser', 'W3 client', 'browser', 'Web browser', 'Internet browser', 'internet browser', 'W browser', 'web browser']"
+Q638,645,['music'],music,"art form, and cultural activity, whose medium is sound",['music']
+Q638608,224,['development'],software development,creation and maintaining of programs and applications,['software development']
+Q650462,97,['synchronization'],synchronization,"concept in computer science, referring to processes, or data",['synchronization']
+Q6504956,563,['data-visualization'],data visualization,creation and study of the visual representation of data,"['dataviz', 'data visualisation', 'data viz', 'datavis', 'data visualization']"
+Q65647244,52,['iot-platform'],distributed multimedia communications platform,"program or computing platform for voice, video, chat and IoT communications over the Internet","['softphone', 'distributed multimedia communications platform']"
+Q66221,320,['storage'],computer data storage,Storage of digital data readable by computers,"['storage', 'memory', 'data storage', 'computer storage', 'computer data storage']"
+Q665452,554,"['scraper', 'scraping', 'web-scraping', 'webscraping']",web scraping,data scraping used for extracting data from websites,"['web harvesting', 'web data extraction', 'Web scraping', 'web scraping']"
+Q6673524,393,['lstm'],long short-term memory,recurrent neural network architecture,"['LSTM', 'long short-term memory']"
+Q67224805,55,['text-analysis'],text analysis,structured analysis of text and context,['text analysis']
+Q676880,121,['text-mining'],text mining,process of analysing text to extract information from it,"['text data mining', 'textmining', 'text-mining', 'text mining']"
+Q6880649,55,['vulnerability-detection'],misuse detection,an approach to detect abnormal system behavior and potential insider threats to vulnerable computer data,['misuse detection']
+Q70507976,653,['frontend'],front end,presentation layer of piece of software,"['frontend', 'front-end', 'front end']"
+Q7139956,49,['parser-combinators'],Parser combinator,,['Parser combinator']
+Q7310755,44,['relation-extraction'],relationship extraction,type of text mining,"['relation extraction', 'relationship extraction']"
+Q741490,68,['autonomous-vehicles'],autonomous car,vehicle operated with reduced human input,"['driverless car', 'self-driving car', 'robotic car', 'selfdriving car', 'cars that drive themselves', 'car that drives itself', 'autonomous car']"
+Q7431119,46,['database-migrations'],schema migration,"the management of incremental, reversible changes and version control to relational database schemas","['database migration', 'database change management', 'schema migration']"
+Q747907,228,['syntax-highlighting'],syntax highlighting,"tool of editors for programming, scripting and markup",['syntax highlighting']
+Q750843,53,['data-processing'],information processing,process in which input information is analysed or transformed in order to produce information as output,"['data processing', 'information process', 'information processing']"
+Q7544035,320,['smart-contracts'],smart contract,transaction on a decentralized platform,['smart contract']
+Q7553,315,['translation'],translation,communication of the meaning of a source-language text by means of an equivalent target-language text,"['translating', 'translate', 'translation']"
+Q758895,93,['audio-player'],audio player software,software or device which could play audio files or audio data,"['audio player', 'music player', 'audio player software']"
+Q7600677,508,['graphics'],computer graphics,"pictures and graphics, possibly animated, that are generated using computers, for transforming and compositing various sources of images or data with precise definitions of style, layout, effects, sequencing and synchronization","['CG', 'computer graphics']"
+Q778043,49,['trading-platform'],electronic trading platform,software for trading financial products,"['online trading platform', 'electronic trading system', 'electronic exchange', 'electronic trading platform']"
+Q77916592,278,['static-site-generator'],static site generator,software to generate static websites,"['static website generator', 'static site generator']"
+Q782543,647,['gui'],graphical user interface,user interface allowing interaction through graphical icons and visual indicators,"['GUI', 'graphical user interface']"
+Q788790,684,['documentation'],documentation,set of documents providing knowledge,['documentation']
+Q7889,1418,['game'],video game,electronic game that involves interaction with a user interface to generate visual feedback on a video device such as a TV screen or computer monitor,"['video games', 'videogame', 'videogames', 'game', 'vg', 'vidya', 'video game']"
+Q79798,60,['machine-translation'],machine translation,use of software for language translation,"['MT', 'Machine Translation', 'machine translation']"
+Q798332,268,['backend'],back end,,['back end']
+Q79872,62,['object-oriented'],object-oriented programming,programming paradigm based on the concept of objects,"['OOP', 'Object-oriented programming', 'Object-Oriented Programming', 'object-oriented programming']"
+Q80006,168,['programming'],computer programming,occupational field,"['programming', 'computer programming']"
+Q806718,47,['banking'],banking industry,industry for financial institutions such as banks and credit unions,"['economics of banking', 'banking', 'bank industry', 'banking sector', 'banking industry']"
+Q8087,136,['geometry'],geometry,branch of mathematics regarding geometric figures and properties of space,['geometry']
+Q80993,46,['software-engineering'],software engineering,application of systematic approaches to developing software,"['SE', 'software engineering']"
+Q812530,49,['naive-bayes-classifier'],Naive Bayes classifier,classification algorithm,"['Naive Bayes', 'Naive Bayes classifier']"
+Q812535,90,['bayesian-inference'],Bayesian inference,method of statistical inference in which Bayes' theorem is used to update the probability for a hypothesis as more evidence or information becomes available,"['Bayesian analysis', ""Bayes' solution"", 'Bayesian approach', 'Bayesian method', 'Bayesian inference']"
+Q816747,265,['benchmark'],benchmark,test to the measure performance of a computer system,"['software benchmark', 'computer benchmark', 'hardware benchmark', 'performance benchmark', 'performance test', 'benchmark']"
+Q816826,78,['information-retrieval'],information retrieval,activity of obtaining information resources relevant to an information need from a collection of information resources,"['IR', 'information storage and retrieval', 'info retrieval', 'information retrieval']"
+Q82571,138,['linear-algebra'],linear algebra,branch of mathematics that studies vector spaces,['linear algebra']
+Q82604,410,['design'],design,creation of a plan or convention for the construction of an object or a system; process of creation; act of creativity and innovation,"['styling', 'design']"
+Q830687,667,['reinforcement-learning'],reinforcement learning,field of machine learning,['reinforcement learning']
+Q835922,68,['lexer'],lexical analysis,computing process of parsing a sequence of characters into a sequence of tokens,"['lexing', 'tokenization', 'lexical analysis']"
+Q8366,1200,"['algorithm', 'algorithms']",algorithm,unambiguous specification of how to solve a class of problems,"['mathematical algorithm', 'algorithms', 'algorithm']"
+Q8434,285,['education'],education,learning in which knowledge and skills are transferred through teaching,"['educate', 'education']"
+Q844240,1673,"['computer-vision', 'cv']",computer vision,computerized information extraction from images,['computer vision']
+Q845566,373,"['debug', 'debugging']",debugging,process of finding and resolving defects or problems within a computer program,"['debug', 'debugging']"
+Q846636,366,['architecture'],software architecture,high level structures of a software system,['software architecture']
+Q846780,53,['kalman-filter'],Kalman filter,algorithm,"['linear quadratic estimation', 'LQE', 'Kalman filter']"
+Q848436,275,['home-automation'],home automation,building automation for a home,"['smart home', 'domotics', 'smart house', 'home automation']"
+Q8513,1735,['database'],database,organized collection of data in computing,"['db', 'DB', 'database, DB', 'database']"
+Q858810,326,"['big-data', 'bigdata']",big data,"Information assets characterized by such a high volume, velocity, and variety to require specific technology and analytical methods for its transformation into value",['big data']
+Q859938,434,['websockets'],WebSocket,computer network protocol,['WebSocket']
+Q860755,68,['image-analysis'],Image analysis,extraction of information from images via digital image processing techniques,['Image analysis']
+Q870780,479,['chatbot'],chatbot,program or set of instructions that simulates conversation with humans,"['IM bot', 'AI chatbot', 'chat bot', 'chatter bot', 'chat-bot', 'bot', 'chatterbot', 'Conversational UI', 'chatbot']"
+Q8789,913,"['cryptography', 'crypto']",cryptography,practice and study of techniques for secure communication in the presence of third parties,"['cryptographic engineering', 'cryptography']"
+Q891055,255,"['package-manager', 'package-management']",package management system,"software that manages the installation, upgrading, removal and dependency resolution of software packages","['package manager', 'application manager', 'software package management system', 'package management system']"
+Q907375,403,"['unit-testing', 'unittest', 'unit-test']",unit testing,software testing method by which individual units of source code are validated,['unit testing']
+Q9135,181,['operating-system'],operating system,software that manages computer hardware resources,"['OS', 'Operating System', 'operating system']"
+Q9158,546,"['email', 'mail']",email,method of electronically exchanging digital messages between people over a network,"['electronic mail', 'e-mail', '📧', 'email']"
+Q931309,130,['medical-imaging'],medical imaging,technique and process of creating visual representations of the interior of a body,"['scanning', 'diagnostic imaging', 'medical imaging']"
+Q94702,66,['collaborative-filtering'],collaborative filtering,algorithm,['collaborative filtering']
+Q96468792,49,['topic-modeling'],topic modeling,set of techniques in computational linguistics and related fields,"['topic modeling', 'topic modeling']"
+Q965769,608,"['continuous-integration', 'ci']",continuous integration,software development practice based on frequent submission of granular changes,"['CI', 'continuous integration']"
+Q9662,245,['kernel'],kernel,main component of most computer operating systems,"['operating system kernel', 'OS kernel', 'kernel']"
+Q98069877,784,['video'],video,motion picture format,['video']
+Q98526763,220,['image-classification'],image classification,set of methods to group images,['image classification']
+Q989016,45,['distributed-database'],distributed database,A database in which data is stored across different physical locations.,['distributed database']
+Q989632,49,['network-security'],network security,"policies and practices adopted to prevent and monitor unauthorized access, misuse, modification, or denial of computer networks and network-accessible resources","['netsec', 'computer network security', 'network security']"
