@@ -22,6 +22,7 @@ hydra-joblib-launcher = "^1.1.5"
 dedupe = "^2.0.8"
 Unidecode = "^1.3.2"
 Wikidata = "^0.7.0"
+notebook = "^6.4.6"
 
 [tool.poetry.dev-dependencies]
 

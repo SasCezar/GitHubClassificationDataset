@@ -8,7 +8,6 @@ Q1061635,1085,"['game-development', 'gamedev', 'game-dev']",video game developme
 Q1068715,1007,"['networking', 'network']",telecommunications network,network to enable telecommunicationinternet between different terminals,['telecommunications network']
 Q1070689,825,['image-processing'],digital image processing,processing of digitally-represented images with algorithms,"['computer-assisted image processing', 'image processing, computer-assisted', 'digital image processing']"
 Q107300377,62,['variational-autoencoder'],Variational autoencoder,deep learning generative model to encode data representation,"['VAE', 'Variational autoencoder']"
-Q107383511,61,['databases'],databases,Python library,['databases']
 Q1074173,92,['question-answering'],question answering,research area in computer science,"['QA', 'question-answering', 'question answering']"
 Q107630377,477,['containers'],Containerization,cloud computing concept,['Containerization']
 Q107643461,47,['database-management'],database management,academic discipline,['database management']
@@ -185,7 +184,7 @@ Q413,178,['physics'],physics,"study of matter and its motion, along with related
 Q42283,51,['tcp-server'],File Transfer Protocol,standard protocol for transferring files over TCP/IP networks,"['FTP', 'File Transfer Protocol']"
 Q43015,254,['finance'],finance,"academic discipline studying businesses, financing, investments and protection of economic value","['Finance', 'finance']"
 Q4343952,469,['dashboard'],business dashboard,aggregate business progress report,"['dashboard', 'business dashboard']"
-Q4354073,179,['reactive-programming'],reactive programming,programming paradigm focused on data flow and change propragation,['reactive programming']
+Q4354073,179,['reactive-programming'],reactive programming,programming paradigm focused on data flow and change propagation,['reactive programming']
 Q43967068,59,['automl'],automated machine learning,process of automating the end-to-end process of machine learning,"['AutoML', 'automatic machine learning', 'automated machine learning']"
 Q440296,74,['super-resolution'],image scaling,changing the resolution of a digital image,"['upscaling', 'downscaling', 'resolution enhancement', 'superresolution', 'super-resolution', 'image super-resolution', 'image interpolation', 'image resizing', 'image scaling']"
 Q44127,782,['server'],server,computer program or device that provides access to a central resource or other functionality for clients,"['service', 'server process', 'server job', 'application server', 'server-side', 'server']"
@@ -203,7 +202,7 @@ Q475000,101,['stock-market'],stock market,public entity for the trading of compa
 Q47506,643,['compiler'],compiler,computer program that transforms source code into object code,"['code compiler', 'Compiler', 'compiler']"
 Q478798,740,"['image', 'images']",image,artifact that depicts or records visual perception,"['picture', 'graphic', 'images', 'Imake', 'image']"
 Q4800952,46,['human-pose-estimation'],Articulated body pose estimation,,['Articulated body pose estimation']
-Q483130,216,['gis'],geographic information system,spatial data information systems,"['GIS', 'geographic information systems', 'geographical information system', 'geographic information system']"
+Q483130,216,['gis'],geographic information syst,spatial data information systems,"['SIG', 'systèmes d’information géographique', 'système d’information géographique', 'geographic information syst']"
 Q483639,65,['cloud-computing'],cloud computing,"form of Internet-based computing, whereby shared resources, software and information are provided to computers and other devices","['cloud platform', 'cloud', 'cloud computing']"
 Q484847,373,"['ecommerce', 'e-commerce']",e-commerce,type of business industry usually conducted over the internet,"['eCommerce', 'electronic commerce', 'E-Commerce', 'online commerce', 'Internet commerce', 'e-business', 'e-commerce']"
 Q485396,372,['analytics'],analytics,"discovery, interpretation, and communication of meaningful patterns in data","['data analytics', 'analytics']"
@@ -264,7 +263,7 @@ Q7889,1418,['game'],video game,electronic game that involves interaction with a 
 Q79798,60,['machine-translation'],machine translation,use of software for language translation,"['MT', 'Machine Translation', 'machine translation']"
 Q798332,268,['backend'],back end,,['back end']
 Q79872,62,['object-oriented'],object-oriented programming,programming paradigm based on the concept of objects,"['OOP', 'Object-oriented programming', 'Object-Oriented Programming', 'object-oriented programming']"
-Q80006,168,['programming'],computer programming,occupational field,"['programming', 'computer programming']"
+Q80006,168,['programming'],computer programming,the process of designing and building an executable computer program to accomplish a specific computing result or to perform a specific task,"['programming', 'computer programming']"
 Q806718,47,['banking'],banking industry,industry for financial institutions such as banks and credit unions,"['economics of banking', 'banking', 'bank industry', 'banking sector', 'banking industry']"
 Q8087,136,['geometry'],geometry,branch of mathematics regarding geometric figures and properties of space,['geometry']
 Q80993,46,['software-engineering'],software engineering,application of systematic approaches to developing software,"['SE', 'software engineering']"
@@ -283,7 +282,7 @@ Q845566,373,"['debug', 'debugging']",debugging,process of finding and resolving 
 Q846636,366,['architecture'],software architecture,high level structures of a software system,['software architecture']
 Q846780,53,['kalman-filter'],Kalman filter,algorithm,"['linear quadratic estimation', 'LQE', 'Kalman filter']"
 Q848436,275,['home-automation'],home automation,building automation for a home,"['smart home', 'domotics', 'smart house', 'home automation']"
-Q8513,1735,['database'],database,organized collection of data in computing,"['db', 'DB', 'database, DB', 'database']"
+Q8513,1796,"['database', 'databases']",database,organized collection of data in computing,"['db', 'DB', 'database, DB', 'database']"
 Q858810,326,"['big-data', 'bigdata']",big data,"Information assets characterized by such a high volume, velocity, and variety to require specific technology and analytical methods for its transformation into value",['big data']
 Q859938,434,['websockets'],WebSocket,computer network protocol,['WebSocket']
 Q860755,68,['image-analysis'],Image analysis,extraction of information from images via digital image processing techniques,['Image analysis']
