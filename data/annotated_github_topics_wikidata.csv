@@ -38,7 +38,7 @@ Q131723,1050,['bitcoin'],bitcoin,digital cash system and associated currency,"['
 Q1329550,111,['static-code-analysis'],static program analysis,program analysis performed without actually executing programs,"['static code analysis', 'static analysis', 'static software analysis', 'static program analysis']"
 Q1339090,57,['emotion-recognition'],emotion recognition,process of identifying human emotion,['emotion recognition']
 Q13479982,1123,"['cryptocurrency', 'cryptocurrencies']",cryptocurrency,digital medium of exchange using cryptography on a ledger to secure transactions and to verify transfer of ownership,"['crypto currency', 'crypto', 'cryptocurrency']"
-Q135005,47,['phishing'],phishing,act of attempting to acquire (sensitive) information by posing as a trustworthy entity,['phishing']
+Q135005,47,['phishing'],phishing,act of attempting to acquire (sensitive) information by posing as a trustworthy entity,"['phishing attack', 'phishing']"
 Q13582682,370,['classification'],classification,grouping of objects into classes,"['classifying', 'classification']"
 Q1361088,56,['matrix-factorization'],matrix decomposition,representation of a matrix as a product,"['matrix factorization', 'Decomposition', 'factorization', 'matrix decomposition']"
 Q13741,275,['ide'],integrated development environment,software application used to develop software,"['IDE', 'integrated development environment']"
@@ -160,7 +160,7 @@ Q30503704,132,['graph-algorithms'],graph algorithm,type of algorithm,"['algorith
 Q30642,2243,"['nlp', 'natural-language-processing', 'nlp-machine-learning']",natural language processing,field of computer science and linguistics,"['NLP', 'natural language processing']"
 Q3125508,113,['hacking-tool'],hacking tool,software or program used for computer hacking,"['hacktool', 'hacking tool']"
 Q3293547,51,['data-binding'],data binding,data management technique,['data binding']
-Q33002955,61,['knowledge-graph'],knowledge graph,information repository structured as a graph,['knowledge graph']
+Q33002955,61,['knowledge-graph'],knowledge graph,information repository structured as a graph,"['Knowledge Graphs', 'knowledge graph']"
 Q333,85,['astronomy'],astronomy,natural science that deals with the study of celestial objects,['astronomy']
 Q334384,72,['supervised-learning'],supervised learning,machine learning task of learning a function that maps an input to an output based on example input-output pairs,"['supervised machine learning', 'supervised learning']"
 Q335632,74,['quantitative-finance'],mathematical finance,"field of applied mathematics, concerned with mathematical modeling of financial markets","['financial mathematics', 'quantitative finance', 'Quantitative trading', 'quantitative trading', 'mathematical finance']"
@@ -202,9 +202,9 @@ Q475000,101,['stock-market'],stock market,public entity for the trading of compa
 Q47506,643,['compiler'],compiler,computer program that transforms source code into object code,"['code compiler', 'Compiler', 'compiler']"
 Q478798,740,"['image', 'images']",image,artifact that depicts or records visual perception,"['picture', 'graphic', 'images', 'Imake', 'image']"
 Q4800952,46,['human-pose-estimation'],Articulated body pose estimation,,['Articulated body pose estimation']
-Q483130,216,['gis'],geographic information syst,spatial data information systems,"['SIG', 'systèmes d’information géographique', 'système d’information géographique', 'geographic information syst']"
+Q483130,216,['gis'],geographic information system,spatial data information systems,"['GIS', 'geographic information systems', 'geographical information system', 'geographic information system']"
 Q483639,65,['cloud-computing'],cloud computing,"form of Internet-based computing, whereby shared resources, software and information are provided to computers and other devices","['cloud platform', 'cloud', 'cloud computing']"
-Q484847,373,"['ecommerce', 'e-commerce']",e-commerce,type of business industry usually conducted over the internet,"['eCommerce', 'electronic commerce', 'E-Commerce', 'online commerce', 'Internet commerce', 'e-business', 'e-commerce']"
+Q484847,428,"['ecommerce', 'e-commerce', 'ecommerce-platform']",e-commerce,type of business industry usually conducted over the internet,"['eCommerce', 'electronic commerce', 'E-Commerce', 'online commerce', 'Internet commerce', 'e-business', 'e-commerce']"
 Q485396,372,['analytics'],analytics,"discovery, interpretation, and communication of meaningful patterns in data","['data analytics', 'analytics']"
 Q4868296,309,['font'],font,"particular size, weight and style of a typeface",['font']
 Q494756,454,['data'],data,"quantities, characters, or symbols on which operations are performed by a computer","['computer data', 'digital data', 'data']"
@@ -229,7 +229,6 @@ Q58748,412,['orm'],object–relational mapping,programming technique,"['ORM', 'o
 Q5915793,148,['geospatial'],geographic information,data and information having an implicit or explicit association with a location,['geographic information']
 Q595971,71,['graph-database'],graph database,database which utilizes structure of discrete mathematical graphs to store and search data,['graph database']
 Q6027324,150,['transfer-learning'],transfer learning,research problem in machine learning (ML) that focuses on storing knowledge gained while solving one problem and applying it to a different but related problem,"['inductive transfer', 'transfer learning']"
-Q61087512,55,['ecommerce-platform'],eCommfy,SaaS based enterprise eCommerce platform,['eCommfy']
 Q622825,250,['clustering'],cluster analysis,task of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense or another) to each other than to those in other groups (clusters),"['clustering', 'cluster analysis in marketing', 'cluster analysis']"
 Q635336,329,['dependency-injection'],dependency injection,technique in software engineering,"['DI', 'dependency injection']"
 Q6368,539,['browser'],web browser,"software application for retrieving, presenting, and traversing information resources on the World Wide Web","['WWW browser', 'Web client', 'WWW client', 'W3 browser', 'W3 client', 'browser', 'Web browser', 'Internet browser', 'internet browser', 'W browser', 'web browser']"

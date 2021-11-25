@@ -2420,7 +2420,7 @@ webcam,55,0,0,0,0,,,Q29576
 performance-monitoring,55,0,0,0,0,,,Q7098880
 color-theme,55,0,0,0,0,,,Q105856201
 hacktoberfest2018,55,0,0,0,0,,,-1
-ecommerce-platform,55,1,1,1,3,Q61087512,,Q61087512
+ecommerce-platform,55,1,1,1,3,Q484847,Q484847,Q61087512
 sparql,55,0,0,0,0,,,Q54871
 addons,55,0,0,0,0,,,Q184148
 zipkin,55,0,0,0,0,,,Q107385676
