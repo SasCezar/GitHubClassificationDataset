@@ -1,0 +1,6 @@
+[submodule "hFilter"]
+	path = hFilter
+	url = git@github.com:MDEGroup/hFilter.git
+[submodule "PairRank"]
+	path = PairRank
+	url = git@github.com:SasCezar/PairRank.git
