@@ -79,7 +79,8 @@ if __name__ == '__main__':
 
     # ## Setup
 
-    input_file = 'filtered.csv'
+    #input_file = '../../data/all_topics_freq.csv'
+    input_file = 'taxonomy_like_topics.csv'
     output_file = 'csv_example_output.csv'
     settings_file = 'csv_example_learned_settings'
     training_file = 'csv_example_training.json'
@@ -143,7 +144,7 @@ if __name__ == '__main__':
     # believes are all referring to the same entity.
 
     print('clustering...')
-    clustered_dupes = deduper.partition(data_d, 0.5)
+    clustered_dupes = deduper.partition(data_d, 0.1)
 
     print('# duplicate sets', len(clustered_dupes))
 

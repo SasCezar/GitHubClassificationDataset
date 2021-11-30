@@ -1,0 +1,4 @@
+_target_: src.ml.clustering.GMMClustering
+n_components: 10
+covariance_type: full
+init_params: kmeans
