@@ -1,8 +1,8 @@
 defaults:
   - _self_
-  - embedding: fastText
-  - linking: cluster
-  - optional clustering:
+  - embedding: wikidata
+  - linking: order
+  - optional clustering: null
   - optional optimizer: null
 
 # path to original working directory

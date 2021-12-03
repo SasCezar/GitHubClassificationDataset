@@ -12,7 +12,7 @@ from src.ml.embeddings import AbstractEmbeddingModel
 
 
 class Linking(ABC):
-    def __init__(self, embedding: AbstractEmbeddingModel, threshold: float = 0.0):
+    def __init__(self, embedding: AbstractEmbeddingModel, threshold: float = 0.7):
         """
         :param threshold: Minimum threshold to link a term with another
         :param embedding: Method to create the embeddings of the words
@@ -22,7 +22,7 @@ class Linking(ABC):
         self.similarity = cosine_similarity
 
     def run(self, ranking: DataFrame) -> List[Tuple[int, int]]:
-        embeddings = self.get_embeddings(ranking['topic'])
+        embeddings = self.get_embeddings(ranking['q_id'])
         res = self.create_taxonomy(ranking, embeddings)
 
         return res
@@ -65,7 +65,7 @@ class OrderLinking(Linking):
         for i in range(len(similarity)):
             most_similar = similarity[i].argsort()[::-1]
             for ms in most_similar:
-                if ms < remap[i] and similarity[i][ms] >= self.threshold and i != ms:
+                if remap[i] > ms != i and similarity[i][ms] >= self.threshold:
                     res.append((topics[i], topics[ms]))
                     break
 

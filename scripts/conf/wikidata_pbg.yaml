@@ -1,0 +1,4 @@
+work_dir: ${hydra:runtime.cwd}
+embedding_path: /scratch/p302921/Wikidata-pytorch_big_graph.tsv
+topic_path: ${work_dir}/../data/pairrank/mean_std_ranking.csv
+out: git_topics_wikidata_embeddings.vec

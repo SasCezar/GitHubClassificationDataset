@@ -1,0 +1,13 @@
+base_path: null
+dump_name: wikidata-20170613-truthy-BETA
+dump_path: ${base_path}/${dump_name}.nt.bz2
+trigram_path: ${base_path}/${dump_name}.trigrams
+
+model:
+  _target_: gensim.models.Word2Vec
+  vector_size: 10
+  window: 1
+  min_count: 10
+  workers: 20
+
+model_out: ${dump_name}-cbow-size=${model.vector_size}-window=${model.window}-min_count=${min_count}

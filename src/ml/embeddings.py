@@ -41,11 +41,17 @@ class FastTextEmbedding(AbstractEmbeddingModel):
 
 
 class W2VEmbedding(AbstractEmbeddingModel):
-    def __init__(self, path, model='W2V-Unk'):
+    def __init__(self, path, size=100, model='W2V-Unk'):
         super().__init__()
         self._name = f'{model}'
         self.model = KeyedVectors.load_word2vec_format(path)
+        self.size = size
 
     def get_embedding(self, text: str) -> numpy.ndarray:
-        embeddings = [self.model.get_vector(x) for x in text.split(' ') if x in self.model]
-        return numpy.mean(embeddings, axis=0)
+        embeddings = [self.model.get_vector(x.upper()) for x in text.split(' ') if x in self.model]
+        if not embeddings:
+            res = numpy.random.random(self.size)
+        else:
+            res = numpy.mean(embeddings, axis=0)
+
+        return res

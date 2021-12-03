@@ -1,0 +1,4 @@
+_target_: src.ml.embeddings.W2VEmbedding
+path: /home/sasce/PycharmProjects/GitHubClassificationDataset/data/models/WikidataEmbedding.vec
+model: wikiembedding
+size: 100
