@@ -1,8 +1,8 @@
 defaults:
   - _self_
-  - embedding: wikidata
-  - linking: order
-  - optional clustering: null
+  - embedding: wikidata_pbg
+  - linking: cluster
+  - optional clustering: KMeans
   - optional optimizer: null
 
 # path to original working directory

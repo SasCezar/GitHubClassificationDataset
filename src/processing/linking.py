@@ -12,7 +12,7 @@ from src.ml.embeddings import AbstractEmbeddingModel
 
 
 class Linking(ABC):
-    def __init__(self, embedding: AbstractEmbeddingModel, threshold: float = 0.7):
+    def __init__(self, embedding: AbstractEmbeddingModel, threshold: float = 0.0):
         """
         :param threshold: Minimum threshold to link a term with another
         :param embedding: Method to create the embeddings of the words
@@ -22,6 +22,7 @@ class Linking(ABC):
         self.similarity = cosine_similarity
 
     def run(self, ranking: DataFrame) -> List[Tuple[int, int]]:
+        ranking = ranking.sort_values('mean', ascending=False)
         embeddings = self.get_embeddings(ranking['q_id'])
         res = self.create_taxonomy(ranking, embeddings)
 
@@ -58,18 +59,14 @@ class OrderLinking(Linking):
 
     def create_taxonomy(self, ranking: DataFrame, embeddings: ndarray) -> List[Tuple[int, int]]:
         similarity = self.compute_similarity(embeddings)
-        order = sorted([(i, x) for i, x in enumerate(ranking['mean'])], key=lambda x: x[1], reverse=True)
-        remap = {k: i for i, (k, _) in enumerate(order)}
         topics = ranking['topic'].tolist()
         res = []
         for i in range(len(similarity)):
             most_similar = similarity[i].argsort()[::-1]
             for ms in most_similar:
-                if remap[i] > ms != i and similarity[i][ms] >= self.threshold:
+                if i > ms and similarity[i][ms] >= self.threshold:
                     res.append((topics[i], topics[ms]))
                     break
-
-            # res.append((i, -1))
 
         return res
 
@@ -91,14 +88,14 @@ class ClusterLinking(Linking):
         pairs = list(zip(range(0, n - 1), range(1, n)))
         for i, j in pairs:
             Xi, remap_i = self.submatrix(embeddings, [k for k, x in enumerate(clusters) if x == i])
-            Xj, remap_j = self.submatrix(embeddings, [k for k, x in enumerate(clusters) if x == j])
+            Xj, remap_j = self.submatrix(embeddings, [k for k, x in enumerate(clusters) if x >= j < x+2])
             similarity = self.compute_similarity(Xi, Xj)
             for r in range(len(similarity)):
                 most_similar = np.argmax(similarity[r])
                 if similarity[r][most_similar] >= self.threshold:
                     res.append((topics[remap_i[r]], topics[remap_j[most_similar]]))
                 else:
-                    res.append((remap_i[r], -1))
+                    res.append((topics[remap_i[r]], -1))
 
         return res
 
@@ -108,7 +105,7 @@ class ClusterLinking(Linking):
         :param ranking:
         :return:
         """
-        clusters = self.clustering.fit(ranking['mean'])
+        clusters = self.clustering.fit(ranking['mean'].to_numpy().reshape(-1, 1))
         ranking['cluster'] = clusters
         ordered_clusters = self.order_clusters(ranking)
         return len(set(clusters)), ordered_clusters
