@@ -3,7 +3,7 @@ import pandas as pd
 from omegaconf import DictConfig
 
 
-@hydra.main(config_path="configs", config_name="wikidata_pbg")
+@hydra.main(config_path="conf", config_name="wikidata_pbg")
 def extract_vector(cfg: DictConfig):
     embedding_path = cfg.embedding_path
     topic_path = cfg.topic_path

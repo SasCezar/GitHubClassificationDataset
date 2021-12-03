@@ -34,7 +34,7 @@ def train(cfg):
     w2v.save(cfg.model_out)
 
 
-@hydra.main(config_path="configs", config_name="wembedding")
+@hydra.main(config_path="conf", config_name="wembedding")
 def wikidata_embedding(cfg: DictConfig):
     trigram(cfg)
     train(cfg)
