@@ -14,8 +14,8 @@ def extract_vector(cfg: DictConfig):
     i = 0
     with open(embedding_path, 'rt') as inf, open(out, 'wt') as outf:
         for line in inf:
-            if line.split(' ')[0] in url_q_id:
-                outf.write(line + '\n')
+            if line.split('\t')[0] in url_q_id:
+                outf.write(line)
                 i += 1
 
     print('Total', len(url_q_id), 'Found', i)
