@@ -1,1 +1,4 @@
 _target_: src.processing.linking.OrderLinking
+embedding_key: description
+threshold: 0.0
+plot: True

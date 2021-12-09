@@ -4,3 +4,6 @@
 [submodule "PairRank"]
 	path = PairRank
 	url = git@github.com:SasCezar/PairRank.git
+[submodule "Search-Engines-Scraper"]
+	path = Search-Engines-Scraper
+	url = git@github.com:tasos-py/Search-Engines-Scraper.git

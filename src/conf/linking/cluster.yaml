@@ -1,1 +1,5 @@
 _target_: src.processing.linking.ClusterLinking
+embedding_key: q_id
+threshold: 0.0
+plot: True
+clustering_key: mean

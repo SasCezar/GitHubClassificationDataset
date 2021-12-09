@@ -1,9 +1,11 @@
 defaults:
   - _self_
-  - embedding: wikidata_pbg
-  - linking: cluster
-  - optional clustering: KMeans
+  - embedding: BERT
+  - linking: order
+  - optional clustering: null
   - optional optimizer: null
+  - override hydra/job_logging: colorlog
+  - override hydra/hydra_logging: colorlog
 
 # path to original working directory
 # hydra hijacks working directory by changing it to the current log directory,
@@ -14,4 +16,4 @@ work_dir: ${hydra:runtime.cwd}
 # path to folder with data
 data_dir: ${work_dir}/data/
 
-ranking_path: /home/sasce/PycharmProjects/GitHubClassificationDataset/PairRank/webapp/outputs/2021-11-29/09-22-14/mean_std_ranking.csv
+ranking_path: /home/sasce/PycharmProjects/GitHubClassificationDataset/data/pairrank/mean_std_ranking.csv
