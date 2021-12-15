@@ -1,9 +1,10 @@
 defaults:
   - _self_
-  - embedding: BERT
-  - linking: order
-  - optional clustering: null
+  - embedding: wikidata_pbg
+  - linking: ranking_cluster
+  - optional clustering: KMeans
   - optional optimizer: null
+  - exporter: graphml
   - override hydra/job_logging: colorlog
   - override hydra/hydra_logging: colorlog
 

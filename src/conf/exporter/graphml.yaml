@@ -1,0 +1,2 @@
+_target_: src.ghcdio.taxonomy2graph.GraphMLExporter
+out_path: .

@@ -28,6 +28,7 @@ spacy = "^3.2.1"
 plotly = "^5.4.0"
 hydra-colorlog = "^1.1.0"
 search_engines = { path = './Search-Engines-Scraper/', develop = true}
+networkx = "2.5.1"
 
 [tool.poetry.dev-dependencies]
 pairrank = { path = './PairRank/', develop = true }

@@ -14,7 +14,9 @@ class AbstractClustering(ABC):
         self.method = None
 
     def fit(self, X) -> List[int]:
-        return self.method.fit_predict(X.reshape(1,-1))
+        if len(X.shape) == 1:
+            X = X.reshape(-1, 1)
+        return self.method.fit_predict(X)
 
 
 class GMMClustering(AbstractClustering):
