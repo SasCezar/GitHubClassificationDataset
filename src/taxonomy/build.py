@@ -1,4 +1,5 @@
 import csv
+from typing import List
 
 import hydra
 import numpy
@@ -6,37 +7,37 @@ import pandas
 from hydra.utils import instantiate
 from omegaconf import DictConfig
 
-from src.ghcdio.taxonomy2graph import AbstractTaxonomyExporter
+from src.ghcdio.taxonomy import AbstractTaxonomyExporter
 from src.ml.clustering import AbstractClustering
-from src.processing.linking import Linking
-
-
-def export_taxonomy(res):
-    with open('taxonomy.csv', 'wt') as outf:
-        writer = csv.writer(outf)
-        for line in res:
-            writer.writerow(line)
+from src.processing.linking import AbstractLinking
+from src.utils.seed import init_seeds
 
 
 @hydra.main(config_path="../conf", config_name="build_taxonomy")
 def build_taxonomy(cfg: DictConfig):
+    init_seeds()
     embedding = instantiate(cfg.embedding)
-    print(cfg.linking._target_)
     clustering = instantiate(cfg.clustering) if cfg.clustering else None
     if 'ClusterLinking' in cfg.linking._target_:
-        linking: Linking = instantiate(cfg.linking, embedding=embedding, clustering=clustering)
+        linking: AbstractLinking = instantiate(cfg.linking, embedding=embedding, clustering=clustering)
     else:
-        linking: Linking = instantiate(cfg.linking, embedding=embedding)
+        linking: AbstractLinking = instantiate(cfg.linking, embedding=embedding)
     ranking = pandas.read_csv(cfg.ranking_path).fillna('')
+    ranking['topic_desc'] = ranking['topic'] + ' ' + ranking['description']
     res, ranking = linking.run(ranking)
     print(res)
-    export_taxonomy(res)
-    exporter: AbstractTaxonomyExporter = instantiate(cfg.exporter)
     clustering: AbstractClustering = instantiate(cfg.clustering)
     arr = numpy.array(ranking['mean'].to_list())
     ranking['cluster'] = clustering.fit(arr)
     ranking.drop(['embeddings'], axis=1, inplace=True)
-    exporter.export(ranking, res)
+    exporters: List[AbstractTaxonomyExporter] = []
+
+    for _, exporter_conf in cfg.exporter.items():
+        if "_target_" in exporter_conf:
+            exporters.append(instantiate(exporter_conf))
+
+    for exporter in exporters:
+        exporter.export(ranking, res)
 
 
 if __name__ == '__main__':

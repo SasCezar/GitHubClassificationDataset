@@ -1,10 +1,10 @@
 defaults:
   - _self_
-  - embedding: wikidata_pbg
+  - embedding: fastText
   - linking: ranking_cluster
   - optional clustering: KMeans
   - optional optimizer: null
-  - exporter: graphml
+  - exporter: default
   - override hydra/job_logging: colorlog
   - override hydra/hydra_logging: colorlog
 

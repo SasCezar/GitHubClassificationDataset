@@ -1,3 +1,4 @@
+import csv
 from abc import ABC, abstractmethod
 from os.path import join
 from typing import List, Tuple
@@ -40,3 +41,13 @@ class GraphMLExporter(AbstractTaxonomyExporter):
         nodes = nodes.to_dict('records')
         return [(x['topic'], x) for x in nodes]
 
+
+class CSVExporter(AbstractTaxonomyExporter):
+    def __init__(self, out_path="."):
+        super().__init__(out_path)
+
+    def export(self, _, elements: List[Tuple]) -> None:
+        with open('taxonomy.csv', 'wt') as outf:
+            writer = csv.writer(outf)
+            for edge in elements:
+                writer.writerow(list(edge))

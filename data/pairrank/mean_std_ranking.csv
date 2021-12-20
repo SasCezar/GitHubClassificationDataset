@@ -8,7 +8,6 @@ Q1061635,video game development,0.0,0.70710677,process of creating a computer ga
 Q1068715,telecommunications network,0.25130814,0.30746645,network to enable telecommunicationinternet between different terminals
 Q1070689,digital image processing,0.1974117,0.2983445,processing of digitally-represented images with algorithms
 Q107300377,Variational autoencoder,-1.4685358,0.29710937,deep learning generative model to encode data representation
-Q107383511,databases,0.90807086,0.24008122,Python library
 Q1074173,question answering,-0.26568845,0.27177185,research area in computer science
 Q107630377,Containerization,-0.2987477,0.30770895,cloud computing concept
 Q107643461,database management,0.65265113,0.28903607,academic discipline
@@ -218,7 +217,7 @@ Q5318,router,0.12733565,0.29063743,"device that forwards data packets between co
 Q5337692,edge computing,0.0,0.70710677,distributed computing
 Q545981,image editing,0.34372592,0.12699994,"processes of altering images, digital or traditional photos and add/paste/and cut words"
 Q54837,Semantic Web,-0.3192722,0.29596215,extension of the Web to facilitate data exchange
-Q55080229,deep reinforcement learning,-1.332112,0.22230102,
+Q55080229,deep reinforcement learning,-1.332112,0.22230102,techniques combining deep learning and reinforcement learning principles to create efficient machine learning algorithms
 Q5532625,generative model,0.0,0.70710677,
 Q554950,recommender system,0.24683763,0.2978084,information filtering system to predict users' preferences
 Q55624999,neural network,-0.47659117,0.58951706,structure in biology and artificial intelligence
@@ -230,7 +229,6 @@ Q58748,object–relational mapping,-0.533762,0.27622992,programming technique
 Q5915793,geographic information,-0.2526192,0.19241379,data and information having an implicit or explicit association with a location
 Q595971,graph database,0.0,0.70710677,database which utilizes structure of discrete mathematical graphs to store and search data
 Q6027324,transfer learning,-0.81878984,0.2426264,research problem in machine learning (ML) that focuses on storing knowledge gained while solving one problem and applying it to a different but related problem
-Q61087512,eCommfy,-1.2876334,0.29696932,SaaS based enterprise eCommerce platform
 Q622825,cluster analysis,-0.55986243,0.29701224,task of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense or another) to each other than to those in other groups (clusters)
 Q635336,dependency injection,-1.068982,0.2753075,technique in software engineering
 Q6368,web browser,-0.018217603,0.29460657,"software application for retrieving, presenting, and traversing information resources on the World Wide Web"

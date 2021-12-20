@@ -19,6 +19,9 @@ class AbstractEmbeddingModel(ABC):
     def get_embedding(self, text: str) -> numpy.ndarray:
         pass
 
+    def __contains__(self, item):
+        return item in self.model
+
 
 class BERTEmbedding(AbstractEmbeddingModel):
     def __init__(self, model):
@@ -29,6 +32,9 @@ class BERTEmbedding(AbstractEmbeddingModel):
     def get_embedding(self, text: str) -> numpy.ndarray:
         return self.model(text).vector
 
+    def __contains__(self, item):
+        return True
+
 
 class FastTextEmbedding(AbstractEmbeddingModel):
     def __init__(self, path, model='fastText'):
@@ -37,7 +43,10 @@ class FastTextEmbedding(AbstractEmbeddingModel):
         self.model = ft.load_model(path)
 
     def get_embedding(self, text: str) -> numpy.ndarray:
-        return self.model.get_sentence_vector(text)
+        return self.model.get_sentence_vector(text.lower())
+
+    def __contains__(self, item):
+        return True
 
 
 class W2VEmbedding(AbstractEmbeddingModel):

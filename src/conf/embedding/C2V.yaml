@@ -1,4 +1,4 @@
 _target_: src.ml.embeddings.W2VEmbedding
 path: /home/sasce/PycharmProjects/ComponentSemantics/data/models/code2vec/token_vecs.txt
-model: SO
+model: C2V
 size: 128

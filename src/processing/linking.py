@@ -1,7 +1,6 @@
 from abc import abstractmethod, ABC
 from typing import Iterable, List, Tuple, Optional, Dict
 
-import matplotlib.pyplot as plt
 import numpy
 import numpy as np
 from numpy import ndarray, array
@@ -12,8 +11,8 @@ from src.ml.clustering import AbstractClustering
 from src.ml.embeddings import AbstractEmbeddingModel
 
 
-class Linking(ABC):
-    def __init__(self, embedding: AbstractEmbeddingModel, embedding_key, threshold: float = 0.0, plot=True):
+class AbstractLinking(ABC):
+    def __init__(self, embedding: AbstractEmbeddingModel, embedding_key, threshold: float = 0.0):
         """
         :param threshold: Minimum threshold to link a term with another
         :param embedding: Method to create the embeddings of the words
@@ -21,7 +20,6 @@ class Linking(ABC):
         self.threshold = threshold
         self.embedding = embedding
         self.similarity = cosine_similarity
-        self.plot = plot
         self.embedding_key = embedding_key
 
     def run(self, ranking: DataFrame) -> Tuple[List[Tuple[str, str]], DataFrame]:
@@ -42,6 +40,7 @@ class Linking(ABC):
 
     def get_embeddings(self, topics: Iterable) -> array:
         res = []
+        topics = topics.to_records(index=False) if isinstance(topics, DataFrame) else topics
         for topic in topics:
             res.append(list(self.embedding.get_embedding(topic)))
 
@@ -53,18 +52,16 @@ class Linking(ABC):
 
         return self.similarity(X)
 
-    def _plot(self, mean, most_similar, i):
-        ms_mean = [abs(mean[n] - mean[i]) for n in most_similar]
-        plt.plot(list(range(len(ms_mean))), ms_mean)
-        plt.show()
+    def update_threshold(self, depth):
+        pass
 
 
-class OrderLinking(Linking):
+class OrderLinking(AbstractLinking):
     """
     Creates a hierarchy based on the order, an item can only be linked to elements that are before him in the ranking
     """
 
-    def create_taxonomy(self, ranking: DataFrame) -> Tuple[List[Tuple[str, str]], DataFrame]:
+    def create_taxonomy(self, ranking: DataFrame) -> Tuple[List[Tuple[str, str, int]], DataFrame]:
         embeddings = ranking['embeddings'].to_list()
         similarity = self.compute_similarity(embeddings)
         topics = ranking['topic'].tolist()
@@ -73,18 +70,19 @@ class OrderLinking(Linking):
             most_similar = similarity[i].argsort()[::-1]
             for ms in most_similar:
                 if i < ms and self.threshold <= similarity[i][ms]:
-                    res.append((topics[i], topics[ms]))
+                    res.append((topics[i], topics[ms], similarity[i][ms]))
                     break
 
         return res, ranking
 
 
-class ClusterLinking(Linking, ABC):
+class ClusterLinking(AbstractLinking, ABC):
     def __init__(self, embedding: AbstractEmbeddingModel, embedding_key: str, clustering: AbstractClustering,
-                 clustering_key: str = 'mean', threshold: float = 0.0):
+                 clustering_key: str = 'mean', threshold: float = 0.0, decay=True):
         super().__init__(embedding, embedding_key, threshold)
         self.clustering = clustering
         self.clustering_key = clustering_key
+        self.decay = decay
 
     def cluster(self, ranking: DataFrame, order=True):
         """
@@ -117,22 +115,24 @@ class RankingClusterLinking(ClusterLinking):
     higher ranking (higher cluster)
     """
 
-    def create_taxonomy(self, ranking: DataFrame) -> Tuple[List[Tuple[str, str]], DataFrame]:
+    def create_taxonomy(self, ranking: DataFrame) -> Tuple[List[Tuple[str, str, int]], DataFrame]:
         n, clusters = self.cluster(ranking, order=True)
         topics = ranking['topic'].tolist()
         res = []
         pairs = list(zip(range(0, n - 2), range(1, n - 1)))
         for i, j in pairs:
             Xi, remap_i = self.submatrix(ranking['embeddings'], [k for k, x in enumerate(clusters) if x == i])
-            l = [k for k, x in enumerate(clusters) if j < x < j + 2]
+            l = [k for k, x in enumerate(clusters) if j < x < j + 4]
             Xj, remap_j = self.submatrix(ranking['embeddings'], l)
             similarity = self.compute_similarity(Xi, Xj)
+            self.update_threshold(j) if self.decay else None
+
             for r in range(len(similarity)):
                 most_similar = np.argmax(similarity[r])
                 if similarity[r][most_similar] >= self.threshold:
-                    res.append((topics[remap_i[r]], topics[remap_j[most_similar]]))
+                    res.append((topics[remap_i[r]], topics[remap_j[most_similar]], similarity[r][most_similar]))
                 else:
-                    res.append((topics[remap_i[r]], -1))
+                    res.append((topics[remap_i[r]], -1, 0))
 
         return res, ranking
 
@@ -143,18 +143,51 @@ class RankingClusterLinking(ClusterLinking):
 
         return X, remap
 
+    def update_threshold(self, j):
+        self.threshold = (1 / (1 + 0.02 * j)) * self.threshold
+
+
+class ReuseRankingClusterLinking(RankingClusterLinking):
+    def create_taxonomy(self, ranking: DataFrame) -> Tuple[List[Tuple[str, str, int]], DataFrame]:
+        n, clusters = self.cluster(ranking, order=True)
+        topics = ranking['topic'].tolist()
+        res = []
+        pairs = list(zip(range(0, n - 2), range(1, n - 1)))
+        skipped = set()
+        for i, j in pairs:
+            Xi, remap_i = self.submatrix(ranking['embeddings'], [k for k, x in enumerate(clusters) if x == i])
+            l = [k for k, x in enumerate(clusters) if j < x < j + 2]
+            Xj, remap_j = self.submatrix(ranking['embeddings'], l)
+            similarity = self.compute_similarity(Xi, Xj)
+            self.update_threshold(j) if self.decay else None
+            for r in range(len(similarity)):
+                most_similar = np.argmax(similarity[r])
+                if similarity[r][most_similar] >= self.threshold:
+                    res.append((topics[remap_i[r]], topics[remap_j[most_similar]], similarity[r][most_similar]))
+                    if remap_i[r] in skipped:
+                        remap_i.pop(remap_i[r])
+                else:
+                    skipped.add(remap_i[r])
+                    # res.append((topics[remap_i[r]], -1, 0))
+
+        for r in skipped:
+            res.append((topics[r], -1, 0))
+
+        return res, ranking
+
 
 class SemanticClusterLinking(ClusterLinking):
     """
     Creates a taxonomy by first clustering the terms by theirs semantic, and then linking the terms in each cluster
     based on the order
     """
+
     def __init__(self, embedding: AbstractEmbeddingModel, embedding_key: str, clustering: AbstractClustering,
                  clustering_key: str = 'mean', threshold: float = 0.0):
         super().__init__(embedding, embedding_key, clustering, clustering_key, threshold)
         self.order_linker = OrderLinking(embedding, embedding_key)
 
-    def create_taxonomy(self, ranking: DataFrame) -> Tuple[List[Tuple[str, str]], DataFrame]:
+    def create_taxonomy(self, ranking: DataFrame) -> Tuple[List[Tuple[str, str, int]], DataFrame]:
         _, clusters = self.cluster(ranking, order=False)
         res = []
         for c in set(clusters):
