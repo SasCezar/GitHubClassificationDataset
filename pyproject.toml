@@ -34,7 +34,7 @@ pandas = "1.2"
 krippendorff = "^0.5.1"
 
 [tool.poetry.dev-dependencies]
-#pairrank = { path = './PairRank/', develop = true }
+pairrank = { path = './PairRank/', develop = true }
 
 
 [build-system]
