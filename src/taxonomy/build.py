@@ -29,12 +29,15 @@ def build_taxonomy(cfg: DictConfig):
     clustering: AbstractClustering = instantiate(cfg.clustering)
     arr = numpy.array(ranking['mean'].to_list())
     ranking['cluster'] = clustering.fit(arr)
-    ranking.drop(['embeddings'], axis=1, inplace=True)
+    try:
+        ranking.drop(['embeddings'], axis=1, inplace=True)
+    except:
+        pass
     exporters: List[AbstractTaxonomyExporter] = []
 
     for _, exporter_conf in cfg.exporter.items():
         if "_target_" in exporter_conf:
-            exporters.append(instantiate(exporter_conf))
+            exporters.append(instantiate(exporter_conf, out_name=cfg.out_name))
 
     for exporter in exporters:
         exporter.export(ranking, res)

@@ -1,0 +1,3 @@
+ties_file: /home/sasce/PycharmProjects/GitHubClassificationDataset/data/pairrank/tie_pairs.csv
+db_topics: /home/sasce/PycharmProjects/GitHubClassificationDataset/data/pairrank/db_topics.csv
+clusters: /home/sasce/PycharmProjects/GitHubClassificationDataset/notebooks/scatter.csv

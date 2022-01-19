@@ -1,0 +1,5 @@
+_target_: src.processing.linking.WikidataLinking
+embedding_key: ek
+clustering_key: ck
+threshold: 0
+name: WikidataLinking

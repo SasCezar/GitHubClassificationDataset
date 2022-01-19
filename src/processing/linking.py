@@ -10,9 +10,11 @@ from sklearn.metrics.pairwise import cosine_similarity
 from src.ml.clustering import AbstractClustering
 from src.ml.embeddings import AbstractEmbeddingModel
 
+from wikidata.client import Client
+
 
 class AbstractLinking(ABC):
-    def __init__(self, embedding: AbstractEmbeddingModel, embedding_key, threshold: float = 0.0):
+    def __init__(self, embedding: AbstractEmbeddingModel, embedding_key, threshold: float = 0.0, **kwargs):
         """
         :param threshold: Minimum threshold to link a term with another
         :param embedding: Method to create the embeddings of the words
@@ -22,7 +24,7 @@ class AbstractLinking(ABC):
         self.similarity = cosine_similarity
         self.embedding_key = embedding_key
 
-    def run(self, ranking: DataFrame) -> Tuple[List[Tuple[str, str]], DataFrame]:
+    def run(self, ranking: DataFrame) -> Tuple[List[Tuple[str, str, int]], DataFrame]:
         ranking = ranking.sort_values('mean', ascending=False).reset_index(drop=True)
         ranking['embeddings'] = self.get_embeddings(ranking[self.embedding_key])
         res, ranking = self.create_taxonomy(ranking)
@@ -30,7 +32,7 @@ class AbstractLinking(ABC):
         return res, ranking
 
     @abstractmethod
-    def create_taxonomy(self, ranking: DataFrame) -> Tuple[List[Tuple[str, str]], DataFrame]:
+    def create_taxonomy(self, ranking: DataFrame) -> Tuple[List[Tuple[str, str, int]], DataFrame]:
         """
         Links elements in a ranked list to create a taxonomy
         :param ranking:
@@ -78,7 +80,7 @@ class OrderLinking(AbstractLinking):
 
 class ClusterLinking(AbstractLinking, ABC):
     def __init__(self, embedding: AbstractEmbeddingModel, embedding_key: str, clustering: AbstractClustering,
-                 clustering_key: str = 'mean', threshold: float = 0.0, decay=True):
+                 clustering_key: str = 'mean', threshold: float = 0.0, decay=True, **kwargs):
         super().__init__(embedding, embedding_key, threshold)
         self.clustering = clustering
         self.clustering_key = clustering_key
@@ -183,7 +185,7 @@ class SemanticClusterLinking(ClusterLinking):
     """
 
     def __init__(self, embedding: AbstractEmbeddingModel, embedding_key: str, clustering: AbstractClustering,
-                 clustering_key: str = 'mean', threshold: float = 0.0):
+                 clustering_key: str = 'mean', threshold: float = 0.0, **kwargs):
         super().__init__(embedding, embedding_key, clustering, clustering_key, threshold)
         self.order_linker = OrderLinking(embedding, embedding_key)
 
@@ -196,3 +198,46 @@ class SemanticClusterLinking(ClusterLinking):
             res.extend(sub_taxo)
 
         return res, ranking
+
+
+class WikidataLinking(AbstractLinking):
+    def __init__(self, embedding: AbstractEmbeddingModel, embedding_key, **kwargs):
+        super().__init__(embedding, embedding_key, **kwargs)
+        self.client = Client()
+
+    def run(self, ranking: DataFrame) -> Tuple[List[Tuple[str, str, int]], DataFrame]:
+        ranking = ranking.sort_values('mean', ascending=False).reset_index(drop=True)
+        res, ranking = self.create_taxonomy(ranking)
+
+        return res, ranking
+
+    def create_taxonomy(self, ranking: DataFrame) -> Tuple[List[Tuple[str, str, int]], DataFrame]:
+        q_ids = ranking['q_id']
+        res = []
+        remap = ranking.set_index('q_id')['topic'].to_dict()
+        for q in q_ids:
+            entity = self.client.get(q, load=True)
+            candidates = self.extract_candidates(entity)
+            intersection = candidates.intersection(set(q_ids))
+            for element in intersection:
+                link = (remap[q], remap[element], 0) if intersection else (remap[q], -1, 0)
+                res.append(link)
+
+        return res, ranking
+
+    @staticmethod
+    def extract_candidates(entity):
+        candidates = set()
+        try:
+            iof = entity.attributes['claims']['P31']
+            if iof:
+                for iof_entity in iof:
+                    try:
+                        iof_qid = iof_entity['mainsnak']['datavalue']['value']['id']
+                        candidates.add(iof_qid)
+                    except KeyError:
+                        continue
+        except KeyError:
+            return candidates
+
+        return candidates

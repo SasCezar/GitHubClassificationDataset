@@ -1,9 +1,8 @@
 defaults:
   - _self_
-  - embedding: fastText
-  - linking: ranking_cluster
-  - optional clustering: KMeans
-  - optional optimizer: null
+  - embedding: BERT
+  - linking: wikidata
+  - clustering: KMeans
   - exporter: default
   - override hydra/job_logging: colorlog
   - override hydra/hydra_logging: colorlog
@@ -18,3 +17,5 @@ work_dir: ${hydra:runtime.cwd}
 data_dir: ${work_dir}/data/
 
 ranking_path: /home/sasce/PycharmProjects/GitHubClassificationDataset/data/pairrank/mean_std_ranking.csv
+
+out_name: ${embedding.model}_${linking.name}_${linking.embedding_key}_${linking.threshold}
