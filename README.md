@@ -3,7 +3,7 @@
 
 # Setup
 
-The repository uses Poetry for the environment setup. Follow the guide here if you are not familiar with Poetry.
+The repository uses Poetry for the environment setup. Follow the guide [here](https://python-poetry.org/docs/) if you are not familiar with Poetry.
 
 
 # Config
