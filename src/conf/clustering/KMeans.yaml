@@ -1,2 +1,0 @@
-_target_: src.ml.clustering.KMeansClustering
-n_clusters: 13

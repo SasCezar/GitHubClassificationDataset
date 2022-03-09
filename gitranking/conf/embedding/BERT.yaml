@@ -1,0 +1,2 @@
+_target_: ml.embeddings.BERTEmbedding
+model: en_core_web_lg

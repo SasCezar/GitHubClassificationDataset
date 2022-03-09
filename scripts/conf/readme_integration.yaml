@@ -1,0 +1,3 @@
+readme_dir: /home/sasce/PycharmProjects/GitHubClassificationDataset/data/preprocessed/
+projects_path: /home/sasce/PycharmProjects/GitHubClassificationDataset/data/replication-data/github_projects.json
+output_path: /home/sasce/PycharmProjects/GitHubClassificationDataset/data/replication-data/github_projects_readme.json

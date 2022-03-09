@@ -1,0 +1,2 @@
+method: shuffle
+topics_path: /home/sasce/PycharmProjects/PairRank/results/${method}

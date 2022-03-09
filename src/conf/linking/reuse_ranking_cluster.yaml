@@ -1,6 +1,0 @@
-_target_: src.processing.linking.ReuseRankingClusterLinking
-embedding_key: q_id
-clustering_key: mean
-threshold: 0.8
-decay: True
-name: ReuseRankingClusterLinking

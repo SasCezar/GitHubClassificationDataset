@@ -1,5 +1,0 @@
-_target_: src.processing.linking.SemanticClusterLinking
-embedding_key: q_id
-clustering_key: embeddings
-threshold: 0.0
-name: SemanticClusterLinking

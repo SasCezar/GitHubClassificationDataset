@@ -1,0 +1,2 @@
+_target_: ghcdio.taxonomy.GraphMLExporter
+out_path: /home/sasce/PycharmProjects/GitHubClassificationDataset/data/taxonomy

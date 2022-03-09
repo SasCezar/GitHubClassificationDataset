@@ -1,0 +1,5 @@
+_target_: ml.embeddings.W2VEmbedding
+path: /home/sasce/PycharmProjects/GitHubClassificationDataset/data/models/github_pbg_w2v.vec
+model: WikiPBG
+size: 200
+preprocessing: upper

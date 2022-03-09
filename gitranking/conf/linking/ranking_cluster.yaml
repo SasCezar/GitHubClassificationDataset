@@ -1,0 +1,6 @@
+_target_: processing.linking.RankingClusterLinking
+embedding_key: topic
+clustering_key: mean
+threshold: 0.5
+decay: False
+name: RankingClusterLinking

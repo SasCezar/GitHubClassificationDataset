@@ -1,3 +1,0 @@
-_target_: src.ml.embeddings.FastTextEmbedding
-model: fastText
-path: /home/sasce/PycharmProjects/ComponentSemantics/data/models/fastText/wiki.en.bin

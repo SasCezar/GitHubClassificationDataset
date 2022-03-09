@@ -1,0 +1,9 @@
+base_path: /home/sasce/PycharmProjects/GitHubClassificationDataset
+data: gittopic
+freq_path: ${base_path}/data/all_topics_freq.csv
+reconciled_folder_path: ${base_path}/data/
+reconciled_type: reconciled-gittopic
+out_path: ${base_path}/data/
+disambiguation:
+  _target_: processing.disambiguate.FirstCleanDisambiguate
+  types_path: ${base_path}/data/annotated_wikitypes.csv

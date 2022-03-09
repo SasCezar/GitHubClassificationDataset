@@ -1,3 +1,0 @@
-_target_: src.ml.clustering.DBSCANClustering
-min_samples: 5
-metric: euclidean
