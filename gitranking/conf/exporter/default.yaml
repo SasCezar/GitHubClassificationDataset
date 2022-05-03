@@ -1,7 +1,3 @@
-csv:
-  _target_: ghcdio.taxonomy.CSVExporter
-  out_path: /home/sasce/PycharmProjects/GitHubClassificationDataset/data/taxonomy
-
 graphml:
   _target_: ghcdio.taxonomy.GraphMLExporter
   out_path: /home/sasce/PycharmProjects/GitHubClassificationDataset/data/taxonomy

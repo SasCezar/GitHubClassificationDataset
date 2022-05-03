@@ -9,13 +9,14 @@ from omegaconf import DictConfig
 from ghcdio.taxonomy import AbstractTaxonomyExporter
 from ml.clustering import AbstractClustering
 from processing.linking import AbstractLinking
-from utils.seed import init_seeds
+
 
 
 @hydra.main(config_path="../conf", config_name="build_taxonomy")
 def build_taxonomy(cfg: DictConfig):
-    init_seeds()
-    embedding = instantiate(cfg.embedding)
+    # init_seeds()
+    #embedding = instantiate(cfg.embedding)
+    embedding = None
     clustering = instantiate(cfg.clustering) if cfg.clustering else None
     if 'ClusterLinking' in cfg.linking._target_:
         linking: AbstractLinking = instantiate(cfg.linking, embedding=embedding, clustering=clustering)
@@ -23,8 +24,8 @@ def build_taxonomy(cfg: DictConfig):
         linking: AbstractLinking = instantiate(cfg.linking, embedding=embedding)
     ranking = pandas.read_csv(cfg.ranking_path).fillna('')
     ranking['topic_desc'] = ranking['topic'] + ' ' + ranking['description']
-    res, ranking = linking.run(ranking)
-    print(res)
+    nodes, edges, ranking = linking.run(ranking)
+    print(edges)
     clustering: AbstractClustering = instantiate(cfg.clustering)
     arr = numpy.array(ranking['mean'].to_list())
     ranking['cluster'] = clustering.fit(arr)
@@ -39,7 +40,7 @@ def build_taxonomy(cfg: DictConfig):
             exporters.append(instantiate(exporter_conf, out_name=cfg.out_name))
 
     for exporter in exporters:
-        exporter.export(ranking, res)
+        exporter.export(nodes, edges)
 
 
 if __name__ == '__main__':

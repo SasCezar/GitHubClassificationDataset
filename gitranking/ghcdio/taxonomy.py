@@ -1,7 +1,7 @@
 import csv
 from abc import ABC, abstractmethod
 from os.path import join
-from typing import List, Tuple
+from typing import List, Tuple, Dict
 
 from networkx import write_graphml, DiGraph
 from pandas import DataFrame, Series
@@ -26,7 +26,7 @@ class GraphMLExporter(AbstractTaxonomyExporter):
         self.create_graph(nodes, edges)
         write_graphml(self.graph, join(self.out_path, f'{self.out_name}.graphml'))
 
-    def create_graph(self, nodes: DataFrame, edges: List[Tuple]) -> None:
+    def create_graph(self, nodes: List[Dict], edges: List[Tuple]) -> None:
         nodes = self.make_nodes(nodes)
         edges = self.make_edges(edges)
         self.graph.add_nodes_from(nodes)
@@ -34,13 +34,12 @@ class GraphMLExporter(AbstractTaxonomyExporter):
 
     def make_edges(self, edges):
         size = len(edges[0])
-        edges = [(x, y, {'weight': w}) for x, y, w in edges] if size == 3 else edges
+        edges = [(x, y, {'weight': w}) for x, y, w in edges if y != -1] if size == 3 else edges
 
         return edges
 
-    def make_nodes(self, nodes: DataFrame):
-        nodes = nodes.to_dict('records')
-        return [(x['topic'], x) for x in nodes]
+    def make_nodes(self, nodes: List[Dict]):
+        return [(x['id'], x) for x in nodes]
 
 
 class CSVExporter(AbstractTaxonomyExporter):
@@ -54,4 +53,4 @@ class CSVExporter(AbstractTaxonomyExporter):
             writer = csv.writer(outf)
             writer.writerow(['q_id', 'child', 'parent', 'similarity'])
             for edge in elements:
-                writer.writerow([topic_q_id[edge[0]], *edge])
+                writer.writerow([edge[0], *edge])

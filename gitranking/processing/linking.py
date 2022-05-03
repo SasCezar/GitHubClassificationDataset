@@ -1,16 +1,18 @@
 from abc import abstractmethod, ABC
+from collections import defaultdict
+from pprint import pprint
 from typing import Iterable, List, Tuple, Optional, Dict
 
 import numpy
 import numpy as np
 from numpy import ndarray, array
 from pandas import DataFrame
+from rdflib import Graph
 from sklearn.metrics.pairwise import cosine_similarity
+from wikidata.client import Client
 
 from ml.clustering import AbstractClustering
 from ml.embeddings import AbstractEmbeddingModel
-
-from wikidata.client import Client
 
 
 class AbstractLinking(ABC):
@@ -24,15 +26,16 @@ class AbstractLinking(ABC):
         self.similarity = cosine_similarity
         self.embedding_key = embedding_key
 
-    def run(self, ranking: DataFrame) -> Tuple[List[Tuple[str, str, int]], DataFrame]:
+    def run(self, ranking: DataFrame) -> Tuple[List[Dict], List[Tuple[str, str, int]], DataFrame]:
         ranking = ranking.sort_values('mean', ascending=False).reset_index(drop=True)
-        ranking['embeddings'] = self.get_embeddings(ranking[self.embedding_key])
-        res, ranking = self.create_taxonomy(ranking)
+        if self.embedding:
+            ranking['embeddings'] = self.get_embeddings(ranking[self.embedding_key])
+        nodes, edges, ranking = self.create_taxonomy(ranking)
 
-        return res, ranking
+        return nodes, edges, ranking
 
     @abstractmethod
-    def create_taxonomy(self, ranking: DataFrame) -> Tuple[List[Tuple[str, str, int]], DataFrame]:
+    def create_taxonomy(self, ranking: DataFrame) -> Tuple[List[Dict], List[Tuple[str, str, int]], DataFrame]:
         """
         Links elements in a ranked list to create a taxonomy
         :param ranking:
@@ -241,3 +244,158 @@ class WikidataLinking(AbstractLinking):
             return candidates
 
         return candidates
+
+
+class CSOLinking(AbstractLinking):
+    def __init__(self, embedding: AbstractEmbeddingModel, embedding_key, **kwargs):
+        super().__init__(embedding, embedding_key, **kwargs)
+        self.rdf = Graph()
+        self.rdf.parse("/home/sasce/PycharmProjects/GitHubClassificationDataset/data/cso/CSO.3.3.nt")
+
+        self.wikidata_entity_query = """
+            SELECT DISTINCT ?entity ?url
+            WHERE {
+                ?entity owl:sameAs ?url .
+            FILTER CONTAINS(str(?url), "http://www.wikidata.org/entity/")
+            }
+        """
+
+        self.label_entity_query = """
+            SELECT DISTINCT ?entity ?label
+            WHERE {?entity rdfs:label ?label .
+        } """
+
+        # taxonomic lineage
+        self.ancestors_query = """
+            PREFIX csop: <http://cso.kmi.open.ac.uk/schema/cso#>
+            PREFIX csoe: <https://cso.kmi.open.ac.uk/topics/>
+            SELECT ?parent (count(?mid) as ?length)
+            WHERE {{
+                ?parent csop:superTopicOf* ?mid .
+                ?mid csop:superTopicOf+ <{topic}> .
+            }}
+            GROUP BY ?parent
+        """
+
+    def create_taxonomy(self, ranking: DataFrame) -> Tuple[List[Dict], List[Tuple[str, str, int]], DataFrame]:
+        topics = ranking.copy(deep=True).set_index('topic')['q_id'].to_dict()
+        q_ids = ranking.set_index('q_id')['topic'].to_dict()
+
+        entities, cso_q_ids = self.get_cso_entities(topics, q_ids)
+
+        ancestors = self.get_entities_ancestors(entities)
+
+        pprint(ancestors)
+
+        edges = []
+
+        i = 0
+
+        cso_nodes = []
+        seen = set()
+
+        def unique(entity):
+            if entity in entities:
+                return entities[entity]
+            return entity
+
+
+        for entity in ancestors:
+            parents = ancestors[entity]
+            unique_entity = unique(entity)
+
+            if not parents:
+                edges.append((unique_entity, -1, 0))
+                i += 1
+                continue
+
+            edges.append((unique_entity, unique(parents[0]), 0))
+            for src, trg in zip(parents, parents[1:]):
+                edge = (unique(src), unique(trg), 0)
+                edges.append(edge)
+                for x in (trg, src):
+                    if unique(x) == x and x not in seen:
+                        cso_nodes.append({'id': x, 'topic': x.split('/')[-1]})
+                        seen.add(x)
+
+        edges = [x for x in edges if x[0] != x[1]]
+        nodes = set()
+        for i in edges:
+            nodes.add(i[0])
+            nodes.add(i[1])
+
+        edges = list(set(edges))
+
+        nodes = ranking.copy(deep=True)
+        nodes['id'] = nodes['q_id']
+        nodes = nodes.to_dict('records')
+
+        nodes.extend(cso_nodes)
+
+        return nodes, edges, ranking
+
+    def get_cso_entities(self, topics: Dict, q_ids: Dict):
+        wikidata_entities = self.rdf.query(self.wikidata_entity_query)
+        label_entities = self.rdf.query(self.label_entity_query)
+        res = {}
+
+        def extract_qid(url):
+            return url.split('/')[-1]
+
+        for r in label_entities:
+            if str(r.label) in topics:
+                norm = self.normalize(r.entity)
+                res[norm] = topics[str(r.label)]
+
+        for r in wikidata_entities:
+            if extract_qid(r.url) in q_ids:
+                norm = self.normalize(r.entity)
+                res[norm] = extract_qid(r.url)
+
+        q_ids = set(res.values())
+        # for i in res:
+        #     if res[i] == 'Q45045':
+        #         print(i, res[i])
+        rev = defaultdict(list)
+        for i in res:
+            rev[res[i]].append(i)
+
+        pprint(rev)
+        return res, q_ids
+
+    def get_entities_ancestors(self, cso_entities):
+        res = {}
+        for entity in cso_entities:
+            formatted_query = self.ancestors_query.format(topic=entity)
+            ancestors = set(self.rdf.query(formatted_query))
+            ancestors = {(str(self.normalize(x[0])), int(x[1])) for x in ancestors}
+            ancestors = [x[0] for x in sorted(ancestors, key=lambda x: x[1])]
+            res[entity] = ancestors
+
+        return res
+
+    # @staticmethod
+    # def clean_ancestors(ancestors):
+    #     cleaned = defaultdict(list)
+    #     for entity in set(ancestors):
+    #         for ancestor in ancestors[entity]:
+    #             #if ancestor.parent in ancestors and entity != ancestor.parent:
+    #             cleaned[entity].append(ancestor.parent)
+    #
+    #     return cleaned
+
+    def normalize(self, entity):
+        query = f"""
+                    PREFIX csop: <http://cso.kmi.open.ac.uk/schema/cso#>
+                    PREFIX csoe: <https://cso.kmi.open.ac.uk/topics/>
+                    SELECT ?normalized
+                    WHERE {{
+                        <{entity}> csop:preferentialEquivalent ?normalized .
+                    }}
+        """
+
+        res = list(self.rdf.query(query))
+        if res:
+            return str(res[0].normalized)
+
+        return str(entity)

@@ -31,6 +31,7 @@ def integrate_readme(cfg: DictConfig):
 
     readmes, labels = load_readme(readme_dir)
     res = []
+    count = 0
     with open(projects_path, 'r') as inf:
         for line in inf:
             try:
@@ -39,6 +40,7 @@ def integrate_readme(cfg: DictConfig):
                 obj['repologue_labels'] = labels[project_name]
                 obj['readme'] = readmes[project_name]
                 res.append(obj)
+                count += 1
             except:
                 continue
 
@@ -47,6 +49,7 @@ def integrate_readme(cfg: DictConfig):
             text = json.dumps(r, ensure_ascii=False)
             outf.write(text + '\n')
 
+    print(count)
 
 if __name__ == '__main__':
     integrate_readme()

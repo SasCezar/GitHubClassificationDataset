@@ -1,7 +1,7 @@
 defaults:
   - _self_
   - embedding: BERT
-  - linking: wikidata
+  - linking: cso
   - clustering: KMeans
   - exporter: default
   - override hydra/job_logging: colorlog

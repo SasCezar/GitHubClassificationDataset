@@ -4,7 +4,7 @@ library(scales)
 library(ggrepel)
 
 
-df <- read.csv("/home/sasce/PycharmProjects/GitHubClassificationDataset/notebooks/scatter.csv", stringsAsFactors = FALSE)
+df <- read.csv("/home/sasce/PycharmProjects/GitHubClassificationDataset/notebooks/out/scatter.csv", stringsAsFactors = FALSE)
 df$cluster <- as.factor(df$cluster)
 
 ggplot(df, aes(x = pos, y = mean, color=cluster)) +
@@ -16,15 +16,15 @@ ggplot(df, aes(x = pos, y = mean, color=cluster)) +
   theme(legend.title = element_blank(),
         #legend.position = c(0.15, 0.9),
         legend.position="top",
-        legend.text = element_text(size=14),
+        legend.text = element_text(size=17),
 #        legend.background = element_rect(fill=alpha('white', 0)),
 #        panel.grid.major.y = element_blank(),
 #        panel.grid.major.x = element_blank(),
 #        panel.grid.minor.x = element_blank(),
 #        panel.grid.minor.y = element_blank(),
-        axis.text=element_text(size=14),
-        axis.title=element_text(size=14),
+        axis.text=element_text(size=17),
+        axis.title=element_text(size=17),
         axis.text.x = element_text(angle = 45, hjust = 1)) +  
-  scale_color_brewer(palette="Paired") +
+  scale_color_brewer(palette="Paired")
 ggsave('scatter_ranking.pdf',
        width = 8, height = 5, device=cairo_pdf())
