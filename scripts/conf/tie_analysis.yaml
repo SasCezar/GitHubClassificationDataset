@@ -1,3 +1,7 @@
-ties_file: /home/sasce/PycharmProjects/GitHubClassificationDataset/data/pairrank/tie_pairs.csv
-db_topics: /home/sasce/PycharmProjects/GitHubClassificationDataset/data/pairrank/db_topics.csv
-clusters: /home/sasce/PycharmProjects/GitHubClassificationDataset/notebooks/scatter.csv
+defaults:
+  - _self_
+  - local: default
+
+ties_file: ${data_path}/pairrank/tie_pairs.csv
+db_topics: ${data_path}/pairrank/db_topics.csv
+clusters: ${project_path}/notebooks/scatter.csv

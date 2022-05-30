@@ -1,3 +1,7 @@
-taxonomies_path: /home/sasce/PycharmProjects/GitHubClassificationDataset/data/taxonomy/
-topics_path: /home/sasce/PycharmProjects/GitHubClassificationDataset/data/pairrank/mean_std_ranking.csv
+defaults:
+  - _self_
+  - local: default
+
+taxonomies_path: ${data_path}/taxonomy/
+topics_path: ${data_path}/pairrank/mean_std_ranking.csv
 out_file: joined_taxonomies.csv

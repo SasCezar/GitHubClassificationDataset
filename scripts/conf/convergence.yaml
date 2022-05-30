@@ -1,1 +1,5 @@
-rank_path: /home/sasce/PycharmProjects/GitHubClassificationDataset/data/pairrank/rankings
+defaults:
+  - _self_
+  - local: default
+
+rank_path: ${project_path}/data/pairrank/rankings
