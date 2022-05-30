@@ -1,0 +1,3 @@
+topics_path: /home/sasce/PycharmProjects/GitHubClassificationDataset/data/replication-data/annotated_github_topics_wikidata.json
+candidates_path: /home/sasce/PycharmProjects/GitHubClassificationDataset/data/reconciled-gittopic.json
+out_mapping: /home/sasce/PycharmProjects/GitHubClassificationDataset/data/topic_tail_mapping.csv

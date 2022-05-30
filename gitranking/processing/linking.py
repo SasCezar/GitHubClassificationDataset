@@ -1,5 +1,6 @@
 from abc import abstractmethod, ABC
 from collections import defaultdict
+from itertools import product
 from pprint import pprint
 from typing import Iterable, List, Tuple, Optional, Dict
 
@@ -9,6 +10,7 @@ from numpy import ndarray, array
 from pandas import DataFrame
 from rdflib import Graph
 from sklearn.metrics.pairwise import cosine_similarity
+from thefuzz import fuzz
 from wikidata.client import Client
 
 from ml.clustering import AbstractClustering
@@ -251,6 +253,7 @@ class CSOLinking(AbstractLinking):
         super().__init__(embedding, embedding_key, **kwargs)
         self.rdf = Graph()
         self.rdf.parse("/home/sasce/PycharmProjects/GitHubClassificationDataset/data/cso/CSO.3.3.nt")
+        self.wikidata = Client()
 
         self.wikidata_entity_query = """
             SELECT DISTINCT ?entity ?url
@@ -265,82 +268,94 @@ class CSOLinking(AbstractLinking):
             WHERE {?entity rdfs:label ?label .
         } """
 
+        self.entity_query = """
+            SELECT DISTINCT ?entity
+            WHERE {?entity ?p ?o .
+        } """
+
         # taxonomic lineage
         self.ancestors_query = """
             PREFIX csop: <http://cso.kmi.open.ac.uk/schema/cso#>
             PREFIX csoe: <https://cso.kmi.open.ac.uk/topics/>
-            SELECT ?parent (count(?mid) as ?length)
+            SELECT ?parent
             WHERE {{
-                ?parent csop:superTopicOf* ?mid .
-                ?mid csop:superTopicOf+ <{topic}> .
+                ?parent csop:superTopicOf <{topic}> .
             }}
-            GROUP BY ?parent
         """
+
+        self.aliases = None
+
+
+    @staticmethod
+    def extract_qid(url):
+        return url.split('/')[-1]
 
     def create_taxonomy(self, ranking: DataFrame) -> Tuple[List[Dict], List[Tuple[str, str, int]], DataFrame]:
         topics = ranking.copy(deep=True).set_index('topic')['q_id'].to_dict()
         q_ids = ranking.set_index('q_id')['topic'].to_dict()
 
-        entities, cso_q_ids = self.get_cso_entities(topics, q_ids)
+        gr_nodes = ranking.set_index('q_id').to_dict(orient='index')
+
+        entities, reverse = self.get_cso_entities(topics, q_ids)
+        # pprint(reverse)
+        # pprint(self.aliases)
+
+        print(len(entities))
+
+        entities, reverse = self.disambiguate_entities(reverse, self.aliases)
+        pprint(entities)
+
+        print(len(entities))
 
         ancestors = self.get_entities_ancestors(entities)
 
-        pprint(ancestors)
+        nodes = {}
+        edges = set()
 
-        edges = []
-
-        i = 0
-
-        cso_nodes = []
-        seen = set()
-
-        def unique(entity):
-            if entity in entities:
-                return entities[entity]
-            return entity
-
-
+        added_qids = set()
+        wikidata_entities = {self.normalize(str(x.entity)): self.extract_qid(x.url) for x in self.rdf.query(self.wikidata_entity_query)}
+        print('WIKIDATA ENTITIES')
+        pprint(wikidata_entities)
         for entity in ancestors:
-            parents = ancestors[entity]
-            unique_entity = unique(entity)
+            for (src, trg) in ancestors[entity]:
+                edges.add((src, trg, 0))
+                for x in (src, trg):
+                    topic = x.split('/')[-1]
+                    node = {'id': x, 'topic': topic, 'q_id': ''}
 
-            if not parents:
-                edges.append((unique_entity, -1, 0))
-                i += 1
-                continue
+                    if x in entities:
+                        node['q_id'] = entities[x]
+                    else:
+                        print('entity', x)
+                        if x in wikidata_entities and wikidata_entities[x] not in entities:
+                            print('ADDING QID')
+                            node['q_id'] = wikidata_entities[x]
 
-            edges.append((unique_entity, unique(parents[0]), 0))
-            for src, trg in zip(parents, parents[1:]):
-                edge = (unique(src), unique(trg), 0)
-                edges.append(edge)
-                for x in (trg, src):
-                    if unique(x) == x and x not in seen:
-                        cso_nodes.append({'id': x, 'topic': x.split('/')[-1]})
-                        seen.add(x)
+                    if node['q_id'] in gr_nodes:
+                        node.update(gr_nodes[node['q_id']])
 
-        edges = [x for x in edges if x[0] != x[1]]
-        nodes = set()
-        for i in edges:
-            nodes.add(i[0])
-            nodes.add(i[1])
+                    nodes[node['id']] = node
+                    added_qids.add(node['q_id'])
 
-        edges = list(set(edges))
+        # for qid in gr_nodes:
+        #     if qid in added_qids:
+        #         continue
+        #     node = gr_nodes[qid]
+        #     node.update({'q_id': qid, 'id': qid})
+        #     nodes[node['id']] = node
 
-        nodes = ranking.copy(deep=True)
-        nodes['id'] = nodes['q_id']
-        nodes = nodes.to_dict('records')
+        print('nodes', len(nodes))
+        print('egdes', len(edges))
 
-        nodes.extend(cso_nodes)
-
-        return nodes, edges, ranking
+        return list(nodes.values()), list(edges), ranking
 
     def get_cso_entities(self, topics: Dict, q_ids: Dict):
         wikidata_entities = self.rdf.query(self.wikidata_entity_query)
         label_entities = self.rdf.query(self.label_entity_query)
+        entities = self.rdf.query(self.entity_query)
         res = {}
 
-        def extract_qid(url):
-            return url.split('/')[-1]
+        aliases, self.aliases = self.get_aliases(q_ids)
 
         for r in label_entities:
             if str(r.label) in topics:
@@ -348,41 +363,31 @@ class CSOLinking(AbstractLinking):
                 res[norm] = topics[str(r.label)]
 
         for r in wikidata_entities:
-            if extract_qid(r.url) in q_ids:
+            q = self.extract_qid(r.url)
+            if q in q_ids:
                 norm = self.normalize(r.entity)
-                res[norm] = extract_qid(r.url)
+                res[norm] = q
 
-        q_ids = set(res.values())
-        # for i in res:
-        #     if res[i] == 'Q45045':
-        #         print(i, res[i])
+        for r in entities:
+            clean_entity = str(r.entity).split('/')[-1].replace('_', ' ').replace('-', ' ').lower()
+
+            if clean_entity in aliases:
+                norm = self.normalize(r.entity)
+                res[norm] = aliases[clean_entity]
+
         rev = defaultdict(list)
         for i in res:
             rev[res[i]].append(i)
 
-        pprint(rev)
-        return res, q_ids
+        return res, rev
 
     def get_entities_ancestors(self, cso_entities):
         res = {}
         for entity in cso_entities:
-            formatted_query = self.ancestors_query.format(topic=entity)
-            ancestors = set(self.rdf.query(formatted_query))
-            ancestors = {(str(self.normalize(x[0])), int(x[1])) for x in ancestors}
-            ancestors = [x[0] for x in sorted(ancestors, key=lambda x: x[1])]
+            ancestors = self.get_ancestors(entity)
             res[entity] = ancestors
 
         return res
-
-    # @staticmethod
-    # def clean_ancestors(ancestors):
-    #     cleaned = defaultdict(list)
-    #     for entity in set(ancestors):
-    #         for ancestor in ancestors[entity]:
-    #             #if ancestor.parent in ancestors and entity != ancestor.parent:
-    #             cleaned[entity].append(ancestor.parent)
-    #
-    #     return cleaned
 
     def normalize(self, entity):
         query = f"""
@@ -396,6 +401,59 @@ class CSOLinking(AbstractLinking):
 
         res = list(self.rdf.query(query))
         if res:
+            assert len(res) == 1
             return str(res[0].normalized)
 
         return str(entity)
+
+    def get_ancestors(self, entity):
+        res = set()
+        query = self.ancestors_query.format(topic=entity)
+        q_res = list(self.rdf.query(query))
+        for r in q_res:
+            res.add((self.normalize(str(entity)), self.normalize(str(r.parent))))
+            res.update(self.get_ancestors(r.parent))
+
+        return res
+
+    def get_aliases(self, q_ids):
+        aliases = {}
+        reverse = defaultdict(list)
+        for q in q_ids:
+            entity = self.wikidata.get(q, load=True)
+            try:
+                res = entity.attributes['aliases']['en']
+                reverse[q] = [alias['value'].lower() for alias in res]
+                reverse[q].append(entity.label['en'])
+                assert len(reverse[q]) > 0, print(entity, res)
+                for alias in res:
+                    clean_entity = alias['value'].lower().replace('_', ' ').replace('-', ' ')
+                    aliases[clean_entity] = q
+            except:
+                continue
+
+        return aliases, reverse
+
+    def disambiguate_entities(self, entities, aliases):
+        reverse = {}
+        for q_id in entities:
+            candidates = entities[q_id]
+            entity_aliases = aliases[q_id]
+            if len(candidates) == 1 or len(entity_aliases) == 0:
+                reverse[q_id] = candidates[0]
+                continue
+
+            similarities = []
+            pairs = list(product(candidates, entity_aliases))
+            print(candidates, entity_aliases, pairs)
+            for candidate, alias in set(pairs):
+                sim = fuzz.ratio(candidate.replace('https://cso.kmi.open.ac.uk/topics/', '').lower().replace('_', ' ').replace('-', ' '), alias)
+                similarities.append((candidate, alias, sim))
+
+            best = sorted(similarities, key=lambda x: x[2], reverse=True)
+            print(best[0])
+            reverse[q_id] = best[0][0]
+
+        res = {reverse[k]: k for k in reverse}
+
+        return res, reverse

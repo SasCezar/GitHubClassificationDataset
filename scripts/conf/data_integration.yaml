@@ -1,0 +1,6 @@
+in_path: /home/sasce/PycharmProjects/GitHubClassificationDataset/data/meta_repo_2022-03-22 11:31:48.571969.json
+out_path: /home/sasce/PycharmProjects/GitHubClassificationDataset/data/repos_w_readme.json
+label_path: /home/sasce/PycharmProjects/GitHubClassificationDataset/data/replication-data/annotated_github_topics_wikidata.json
+label_levels_path: /home/sasce/PycharmProjects/GitHubClassificationDataset/notebooks/out/scatter.csv
+tail_map_path: /home/sasce/PycharmProjects/GitHubClassificationDataset/data/topic_tail_mapping.csv
+dataset_out: /home/sasce/PycharmProjects/GitHubClassificationDataset/data/classification_dataset.json
