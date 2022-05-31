@@ -6,7 +6,7 @@ import numpy as np
 from omegaconf import DictConfig
 
 
-@hydra.main(config_path="conf", config_name="data_integration")
+@hydra.main(config_path="conf", config_name="dataset")
 def datastats(cfg: DictConfig):
     """
     Computes some statistics on the content of the dataset

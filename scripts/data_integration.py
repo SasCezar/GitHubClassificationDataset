@@ -38,7 +38,7 @@ def load_tail_map(tail_map_path):
     return df.set_index('original')['remapped'].to_dict()
 
 
-@hydra.main(config_path="conf", config_name="data_integration")
+@hydra.main(config_path="conf", config_name="dataset")
 def extract_readme(cfg: DictConfig):
     """
     Adds the information from GitRanking to the RAW dataset of GitHub projects with the READMEs files

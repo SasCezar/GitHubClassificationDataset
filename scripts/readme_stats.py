@@ -4,7 +4,7 @@ import hydra
 from omegaconf import DictConfig
 
 
-@hydra.main(config_path="conf", config_name="extract_readme")
+@hydra.main(config_path="conf", config_name="dataset")
 def readme_stats(cfg: DictConfig):
     """
     Basic statistics regarding the size of the README content

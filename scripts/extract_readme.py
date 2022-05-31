@@ -15,7 +15,7 @@ def get_readme(html: str):
     return readme
 
 
-@hydra.main(config_path="conf", config_name="extract_readme")
+@hydra.main(config_path="conf", config_name="dataset")
 def extract_readme(cfg: DictConfig):
     """
     Parses the HTML document and extracts the README HTML section and the text from the section

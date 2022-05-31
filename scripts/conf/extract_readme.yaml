@@ -1,6 +1,0 @@
-defaults:
-  - _self_
-  - local: default
-    
-in_path: ${data_path}/meta_repo_2022-03-22 11:31:48.571969.json
-out_path: ${data_path}/repos_w_readme.json
