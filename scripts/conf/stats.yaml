@@ -1,5 +1,0 @@
-defaults:
-  - _self_
-  - local: default
-
-filepath: ${project_path}/data/replication-data/github_projects.json

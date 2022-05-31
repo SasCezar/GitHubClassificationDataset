@@ -6,6 +6,11 @@ from omegaconf import DictConfig
 
 @hydra.main(config_path="conf", config_name="extract_readme")
 def readme_stats(cfg: DictConfig):
+    """
+    Basic statistics regarding the size of the README content
+    :param cfg:
+    :return:
+    """
     stats = {'null': 0, 'lengths': 0, 'size': 0}
     with open(cfg.out_path, 'rt') as inf:
         for line in inf:

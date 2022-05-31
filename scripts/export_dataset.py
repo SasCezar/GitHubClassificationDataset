@@ -8,7 +8,7 @@ from langdetect import detect
 @hydra.main(config_path="conf", config_name="data_integration")
 def dataset_export(cfg: DictConfig):
     """
-    Exports a subset of the data for the classification task
+    Exports a subset of the data for the classification task (Final dataset creatin script)
     :param cfg:
     :return:
     """

@@ -6,7 +6,6 @@ from os.path import isfile, join
 import hydra
 import numpy
 import pandas
-import matplotlib.pyplot as plt
 from omegaconf import DictConfig
 
 
@@ -19,6 +18,11 @@ def final_rank(file_path):
 
 @hydra.main(config_path="conf", config_name="annot_convergence")
 def measure_convergence(cfg: DictConfig):
+    """
+    Script for measuring the number of annotation required for convergence as defined in the paper.
+    :param cfg:
+    :return:
+    """
     topics_folders = [(d, os.path.join(cfg.topics_path, d)) for d in os.listdir(cfg.topics_path) if
                       os.path.isdir(os.path.join(cfg.topics_path, d))]
     positions = defaultdict(list)

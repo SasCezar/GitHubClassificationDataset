@@ -22,6 +22,13 @@ def load_label_mapping(label_path):
 
 @hydra.main(config_path="conf", config_name="topic_tail_matching")
 def match_tail(cfg: DictConfig):
+    """
+    Find GitHub topics that are synonyms of the ones that we selected in our taxonomy.
+    For example, in our initial list we have 'Convolutional Neural Network' in the tail we find 'cnn',
+    this script will find these aliases of the entities and create a mapping to perform data augmentation.
+    :param cfg:
+    :return:
+    """
     term_qid, qid_term = load_label_mapping(cfg.topics_path)
 
     res = {}

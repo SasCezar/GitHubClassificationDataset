@@ -40,6 +40,11 @@ def load_tail_map(tail_map_path):
 
 @hydra.main(config_path="conf", config_name="data_integration")
 def extract_readme(cfg: DictConfig):
+    """
+    Adds the information from GitRanking to the RAW dataset of GitHub projects with the READMEs files
+    :param cfg:
+    :return:
+    """
     skipped = 0
     total = 0
     label_mapping = load_label_mapping(cfg.label_path)

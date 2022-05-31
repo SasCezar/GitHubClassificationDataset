@@ -8,6 +8,11 @@ from omegaconf import DictConfig
 
 @hydra.main(config_path="conf", config_name="data_integration")
 def datastats(cfg: DictConfig):
+    """
+    Computes some statistics on the content of the dataset
+    :param cfg:
+    :return:
+    """
     lengths = []
     num_labels = Counter()
     with open(cfg.out_path, "r") as inf:

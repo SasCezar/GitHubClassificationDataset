@@ -51,5 +51,6 @@ def integrate_readme(cfg: DictConfig):
 
     print(count)
 
+
 if __name__ == '__main__':
     integrate_readme()

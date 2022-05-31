@@ -24,4 +24,3 @@ if __name__ == '__main__':
         writer = csv.writer(outf)
         for word, c in count.most_common():
             writer.writerow([word, c])
-

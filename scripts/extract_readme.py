@@ -17,6 +17,11 @@ def get_readme(html: str):
 
 @hydra.main(config_path="conf", config_name="extract_readme")
 def extract_readme(cfg: DictConfig):
+    """
+    Parses the HTML document and extracts the README HTML section and the text from the section
+    :param cfg:
+    :return:
+    """
     with open(cfg.in_path, "r") as inf, open(cfg.out_path, "w") as out:
         for line in inf:
             doc = json.loads(line)

@@ -11,6 +11,11 @@ from omegaconf import DictConfig
 
 @hydra.main(config_path="conf", config_name="convergence")
 def measure_convergence(cfg: DictConfig):
+    """
+    Script to measure the convergence of the annotation phase
+    :param cfg:
+    :return:
+    """
     rankings = [join(cfg.rank_path, f) for f in listdir(cfg.rank_path) if isfile(join(cfg.rank_path, f))]
     rankings = sorted(rankings)
 
