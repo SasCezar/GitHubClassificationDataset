@@ -4,6 +4,7 @@ defaults:
   - linking: cso
   - clustering: KMeans
   - exporter: default
+  - local: default
   - override hydra/job_logging: colorlog
   - override hydra/hydra_logging: colorlog
 
@@ -14,8 +15,8 @@ defaults:
 work_dir: ${hydra:runtime.cwd}
 
 # path to folder with data
-data_dir: ${work_dir}/data/
+data_dir: ${data_path}
 
-ranking_path: /home/sasce/PycharmProjects/GitHubClassificationDataset/data/pairrank/mean_std_ranking.csv
+ranking_path: ${data_path}/mean_std_ranking.csv
 
-out_name: ${embedding.model}_${linking.name}_${linking.embedding_key}_${linking.threshold}
+out_name: final_${embedding.model}_${linking.name}_${linking.embedding_key}_${linking.threshold}

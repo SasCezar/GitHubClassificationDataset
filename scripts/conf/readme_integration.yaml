@@ -1,7 +1,0 @@
-defaults:
-  - _self_
-  - local: default
-
-readme_dir: ${data_path}/preprocessed/
-projects_path: ${data_path}/replication-data/github_projects.json
-output_path: ${data_path}/replication-data/github_projects_readme.json

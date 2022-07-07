@@ -1,3 +1,6 @@
-base_path: /home/sasce/PycharmProjects/GitHubClassificationDataset
-annotated_file: ${base_path}/data/annotated_github_topics.csv
-out_file: ${base_path}/data/annotated_github_topics_wikidata.csv
+# @package _global_
+defaults:
+  - local: default
+
+annotated_file: ${data_path}/annotated_github_topics.csv
+out_file: ${data_path}/annotated_github_topics_wikidata.csv

@@ -8,12 +8,12 @@ from langdetect import detect
 @hydra.main(config_path="conf", config_name="dataset")
 def dataset_export(cfg: DictConfig):
     """
-    Exports a subset of the data for the classification task (Final dataset creatin script)
+    Exports a subset of the data for the classification task (Script for final dataset)
     :param cfg:
     :return:
     """
     diff = 0
-    keys = ['full_name', 'readme', 'readme_text', 'topics', 'labels', 'levels', 'description']
+    keys = ['full_name', 'readme', 'readme_text', 'topics', 'labels', 'levels', 'description', 'language']
     with open(cfg.out_path, "r") as inf, \
             open(cfg.dataset_out, 'w') as outf:
         for line in inf:

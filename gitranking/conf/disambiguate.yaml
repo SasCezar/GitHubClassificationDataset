@@ -1,9 +1,12 @@
-base_path: /home/sasce/PycharmProjects/GitHubClassificationDataset
+# @package _global_
+defaults:
+  - local: default
+
 data: gittopic
-freq_path: ${base_path}/data/all_topics_freq.csv
-reconciled_folder_path: ${base_path}/data/
+freq_path: ${data_path}/all_topics_freq.csv
+reconciled_folder_path: ${data_path}
 reconciled_type: reconciled-gittopic
-out_path: ${base_path}/data/
+out_path: ${data_path}
 disambiguation:
   _target_: processing.disambiguate.FirstCleanDisambiguate
-  types_path: ${base_path}/data/annotated_wikitypes.csv
+  types_path: ${data_path}/annotated_wikitypes.csv

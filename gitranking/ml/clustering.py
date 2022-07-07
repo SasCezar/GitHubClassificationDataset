@@ -6,7 +6,8 @@ from scipy.spatial.distance import cosine
 from sklearn.cluster import KMeans, DBSCAN
 from sklearn.mixture import GaussianMixture
 
-#from spherecluster import SphericalKMeans
+
+# from spherecluster import SphericalKMeans
 
 
 class AbstractClustering(ABC):

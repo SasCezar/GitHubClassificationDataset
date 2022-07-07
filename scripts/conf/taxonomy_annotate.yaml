@@ -3,5 +3,5 @@ defaults:
   - local: default
 
 taxonomies_path: ${data_path}/taxonomy/
-topics_path: ${data_path}/pairrank/mean_std_ranking.csv
+topics_path: ${data_path}/mean_std_ranking.csv
 out_file: joined_taxonomies.csv

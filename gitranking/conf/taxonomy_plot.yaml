@@ -1,2 +1,5 @@
-base_path: /home/sasce/PycharmProjects/GitHubClassificationDataset
-ranking_file: ${base_path}/data/pairrank/mean_std_ranking.csv
+# @package _global_
+defaults:
+  - local: default
+
+ranking_file: ${data_path}/pairrank/mean_std_ranking.csv

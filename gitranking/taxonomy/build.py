@@ -11,11 +11,10 @@ from ml.clustering import AbstractClustering
 from processing.linking import AbstractLinking
 
 
-
 @hydra.main(config_path="../conf", config_name="build_taxonomy")
 def build_taxonomy(cfg: DictConfig):
     # init_seeds()
-    #embedding = instantiate(cfg.embedding)
+    # embedding = instantiate(cfg.embedding)
     embedding = None
     clustering = instantiate(cfg.clustering) if cfg.clustering else None
     if 'ClusterLinking' in cfg.linking._target_:

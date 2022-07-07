@@ -1,2 +1,4 @@
+# @package _global_
+
 project_path: /home/sasce/PycharmProjects/GitHubClassificationDataset
 data_path: ${project_path}/data

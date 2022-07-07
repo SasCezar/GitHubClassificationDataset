@@ -1,6 +1,10 @@
+import csv
 import json
+from collections import Counter
+from pprint import pprint
 
 import hydra
+import pandas as pd
 from omegaconf import DictConfig
 
 
@@ -11,19 +15,25 @@ def readme_stats(cfg: DictConfig):
     :param cfg:
     :return:
     """
-    stats = {'null': 0, 'lengths': 0, 'size': 0}
-    with open(cfg.out_path, 'rt') as inf:
+    readme_size = []
+    labels = Counter()
+    labels_project = []
+    with open(cfg.dataset_out, 'rt') as inf:
         for line in inf:
             obj = json.loads(line)
-            readme = obj['readme_text']
-            if not readme:
-                stats['null'] += 1
-            else:
-                stats['lengths'] += len(readme)
+            readme_size.append(len(obj['readme_text'].split(' ')))
+            labels.update(obj['labels'])
+            labels_project.append(len(obj['labels']))
 
-            stats['size'] += 1
-    stats['avg_lengths'] = stats['lengths']/(stats['size'] - stats['null'])
-    print(stats)
+    df = pd.DataFrame.from_dict(labels, columns=['Count'], orient='index').reset_index().rename(
+        columns={'index': 'Label'})
+    df = df.sort_values('Count', ascending=False)
+    df.to_csv('labels_count.csv', index=False)
+    df = pd.DataFrame(readme_size, columns=["Size"])
+    df.to_csv('readme_size.csv', index=False)
+
+    df = pd.DataFrame(labels_project, columns=["Count"])
+    df.to_csv('labels_project_count.csv', index=False)
 
 
 if __name__ == '__main__':

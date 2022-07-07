@@ -1,0 +1,302 @@
+topic,mean,pos,cluster
+science,2.5667033,0,1
+mathematics,1.8887854,1,1
+physics,1.7322143,2,1
+engineering,1.7225208,3,1
+astronomy,1.6745671,4,1
+finance,1.6545635,5,1
+data,1.6359457,6,1
+computer science,1.3850316,7,2
+design,1.3182278,8,2
+visualization,1.2444487,9,2
+software development,1.2231902,10,2
+computational science,1.2204697,11,2
+statistics,1.2075009,12,2
+documentation,1.1751965,13,2
+neuroscience,1.1731764,14,2
+search,1.0983902,15,2
+analytics,1.0820768,16,2
+automation,1.0271944,17,2
+music,1.0060201,18,2
+geometry,0.99938416,19,2
+video,0.95626277,20,2
+data science,0.95537996,21,2
+software engineering,0.95262486,22,2
+security,0.93207866,23,2
+information extraction,0.9291259,24,2
+World Wide Web,0.9240401,25,2
+image,0.8867749,26,2
+data analysis,0.885138,27,2
+simulation,0.884951,28,2
+productivity,0.8636818,29,2
+genomics,0.8360557,30,2
+stock market,0.8215128,31,2
+artificial intelligence,0.8160049,32,2
+algorithm,0.8034714,33,2
+digital security,0.7810519,34,2
+big data,0.7598625,35,3
+user interface,0.744593,36,3
+banking industry,0.7364652,37,3
+computer data storage,0.73402506,38,3
+client,0.7009951,39,3
+microservices,0.6800939,40,3
+interpreter,0.6726101,41,3
+streaming media,0.66980886,42,3
+camera,0.66844124,43,3
+network security,0.66778123,44,3
+information retrieval,0.6611369,45,3
+database management,0.65265113,46,3
+backup,0.63771105,47,3
+information processing,0.6315698,48,3
+mathematical finance,0.62151635,49,3
+email,0.59834117,50,3
+data structure,0.58745885,51,3
+animation,0.5833827,52,3
+mathematical optimization,0.58207166,53,3
+DevOps,0.57777035,54,3
+computer programming,0.57579094,55,3
+internet of things,0.5752084,56,3
+game,0.5709375,57,3
+computer vision,0.5685908,58,3
+machine learning,0.55858266,59,3
+robotics,0.54743636,60,3
+e-commerce,0.537444,61,3
+linear algebra,0.53355527,62,3
+computer graphics,0.5224441,63,3
+file system,0.51473653,64,3
+database,0.5116983,65,3
+cloud computing,0.49077243,66,3
+computer configuration,0.48016828,67,3
+phishing,0.4769084,68,3
+web development,0.47252014,69,3
+distributed computing,0.47045198,70,3
+computational biology,0.46365318,71,3
+software architecture,0.46061006,72,3
+software testing,0.4551247,73,3
+data visualization,0.45377234,74,3
+graphical user interface,0.43908548,75,3
+search engine,0.4352833,76,3
+static program analysis,0.43506968,77,3
+digital audio,0.43344638,78,3
+text analysis,0.42549402,79,3
+bioinformatics,0.41740566,80,3
+cryptography,0.40502065,81,3
+information security,0.40333104,82,3
+blockchain,0.39388594,83,3
+semi-supervised learning,0.38549748,84,3
+operating system,0.38311777,85,3
+3D computer graphics,0.38267413,86,3
+routing,0.37457627,87,3
+video game,0.36387965,88,3
+validator,0.353593,89,3
+text processing,0.34742156,90,3
+image editing,0.34372592,91,3
+continuous integration,0.33151916,92,3
+time series,0.3248191,93,3
+real-time computing,0.31113228,94,4
+simulator,0.29691043,95,4
+continuous deployment,0.29663488,96,4
+feature engineering,0.2820948,97,4
+front end,0.26848277,98,4
+classification,0.26775938,99,4
+object-oriented programming,0.26506668,100,4
+telecommunications network,0.25130814,101,4
+topic modeling,0.24979186,102,4
+recommender system,0.24683763,103,4
+distributed system,0.24631038,104,4
+content management system,0.24492852,105,4
+benchmark,0.2364465,106,4
+natural language,0.23294611,107,4
+continuous delivery,0.22502413,108,4
+embedded system,0.22041197,109,4
+Reverse engineering,0.21931793,110,4
+home automation,0.21700114,111,4
+distributed database,0.21302697,112,4
+machine translation,0.21107924,113,4
+natural language processing,0.20700392,114,4
+Image analysis,0.20233832,115,4
+smart contract,0.20189607,116,4
+digital image processing,0.1974117,117,4
+supervised learning,0.19553012,118,4
+compiler,0.19496419,119,4
+electronic trading platform,0.19231762,120,4
+mobile computing,0.19083838,121,4
+language model,0.17640388,122,4
+augmented reality,0.16714667,123,4
+linear regression,0.15168633,124,4
+network analysis,0.14721198,125,4
+stream processing,0.13347891,126,4
+instant messaging,0.1331054,127,4
+router,0.12733565,128,4
+plot,0.12507828,129,4
+virtualization,0.124927945,130,4
+mobile application development,0.12407078,131,4
+rendering,0.11314845,132,4
+video processing,0.08669622,133,4
+lexical analysis,0.07842173,134,4
+game engine,0.07523151,135,4
+unit testing,0.074314475,136,4
+network monitoring,0.07370411,137,4
+debugging,0.06746147,138,4
+sorting algorithm,0.066286705,139,4
+functional programming,0.05650661,140,4
+web server,0.049662065,141,4
+back end,0.041474488,142,4
+multiplayer game,0.034610014,143,4
+data compression,0.02271923,144,4
+image segmentation,0.01745817,145,4
+graphics engine,0.014537083,146,4
+computer benchmarking,0.012973101,147,4
+knowledge graph,0.01248527,148,4
+middleware,0.0076478072,149,4
+"extract, transform, load",0.0074007288,150,4
+text editor,0.0040810117,151,4
+server,0.0036182997,152,4
+video game development,0.0,153,4
+graph database,0.0,154,4
+generative model,0.0,155,4
+edge computing,0.0,156,4
+text mining,0.0,157,4
+website,0.0,158,4
+kernel,0.0,159,4
+font,0.0,160,4
+translation,0.0,161,4
+hacking tool,0.0,162,4
+parsing,0.0,163,4
+signal processing,0.0,164,4
+logging,0.0,165,4
+education,0.0,166,4
+social network,0.0,167,4
+data mining,0.0,168,4
+web browser,-0.018217603,169,4
+command-line interface,-0.024321143,170,4
+synchronization,-0.034302033,171,4
+image compression,-0.079716355,172,5
+web service,-0.08176728,173,5
+Web content management system,-0.08897885,174,5
+video tracking,-0.091046855,175,5
+object detection,-0.10208045,176,5
+audio signal processing,-0.10736625,177,5
+matrix decomposition,-0.12340051,178,5
+web application,-0.13261458,179,5
+sentiment analysis,-0.13525131,180,5
+audio player software,-0.1357941,181,5
+speech recognition,-0.13689682,182,5
+virtual reality,-0.15070419,183,5
+quantum computer,-0.1519197,184,5
+serialization,-0.15241858,185,5
+image classification,-0.17244306,186,5
+3D modeling,-0.17388824,187,5
+game server,-0.17461883,188,5
+graph algorithm,-0.18117094,189,5
+pattern matching,-0.19244182,190,5
+web application security,-0.1994681,191,5
+natural language generation,-0.20427723,192,5
+distributed multimedia communications platform,-0.2159841,193,5
+image recognition,-0.21668278,194,5
+application performance management,-0.21944489,195,5
+reactive programming,-0.21951008,196,5
+geographic information,-0.2526192,197,5
+feature learning,-0.25543624,198,5
+evolutionary algorithm,-0.25568673,199,5
+integrated development environment,-0.2558613,200,5
+question answering,-0.26568845,201,5
+serverless computing,-0.26691338,202,5
+autonomous car,-0.27204505,203,5
+internet bot,-0.27943233,204,5
+word embedding,-0.2820948,205,5
+geographic information system,-0.2875985,206,5
+code generation,-0.29651397,207,5
+Containerization,-0.2987477,208,5
+penetration test,-0.3073594,209,5
+Semantic Web,-0.3192722,210,5
+Malware Analysis,-0.32311314,211,5
+web crawler,-0.3275444,212,5
+web browser engine,-0.32865128,213,5
+regression analysis,-0.3299971,214,5
+scheduler,-0.35097903,215,5
+bitcoin,-0.35450017,216,5
+emotion recognition,-0.35485145,217,5
+random forest,-0.35681027,218,5
+static website,-0.35906324,219,5
+graph,-0.36175448,220,5
+data binding,-0.36652234,221,5
+misuse detection,-0.3674244,222,5
+encryption,-0.36958322,223,5
+File Transfer Protocol,-0.37390786,224,5
+image scaling,-0.38131613,225,5
+static program analysis tool,-0.389096,226,5
+test automation,-0.39635062,227,5
+medical imaging,-0.42202276,228,5
+Home Assistant,-0.4268491,229,6
+HTTP server,-0.4336615,230,6
+sequencing,-0.447027,231,6
+software design pattern,-0.4482126,232,6
+speech synthesis,-0.44865575,233,6
+activity recognition,-0.45824605,234,6
+anomaly detection,-0.4649607,235,6
+neural network,-0.47659117,236,6
+shell tool,-0.4933749,237,6
+image captioning,-0.5084355,238,6
+facial recognition system,-0.5243422,239,6
+object–relational mapping,-0.533762,240,6
+authentication,-0.5477382,241,6
+cluster analysis,-0.55986243,242,6
+human image synthesis,-0.57372034,243,6
+syntax highlighting,-0.57707655,244,6
+algorithmic trading,-0.57946765,245,6
+malware,-0.6041925,246,6
+deep learning,-0.604828,247,6
+automated machine learning,-0.60809565,248,6
+face detection,-0.61316365,249,6
+password manager,-0.61677295,250,6
+genetic algorithm,-0.63330853,251,6
+virtual machine,-0.6411015,252,6
+autonomous driving,-0.64388895,253,6
+optical character recognition,-0.6450312,254,6
+hyperparameter optimization,-0.6461947,255,6
+Parser combinator,-0.6557547,256,6
+artificial neural network,-0.6672562,257,6
+text classification,-0.71939164,258,6
+schema migration,-0.72346556,259,6
+natural language understanding,-0.7261831,260,6
+unsupervised learning,-0.7375338,261,6
+deep neural network,-0.7383757,262,6
+3D pose estimation,-0.74704313,263,6
+RNA sequencing,-0.7645368,264,6
+collaborative filtering,-0.77559686,265,6
+reinforcement learning,-0.7763713,266,6
+image retrieval,-0.8051685,267,7
+transfer learning,-0.81878984,268,7
+cryptocurrency,-0.85643977,269,7
+relationship extraction,-0.8695049,270,7
+web scraping,-0.8751984,271,7
+Bayesian inference,-0.8950575,272,7
+neural machine translation,-0.9180258,273,7
+HTTP client,-0.925505,274,7
+dimensionality reduction,-0.9316673,275,7
+Web Components,-0.9369061,276,7
+named-entity recognition,-0.95653236,277,7
+chatbot,-0.99264914,278,7
+debugger,-1.0067611,279,7
+static site generator,-1.0479406,280,7
+package management system,-1.0500273,281,7
+dependency injection,-1.068982,282,7
+business dashboard,-1.0818734,283,7
+Q-learning,-1.0934098,284,7
+generative adversarial network,-1.1241074,285,7
+regular expression,-1.1299489,286,7
+IRC bot,-1.1610298,287,7
+recurrent neural network,-1.2053,288,7
+support vector machine,-1.2741976,289,8
+deep reinforcement learning,-1.332112,290,8
+long short-term memory,-1.3396116,291,8
+graph neural network,-1.3605403,292,8
+convolutional neural network,-1.38145,293,8
+logistic regression model,-1.3874153,294,8
+Variational autoencoder,-1.4685358,295,8
+Naive Bayes classifier,-1.4808489,296,8
+Articulated body pose estimation,-1.5111371,297,8
+Bidirectional recurrent neural networks,-1.9419984,298,8
+Kalman filter,-1.9805644,299,8
+WebSocket,-1.9845206,300,8

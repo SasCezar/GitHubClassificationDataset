@@ -18,4 +18,4 @@ def reformat(cfg: DictConfig):
 
 
 if __name__ == '__main__':
-    reformat('')
+    reformat()
