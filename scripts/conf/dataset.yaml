@@ -7,4 +7,4 @@ out_path: ${data_path}/repos_w_readme.json  # Integrates the data from the in_pa
 label_path: ${data_path}/replication-data/annotated_github_topics_wikidata.json
 label_levels_path: ${project_path}/notebooks/out/scatter.csv
 tail_map_path: ${data_path}/topic_tail_mapping.csv
-dataset_out: ${data_path}/classification_dataset.json  # Final dataset used for the classification
+dataset_out: /home/sasce/PycharmProjects/GitHubClassificationDataset/data/replication-data/classification_dataset.json  # Final dataset used for the classification
